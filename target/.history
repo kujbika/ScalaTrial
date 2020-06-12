@@ -69,6 +69,3 @@ reload
 test
 testOnly MySetTest
 test
-exit
-test
-exit
