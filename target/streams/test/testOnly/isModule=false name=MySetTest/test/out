@@ -1,0 +1,10 @@
+[0m[[0m[0minfo[0m] [0m[0m[32mMySetTest:[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mMySet's remove function[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should work properly[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mDisjoint intersection[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should result an Empty set[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mDisjoint difference[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should result in the set itself[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mSet filtering[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m- should work *** FAILED ***[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  <function1> was not equal to <function1> (MySetTest.scala:32)[0m[0m

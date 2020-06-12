@@ -1,0 +1,2490 @@
+2020.06.09 16:33:55 INFO  started: Metals version 0.9.0 in workspace 'C:\Marci\rock-the-jvm-advanced'
+2020.06.09 16:33:55 INFO  time: initialize in 0.53s
+2020.06.09 16:33:56 INFO  no build target: using presentation compiler with only scala-library
+2020.06.09 16:33:59 WARN  no build target for: C:\Marci\rock-the-jvm-advanced\src\main\scala\lectures\part1\DarkSugars.scala
+2020.06.09 16:34:05 INFO  running 'C:\Program Files (x86)\Java\jre1.8.0_191\bin\java -Djline.terminal=jline.UnsupportedTerminal -Dsbt.log.noformat=true -Dfile.encoding=UTF-8 -jar C:\Users\User\AppData\Local\Temp\metals3178674740162315238\sbt-launch.jar -Dbloop.export-jar-classifiers=sources bloopInstall'
+2020.06.09 16:34:11 INFO  [info] welcome to sbt 1.3.12 (Oracle Corporation Java 1.8.0_191)
+2020.06.09 16:34:13 INFO  [info] loading global plugins from C:\Users\User\.sbt\1.0\plugins
+2020.06.09 16:34:16 INFO  [info] loading settings for project rock-the-jvm-advanced-build from metals.sbt ...
+2020.06.09 16:34:16 INFO  [info] loading project definition from C:\Marci\rock-the-jvm-advanced\project
+2020.06.09 16:34:18 WARN  no build target for: C:\Marci\rock-the-jvm-advanced\src\main\scala\lectures\part2fp\PartialFunctions.scala
+2020.06.09 16:34:20 INFO  [warn] There may be incompatibilities among your library dependencies; run 'evicted' to see detailed eviction warnings.
+2020.06.09 16:34:21 INFO  [info] loading settings for project rock-the-jvm-advanced from build.sbt ...
+2020.06.09 16:34:21 INFO  [info] set current project to rock-the-jvm-advanced (in build file:/C:/Marci/rock-the-jvm-advanced/)
+2020.06.09 16:34:22 INFO  [success] Generated .bloop\rock-the-jvm-advanced.json
+2020.06.09 16:34:22 INFO  [success] Generated .bloop\rock-the-jvm-advanced-test.json
+2020.06.09 16:34:22 INFO  [success] Total time: 0 s, completed 2020.06.09. 16:34:23
+2020.06.09 16:34:22 INFO  build tool exit: 0
+2020.06.09 16:34:23 INFO  time: ran 'sbt bloopInstall' in 17s
+Starting the bsp launcher for bloop...
+Opening a bsp server connection with 'bsp --protocol tcp --port 12330'...
+Waiting for the bsp connection to come up...
+Waiting for the bsp connection to come up...
+Waiting for the bsp connection to come up...
+Waiting for the bsp connection to come up...
+Waiting for the bsp connection to come up...
+Waiting for the bsp connection to come up...
+Waiting for the bsp connection to come up...
+Waiting for the bsp connection to come up...
+No server running at 127.0.0.1:8212, let's fire one...
+Resolving ch.epfl.scala:bloop-frontend_2.12:1.4.0-RC1-229-b7c15aa9...
+Starting bloop server at 127.0.0.1:8212...
+Attempting a connection to the server...
+[0m[32m[D][0m Loading 2 projects from 'C:\Marci\rock-the-jvm-advanced\.bloop'...
+[0m[32m[D][0m Loading project from 'C:\Marci\rock-the-jvm-advanced\.bloop\rock-the-jvm-advanced-test.json'
+[0m[32m[D][0m Loading project from 'C:\Marci\rock-the-jvm-advanced\.bloop\rock-the-jvm-advanced.json'
+[0m[32m[D][0m Cache miss for scala instance org.scala-lang:scala-compiler:2.13.2.
+[0m[32m[D][0m   => C:\Users\User\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\net\java\dev\jna\jna\5.3.1\jna-5.3.1.jar
+[0m[32m[D][0m   => C:\Users\User\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\org\jline\jline\3.14.1\jline-3.14.1.jar
+[0m[32m[D][0m   => C:\Users\User\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\org\scala-lang\scala-compiler\2.13.2\scala-compiler-2.13.2.jar
+[0m[32m[D][0m   => C:\Users\User\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\org\scala-lang\scala-library\2.13.2\scala-library-2.13.2.jar
+[0m[32m[D][0m   => C:\Users\User\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\org\scala-lang\scala-reflect\2.13.2\scala-reflect-2.13.2.jar
+[0m[32m[D][0m Missing analysis file for project 'rock-the-jvm-advanced-test'
+[0m[32m[D][0m Missing analysis file for project 'rock-the-jvm-advanced'
+[0m[32m[D][0m Waiting for a connection at 127.0.0.1:12330...
+The server is listening for incoming connections at tcp://127.0.0.1:12330...
+Starting thread that pumps stdin and redirects it to the bsp server...
+Starting thread that pumps server stdout and redirects it to the client stdout...
+2020.06.09 16:34:31 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\User\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2020.06.09 16:34:35 INFO  time: connected to build server in 12s
+2020.06.09 16:34:35 INFO  Connected to Build server v1.4.0-RC1-229-b7c15aa9
+2020.06.09 16:34:35 INFO  time: imported build in 0.11s
+2020.06.09 16:34:35 WARN  Could not find java sources in None. Java symbols will not be available.
+2020.06.09 16:34:36 INFO  time: indexed workspace in 1.21s
+2020.06.09 16:34:37 INFO  compiling rock-the-jvm-advanced (4 scala sources)
+2020.06.09 16:34:50 INFO  time: compiled rock-the-jvm-advanced in 12s
+2020.06.09 16:38:18 INFO  running 'C:\Program Files (x86)\Java\jre1.8.0_191\bin\java -Djline.terminal=jline.UnsupportedTerminal -Dsbt.log.noformat=true -Dfile.encoding=UTF-8 -jar C:\Users\User\AppData\Local\Temp\metals8092549248901579345\sbt-launch.jar -Dbloop.export-jar-classifiers=sources bloopInstall'
+2020.06.09 16:38:21 INFO  [info] welcome to sbt 1.3.12 (Oracle Corporation Java 1.8.0_191)
+2020.06.09 16:38:23 INFO  [info] loading global plugins from C:\Users\User\.sbt\1.0\plugins
+2020.06.09 16:38:24 INFO  [info] loading settings for project rock-the-jvm-advanced-build from metals.sbt ...
+2020.06.09 16:38:24 INFO  [info] loading project definition from C:\Marci\rock-the-jvm-advanced\project
+2020.06.09 16:38:24 INFO  [info] loading settings for project rock-the-jvm-advanced from build.sbt ...
+2020.06.09 16:38:24 INFO  [info] set current project to rock-the-jvm-advanced (in build file:/C:/Marci/rock-the-jvm-advanced/)
+2020.06.09 16:38:26 INFO  [success] Generated .bloop\rock-the-jvm-advanced-test.json
+2020.06.09 16:38:26 INFO  [success] Generated .bloop\rock-the-jvm-advanced.json
+2020.06.09 16:38:26 INFO  [success] Total time: 0 s, completed 2020.06.09. 16:38:26
+2020.06.09 16:38:26 INFO  build tool exit: 0
+2020.06.09 16:38:26 INFO  time: ran 'sbt bloopInstall' in 8.24s
+2020.06.09 16:38:26 INFO  disconnected: build server
+No more data in the client stdin, exiting...
+No more data in the server stdin, exiting...
+Starting the bsp launcher for bloop...
+Opening a bsp server connection with 'bsp --protocol tcp --port 13463'...
+Waiting for the bsp connection to come up...
+[0m[32m[D][0m Loading workspace settings from bloop.settings.json
+[0m[32m[D][0m Waiting for a connection at 127.0.0.1:13463...
+The server is listening for incoming connections at tcp://127.0.0.1:13463...
+Starting thread that pumps stdin and redirects it to the bsp server...
+Starting thread that pumps server stdout and redirects it to the client stdout...
+2020.06.09 16:38:26 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\User\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2020.06.09 16:38:26 INFO  time: connected to build server in 0.53s
+2020.06.09 16:38:26 INFO  Connected to Build server v1.4.0-RC1-229-b7c15aa9
+2020.06.09 16:38:26 WARN  Could not find java sources in None. Java symbols will not be available.
+2020.06.09 16:38:26 INFO  time: indexed workspace in 0.31s
+2020.06.09 16:41:09 INFO  running 'C:\Program Files (x86)\Java\jre1.8.0_191\bin\java -Djline.terminal=jline.UnsupportedTerminal -Dsbt.log.noformat=true -Dfile.encoding=UTF-8 -jar C:\Users\User\AppData\Local\Temp\metals3550810991314599229\sbt-launch.jar -Dbloop.export-jar-classifiers=sources bloopInstall'
+2020.06.09 16:41:13 INFO  [info] welcome to sbt 1.3.12 (Oracle Corporation Java 1.8.0_191)
+2020.06.09 16:41:14 INFO  [info] loading global plugins from C:\Users\User\.sbt\1.0\plugins
+2020.06.09 16:41:16 INFO  [info] loading settings for project rock-the-jvm-advanced-build from metals.sbt ...
+2020.06.09 16:41:16 INFO  [info] loading project definition from C:\Marci\rock-the-jvm-advanced\project
+2020.06.09 16:41:16 INFO  [info] loading settings for project rock-the-jvm-advanced from build.sbt ...
+2020.06.09 16:41:16 INFO  [info] set current project to rock-the-jvm-advanced (in build file:/C:/Marci/rock-the-jvm-advanced/)
+2020.06.09 16:41:17 INFO  [success] Generated .bloop\rock-the-jvm-advanced.json
+2020.06.09 16:41:17 INFO  [success] Generated .bloop\rock-the-jvm-advanced-test.json
+2020.06.09 16:41:17 INFO  [success] Total time: 0 s, completed 2020.06.09. 16:41:17
+2020.06.09 16:41:17 INFO  build tool exit: 0
+2020.06.09 16:41:17 INFO  time: ran 'sbt bloopInstall' in 8.23s
+2020.06.09 16:41:17 INFO  disconnected: build server
+No more data in the client stdin, exiting...
+No more data in the server stdin, exiting...
+Starting the bsp launcher for bloop...
+Opening a bsp server connection with 'bsp --protocol tcp --port 31012'...
+Waiting for the bsp connection to come up...
+[0m[32m[D][0m Loading workspace settings from bloop.settings.json
+[0m[32m[D][0m Waiting for a connection at 127.0.0.1:31012...
+The server is listening for incoming connections at tcp://127.0.0.1:31012...
+Starting thread that pumps stdin and redirects it to the bsp server...
+Starting thread that pumps server stdout and redirects it to the client stdout...
+2020.06.09 16:41:18 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\User\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2020.06.09 16:41:18 INFO  time: connected to build server in 0.52s
+2020.06.09 16:41:18 INFO  Connected to Build server v1.4.0-RC1-229-b7c15aa9
+2020.06.09 16:41:18 WARN  Could not find java sources in None. Java symbols will not be available.
+2020.06.09 16:41:18 INFO  time: indexed workspace in 0.32s
+2020.06.09 16:45:32 INFO  compiling rock-the-jvm-advanced (1 scala source)
+2020.06.09 16:45:32 INFO  time: compiled rock-the-jvm-advanced in 0.76s
+2020.06.09 16:47:40 INFO  shutting down Metals
+No more data in the client stdin, exiting...
+No more data in the server stdin, exiting...
+2020.06.09 16:47:43 INFO  started: Metals version 0.9.0 in workspace 'C:\Marci\rock-the-jvm-advanced'
+2020.06.09 16:47:43 INFO  time: initialize in 0.4s
+2020.06.09 16:47:44 INFO  skipping build import with status 'Installed'
+2020.06.09 16:47:44 INFO  no build target: using presentation compiler with only scala-library
+Starting the bsp launcher for bloop...
+Opening a bsp server connection with 'bsp --protocol tcp --port 13188'...
+Waiting for the bsp connection to come up...
+[0m[32m[D][0m Loading workspace settings from bloop.settings.json
+[0m[32m[D][0m Waiting for a connection at 127.0.0.1:13188...
+The server is listening for incoming connections at tcp://127.0.0.1:13188...
+Starting thread that pumps stdin and redirects it to the bsp server...
+Starting thread that pumps server stdout and redirects it to the client stdout...
+2020.06.09 16:47:45 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\User\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2020.06.09 16:47:45 INFO  time: connected to build server in 1.25s
+2020.06.09 16:47:45 INFO  Connected to Build server v1.4.0-RC1-229-b7c15aa9
+2020.06.09 16:47:46 WARN  Could not find java sources in None. Java symbols will not be available.
+2020.06.09 16:47:46 INFO  time: indexed workspace in 1.16s
+2020.06.09 16:49:57 INFO  compiling rock-the-jvm-advanced (1 scala source)
+2020.06.09 16:49:57 INFO  time: compiled rock-the-jvm-advanced in 0.73s
+2020.06.09 17:09:23 INFO  started: Metals version 0.9.0 in workspace 'C:\Marci\rock-the-jvm-advanced'
+2020.06.09 17:09:23 INFO  time: initialize in 0.42s
+2020.06.09 17:09:28 INFO  skipping build import with status 'Installed'
+2020.06.09 17:09:28 INFO  no build target: using presentation compiler with only scala-library
+Starting the bsp launcher for bloop...
+Opening a bsp server connection with 'bsp --protocol tcp --port 41718'...
+Waiting for the bsp connection to come up...
+[0m[32m[D][0m Loading workspace settings from bloop.settings.json
+[0m[32m[D][0m Waiting for a connection at 127.0.0.1:41718...
+The server is listening for incoming connections at tcp://127.0.0.1:41718...
+Starting thread that pumps stdin and redirects it to the bsp server...
+Starting thread that pumps server stdout and redirects it to the client stdout...
+2020.06.09 17:09:29 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\User\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2020.06.09 17:09:29 INFO  time: connected to build server in 1.3s
+2020.06.09 17:09:29 INFO  Connected to Build server v1.4.0-RC1-229-b7c15aa9
+2020.06.09 17:09:30 WARN  Could not find java sources in None. Java symbols will not be available.
+2020.06.09 17:09:30 INFO  time: indexed workspace in 1.2s
+jún. 09, 2020 5:09:31 DU org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1
+jún. 09, 2020 5:09:31 DU org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2
+2020.06.09 18:06:16 INFO  started: Metals version 0.9.0 in workspace 'C:\Marci\rock-the-jvm-advanced'
+2020.06.09 18:06:16 INFO  time: initialize in 0.4s
+2020.06.09 18:06:21 INFO  skipping build import with status 'Installed'
+2020.06.09 18:06:21 INFO  no build target: using presentation compiler with only scala-library
+Starting the bsp launcher for bloop...
+Opening a bsp server connection with 'bsp --protocol tcp --port 28348'...
+Waiting for the bsp connection to come up...
+[0m[32m[D][0m Loading workspace settings from bloop.settings.json
+[0m[32m[D][0m Waiting for a connection at 127.0.0.1:28348...
+The server is listening for incoming connections at tcp://127.0.0.1:28348...
+Starting thread that pumps stdin and redirects it to the bsp server...
+Starting thread that pumps server stdout and redirects it to the client stdout...
+2020.06.09 18:06:22 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\User\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2020.06.09 18:06:22 INFO  time: connected to build server in 1.32s
+2020.06.09 18:06:22 INFO  Connected to Build server v1.4.0-RC1-229-b7c15aa9
+2020.06.09 18:06:23 WARN  Could not find java sources in None. Java symbols will not be available.
+2020.06.09 18:06:23 INFO  time: indexed workspace in 1.47s
+jún. 09, 2020 6:07:42 DU org.eclipse.lsp4j.jsonrpc.RemoteEndpoint fallbackResponseError
+SEVERE: Internal error: java.nio.file.NoSuchFileException: c:\Marci\rock-the-jvm-advanced\metalsBuild
+java.util.concurrent.CompletionException: java.nio.file.NoSuchFileException: c:\Marci\rock-the-jvm-advanced\metalsBuild
+	at java.util.concurrent.CompletableFuture.encodeThrowable(Unknown Source)
+	at java.util.concurrent.CompletableFuture.completeThrowable(Unknown Source)
+	at java.util.concurrent.CompletableFuture.uniAccept(Unknown Source)
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(Unknown Source)
+	at java.util.concurrent.CompletableFuture.postComplete(Unknown Source)
+	at java.util.concurrent.CompletableFuture.completeExceptionally(Unknown Source)
+	at scala.concurrent.java8.FuturesConvertersImpl$CF.apply(FutureConvertersImpl.scala:29)
+	at scala.concurrent.java8.FuturesConvertersImpl$CF.apply(FutureConvertersImpl.scala:26)
+	at scala.concurrent.impl.CallbackRunnable.run(Promise.scala:64)
+	at scala.concurrent.BatchingExecutor$Batch.processBatch$1(BatchingExecutor.scala:67)
+	at scala.concurrent.BatchingExecutor$Batch.$anonfun$run$1(BatchingExecutor.scala:82)
+	at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.java:23)
+	at scala.concurrent.BlockContext$.withBlockContext(BlockContext.scala:85)
+	at scala.concurrent.BatchingExecutor$Batch.run(BatchingExecutor.scala:59)
+	at scala.concurrent.Future$InternalCallbackExecutor$.unbatchedExecute(Future.scala:875)
+	at scala.concurrent.BatchingExecutor.execute(BatchingExecutor.scala:110)
+	at scala.concurrent.BatchingExecutor.execute$(BatchingExecutor.scala:107)
+	at scala.concurrent.Future$InternalCallbackExecutor$.execute(Future.scala:873)
+	at scala.concurrent.impl.CallbackRunnable.executeWithValue(Promise.scala:72)
+	at scala.concurrent.impl.Promise$DefaultPromise.$anonfun$tryComplete$1(Promise.scala:288)
+	at scala.concurrent.impl.Promise$DefaultPromise.$anonfun$tryComplete$1$adapted(Promise.scala:288)
+	at scala.concurrent.impl.Promise$DefaultPromise.tryComplete(Promise.scala:288)
+	at scala.concurrent.Promise.complete(Promise.scala:53)
+	at scala.concurrent.Promise.complete$(Promise.scala:52)
+	at scala.concurrent.impl.Promise$DefaultPromise.complete(Promise.scala:187)
+	at scala.concurrent.impl.Promise.$anonfun$transform$1(Promise.scala:33)
+	at scala.concurrent.impl.CallbackRunnable.run(Promise.scala:64)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: java.nio.file.NoSuchFileException: c:\Marci\rock-the-jvm-advanced\metalsBuild
+	at sun.nio.fs.WindowsException.translateToIOException(Unknown Source)
+	at sun.nio.fs.WindowsException.rethrowAsIOException(Unknown Source)
+	at sun.nio.fs.WindowsException.rethrowAsIOException(Unknown Source)
+	at sun.nio.fs.WindowsFileSystemProvider.newByteChannel(Unknown Source)
+	at java.nio.file.Files.newByteChannel(Unknown Source)
+	at java.nio.file.Files.newByteChannel(Unknown Source)
+	at java.nio.file.Files.readAllBytes(Unknown Source)
+	at scala.meta.internal.io.PlatformFileIO$.slurp(PlatformFileIO.scala:45)
+	at scala.meta.internal.io.FileIO$.slurp(FileIO.scala:24)
+	at scala.meta.internal.mtags.CommonMtagsEnrichments$XtensionAbsolutePath.toInput(CommonMtagsEnrichments.scala:354)
+	at scala.meta.internal.tvp.MetalsTreeViewProvider.reveal(MetalsTreeViewProvider.scala:259)
+	at scala.meta.internal.metals.MetalsLanguageServer.$anonfun$treeViewReveal$1(MetalsLanguageServer.scala:1398)
+	at scala.concurrent.Future$.$anonfun$apply$1(Future.scala:659)
+	at scala.util.Success.$anonfun$map$1(Try.scala:255)
+	at scala.util.Success.map(Try.scala:213)
+	at scala.concurrent.Future.$anonfun$map$1(Future.scala:292)
+	at scala.concurrent.impl.Promise.liftedTree1$1(Promise.scala:33)
+	... 5 more
+
+2020.06.09 18:20:33 INFO  started: Metals version 0.9.0 in workspace 'C:\Marci\rock-the-jvm-advanced'
+2020.06.09 18:20:34 INFO  time: initialize in 0.45s
+2020.06.09 18:20:39 INFO  skipping build import with status 'Installed'
+2020.06.09 18:20:39 INFO  no build target: using presentation compiler with only scala-library
+Starting the bsp launcher for bloop...
+Opening a bsp server connection with 'bsp --protocol tcp --port 36558'...
+Waiting for the bsp connection to come up...
+[0m[32m[D][0m Loading workspace settings from bloop.settings.json
+[0m[32m[D][0m Waiting for a connection at 127.0.0.1:36558...
+The server is listening for incoming connections at tcp://127.0.0.1:36558...
+Starting thread that pumps stdin and redirects it to the bsp server...
+Starting thread that pumps server stdout and redirects it to the client stdout...
+2020.06.09 18:20:40 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\User\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2020.06.09 18:20:40 INFO  time: connected to build server in 1.62s
+2020.06.09 18:20:40 INFO  Connected to Build server v1.4.0-RC1-229-b7c15aa9
+2020.06.09 18:20:41 WARN  Could not find java sources in None. Java symbols will not be available.
+2020.06.09 18:20:41 INFO  time: indexed workspace in 1.24s
+2020.06.09 18:22:21 INFO  started: Metals version 0.9.0 in workspace 'C:\Marci\rock-the-jvm-advanced'
+2020.06.09 18:22:21 INFO  time: initialize in 0.39s
+2020.06.09 18:22:26 INFO  skipping build import with status 'Installed'
+2020.06.09 18:22:26 INFO  no build target: using presentation compiler with only scala-library
+Starting the bsp launcher for bloop...
+Opening a bsp server connection with 'bsp --protocol tcp --port 21585'...
+Waiting for the bsp connection to come up...
+[0m[32m[D][0m Loading workspace settings from bloop.settings.json
+[0m[32m[D][0m Waiting for a connection at 127.0.0.1:21585...
+The server is listening for incoming connections at tcp://127.0.0.1:21585...
+Starting thread that pumps stdin and redirects it to the bsp server...
+Starting thread that pumps server stdout and redirects it to the client stdout...
+2020.06.09 18:22:27 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\User\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2020.06.09 18:22:27 INFO  time: connected to build server in 1.44s
+2020.06.09 18:22:27 INFO  Connected to Build server v1.4.0-RC1-229-b7c15aa9
+2020.06.09 18:22:29 WARN  Could not find java sources in None. Java symbols will not be available.
+2020.06.09 18:22:29 INFO  time: indexed workspace in 1.32s
+2020.06.09 18:29:58 INFO  compiling rock-the-jvm-advanced (1 scala source)
+2020.06.09 18:30:00 INFO  time: compiled rock-the-jvm-advanced in 2.05s
+jún. 09, 2020 6:30:21 DU scala.meta.internal.pc.CompilerAccess retryWithCleanCompiler
+INFO: compiler crashed due to an error in the Scala compiler, retrying with new compiler instance.
+jún. 09, 2020 6:30:21 DU scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: 1
+java.lang.IndexOutOfBoundsException: 1
+	at scala.reflect.internal.util.BatchSourceFile.lineToOffset(SourceFile.scala:204)
+	at scala.meta.internal.pc.AutoImports.autoImportPosition(AutoImports.scala:67)
+	at scala.meta.internal.pc.AutoImports.autoImportPosition$(AutoImports.scala:44)
+	at scala.meta.internal.pc.MetalsGlobal.autoImportPosition(MetalsGlobal.scala:25)
+	at scala.meta.internal.pc.CompletionProvider.importPosition$lzycompute$1(CompletionProvider.scala:68)
+	at scala.meta.internal.pc.CompletionProvider.importPosition$1(CompletionProvider.scala:68)
+	at scala.meta.internal.pc.CompletionProvider.$anonfun$completions$1(CompletionProvider.scala:141)
+	at scala.collection.Iterator$$anon$9.next(Iterator.scala:575)
+	at scala.collection.immutable.List.prependedAll(List.scala:153)
+	at scala.collection.immutable.List$.from(List.scala:651)
+	at scala.collection.immutable.List$.from(List.scala:648)
+	at scala.collection.SeqFactory$Delegate.from(Factory.scala:306)
+	at scala.collection.immutable.Seq$.from(Seq.scala:42)
+	at scala.collection.IterableOnceOps.toSeq(IterableOnce.scala:1270)
+	at scala.collection.IterableOnceOps.toSeq$(IterableOnce.scala:1270)
+	at scala.collection.AbstractIterator.toSeq(Iterator.scala:1279)
+	at scala.meta.internal.pc.CompletionProvider.completions(CompletionProvider.scala:230)
+
+2020.06.09 18:35:50 INFO  compiling rock-the-jvm-advanced (1 scala source)
+2020.06.09 18:35:52 INFO  time: compiled rock-the-jvm-advanced in 1.81s
+jún. 09, 2020 6:51:53 DU org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 312
+jún. 09, 2020 6:59:38 DU org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 418
+2020.06.09 19:06:19 INFO  compiling rock-the-jvm-advanced (1 scala source)
+2020.06.09 19:06:19 INFO  time: compiled rock-the-jvm-advanced in 0.72s
+2020.06.09 22:20:48 INFO  compiling rock-the-jvm-advanced (1 scala source)
+2020.06.09 22:20:48 INFO  time: compiled rock-the-jvm-advanced in 0.45s
+2020.06.09 22:20:50 INFO  compiling rock-the-jvm-advanced (1 scala source)
+2020.06.09 22:20:50 INFO  time: compiled rock-the-jvm-advanced in 0.25s
+2020.06.09 22:21:48 INFO  compiling rock-the-jvm-advanced (1 scala source)
+2020.06.09 22:21:48 INFO  time: compiled rock-the-jvm-advanced in 0.67s
+2020.06.09 22:21:50 INFO  compiling rock-the-jvm-advanced (1 scala source)
+2020.06.09 22:21:50 INFO  time: compiled rock-the-jvm-advanced in 0.25s
+2020.06.09 22:21:56 INFO  compiling rock-the-jvm-advanced (1 scala source)
+2020.06.09 22:21:56 INFO  time: compiled rock-the-jvm-advanced in 0.29s
+2020.06.09 22:21:58 INFO  compiling rock-the-jvm-advanced (1 scala source)
+2020.06.09 22:21:58 INFO  time: compiled rock-the-jvm-advanced in 0.12s
+2020.06.09 22:22:11 INFO  compiling rock-the-jvm-advanced (1 scala source)
+2020.06.09 22:22:11 INFO  time: compiled rock-the-jvm-advanced in 0.45s
+2020.06.09 22:22:14 INFO  compiling rock-the-jvm-advanced (1 scala source)
+2020.06.09 22:22:14 INFO  time: compiled rock-the-jvm-advanced in 0.18s
+2020.06.09 22:23:53 INFO  compiling rock-the-jvm-advanced (1 scala source)
+2020.06.09 22:23:53 INFO  time: compiled rock-the-jvm-advanced in 0.4s
+2020.06.09 22:23:55 INFO  compiling rock-the-jvm-advanced (1 scala source)
+2020.06.09 22:23:55 INFO  time: compiled rock-the-jvm-advanced in 0.1s
+2020.06.09 22:27:52 INFO  compiling rock-the-jvm-advanced (1 scala source)
+2020.06.09 22:27:52 INFO  time: compiled rock-the-jvm-advanced in 0.31s
+2020.06.09 22:27:55 INFO  compiling rock-the-jvm-advanced (1 scala source)
+2020.06.09 22:27:55 INFO  time: compiled rock-the-jvm-advanced in 0.1s
+jún. 09, 2020 10:28:31 DU scala.meta.internal.pc.CompletionProvider expected$1
+WARNING: String index out of range: -1
+2020.06.09 22:28:39 INFO  compiling rock-the-jvm-advanced (1 scala source)
+2020.06.09 22:28:39 INFO  time: compiled rock-the-jvm-advanced in 0.33s
+2020.06.09 22:28:41 INFO  compiling rock-the-jvm-advanced (1 scala source)
+2020.06.09 22:28:41 INFO  time: compiled rock-the-jvm-advanced in 0.1s
+2020.06.09 22:29:15 INFO  compiling rock-the-jvm-advanced (1 scala source)
+2020.06.09 22:29:15 INFO  time: compiled rock-the-jvm-advanced in 0.49s
+2020.06.09 22:29:17 INFO  compiling rock-the-jvm-advanced (1 scala source)
+2020.06.09 22:29:17 INFO  time: compiled rock-the-jvm-advanced in 0.18s
+jún. 09, 2020 10:30:26 DU org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 395
+jún. 09, 2020 10:33:29 DU org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 646
+jún. 09, 2020 10:34:34 DU org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 687
+2020.06.09 22:34:39 INFO  compiling rock-the-jvm-advanced (1 scala source)
+2020.06.09 22:34:39 INFO  time: compiled rock-the-jvm-advanced in 0.41s
+2020.06.09 22:34:41 INFO  compiling rock-the-jvm-advanced (1 scala source)
+2020.06.09 22:34:41 INFO  time: compiled rock-the-jvm-advanced in 0.21s
+2020.06.09 22:34:59 INFO  compiling rock-the-jvm-advanced (1 scala source)
+2020.06.09 22:34:59 INFO  time: compiled rock-the-jvm-advanced in 0.66s
+2020.06.09 22:35:02 INFO  compiling rock-the-jvm-advanced (1 scala source)
+2020.06.09 22:35:02 INFO  time: compiled rock-the-jvm-advanced in 0.21s
+2020.06.09 22:36:52 INFO  compiling rock-the-jvm-advanced (1 scala source)
+2020.06.09 22:36:52 INFO  time: compiled rock-the-jvm-advanced in 0.29s
+2020.06.09 22:36:54 INFO  compiling rock-the-jvm-advanced (1 scala source)
+2020.06.09 22:36:54 INFO  time: compiled rock-the-jvm-advanced in 93ms
+2020.06.09 22:37:12 INFO  compiling rock-the-jvm-advanced (1 scala source)
+2020.06.09 22:37:12 INFO  time: compiled rock-the-jvm-advanced in 0.67s
+2020.06.09 22:37:15 INFO  compiling rock-the-jvm-advanced (1 scala source)
+2020.06.09 22:37:15 INFO  time: compiled rock-the-jvm-advanced in 0.2s
+2020.06.09 22:38:45 INFO  compiling rock-the-jvm-advanced (1 scala source)
+2020.06.09 22:38:45 INFO  time: compiled rock-the-jvm-advanced in 0.57s
+2020.06.09 22:38:48 INFO  compiling rock-the-jvm-advanced (1 scala source)
+2020.06.09 22:38:48 INFO  time: compiled rock-the-jvm-advanced in 0.21s
+2020.06.09 22:40:00 INFO  compiling rock-the-jvm-advanced (1 scala source)
+2020.06.09 22:40:00 INFO  time: compiled rock-the-jvm-advanced in 0.24s
+2020.06.09 22:40:03 INFO  compiling rock-the-jvm-advanced (1 scala source)
+2020.06.09 22:40:03 INFO  time: compiled rock-the-jvm-advanced in 0.12s
+2020.06.09 22:42:35 INFO  compiling rock-the-jvm-advanced (1 scala source)
+2020.06.09 22:42:35 INFO  time: compiled rock-the-jvm-advanced in 0.34s
+2020.06.09 22:42:37 INFO  compiling rock-the-jvm-advanced (1 scala source)
+2020.06.09 22:42:37 INFO  time: compiled rock-the-jvm-advanced in 0.11s
+2020.06.09 22:42:52 INFO  compiling rock-the-jvm-advanced (1 scala source)
+2020.06.09 22:42:52 INFO  time: compiled rock-the-jvm-advanced in 0.28s
+2020.06.09 22:42:54 INFO  compiling rock-the-jvm-advanced (1 scala source)
+2020.06.09 22:42:54 INFO  time: compiled rock-the-jvm-advanced in 0.1s
+2020.06.09 22:43:22 INFO  compiling rock-the-jvm-advanced (1 scala source)
+2020.06.09 22:43:22 INFO  time: compiled rock-the-jvm-advanced in 0.92s
+2020.06.09 22:43:25 INFO  compiling rock-the-jvm-advanced (1 scala source)
+2020.06.09 22:43:25 INFO  time: compiled rock-the-jvm-advanced in 0.24s
+2020.06.09 22:44:13 INFO  compiling rock-the-jvm-advanced (2 scala sources)
+2020.06.09 22:44:13 INFO  time: compiled rock-the-jvm-advanced in 0.93s
+2020.06.09 22:44:16 INFO  compiling rock-the-jvm-advanced (2 scala sources)
+2020.06.09 22:44:16 INFO  time: compiled rock-the-jvm-advanced in 0.27s
+2020.06.09 22:45:26 INFO  compiling rock-the-jvm-advanced (2 scala sources)
+2020.06.09 22:45:26 INFO  time: compiled rock-the-jvm-advanced in 0.64s
+2020.06.09 22:45:29 INFO  compiling rock-the-jvm-advanced (2 scala sources)
+2020.06.09 22:45:29 INFO  time: compiled rock-the-jvm-advanced in 0.29s
+jún. 10, 2020 8:06:29 DE org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 803
+2020.06.10 08:08:43 INFO  compiling rock-the-jvm-advanced (2 scala sources)
+2020.06.10 08:08:43 INFO  time: compiled rock-the-jvm-advanced in 0.36s
+2020.06.10 08:08:46 INFO  compiling rock-the-jvm-advanced (2 scala sources)
+2020.06.10 08:08:46 INFO  time: compiled rock-the-jvm-advanced in 0.28s
+jún. 10, 2020 8:09:17 DE org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 710
+2020.06.10 08:09:36 INFO  compiling rock-the-jvm-advanced (2 scala sources)
+2020.06.10 08:09:36 INFO  time: compiled rock-the-jvm-advanced in 0.66s
+2020.06.10 08:09:39 INFO  compiling rock-the-jvm-advanced (2 scala sources)
+2020.06.10 08:09:39 INFO  time: compiled rock-the-jvm-advanced in 0.28s
+2020.06.10 08:10:04 INFO  compiling rock-the-jvm-advanced (2 scala sources)
+2020.06.10 08:10:04 INFO  time: compiled rock-the-jvm-advanced in 0.28s
+2020.06.10 08:10:06 INFO  compiling rock-the-jvm-advanced (2 scala sources)
+2020.06.10 08:10:06 INFO  time: compiled rock-the-jvm-advanced in 0.14s
+2020.06.10 08:10:36 INFO  compiling rock-the-jvm-advanced (2 scala sources)
+2020.06.10 08:10:36 INFO  time: compiled rock-the-jvm-advanced in 0.3s
+2020.06.10 08:10:38 INFO  compiling rock-the-jvm-advanced (2 scala sources)
+2020.06.10 08:10:38 INFO  time: compiled rock-the-jvm-advanced in 0.11s
+2020.06.10 08:10:52 INFO  compiling rock-the-jvm-advanced (2 scala sources)
+2020.06.10 08:10:52 INFO  time: compiled rock-the-jvm-advanced in 0.27s
+2020.06.10 08:10:54 INFO  compiling rock-the-jvm-advanced (2 scala sources)
+2020.06.10 08:10:54 INFO  time: compiled rock-the-jvm-advanced in 96ms
+2020.06.10 08:11:43 INFO  compiling rock-the-jvm-advanced (2 scala sources)
+2020.06.10 08:11:43 INFO  time: compiled rock-the-jvm-advanced in 0.29s
+2020.06.10 08:11:45 INFO  compiling rock-the-jvm-advanced (2 scala sources)
+2020.06.10 08:11:45 INFO  time: compiled rock-the-jvm-advanced in 0.11s
+2020.06.10 08:11:54 INFO  compiling rock-the-jvm-advanced (2 scala sources)
+2020.06.10 08:11:54 INFO  time: compiled rock-the-jvm-advanced in 0.72s
+2020.06.10 08:11:57 INFO  compiling rock-the-jvm-advanced (2 scala sources)
+2020.06.10 08:11:57 INFO  time: compiled rock-the-jvm-advanced in 0.23s
+jún. 10, 2020 8:20:53 DE org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 839
+2020.06.10 08:21:20 INFO  compiling rock-the-jvm-advanced (2 scala sources)
+2020.06.10 08:21:20 INFO  time: compiled rock-the-jvm-advanced in 0.31s
+2020.06.10 08:21:22 INFO  compiling rock-the-jvm-advanced (2 scala sources)
+2020.06.10 08:21:22 INFO  time: compiled rock-the-jvm-advanced in 0.12s
+2020.06.10 08:21:48 INFO  compiling rock-the-jvm-advanced (2 scala sources)
+2020.06.10 08:21:48 INFO  time: compiled rock-the-jvm-advanced in 0.27s
+2020.06.10 08:21:50 INFO  compiling rock-the-jvm-advanced (2 scala sources)
+2020.06.10 08:21:50 INFO  time: compiled rock-the-jvm-advanced in 0.13s
+2020.06.10 08:27:30 INFO  compiling rock-the-jvm-advanced (2 scala sources)
+2020.06.10 08:27:30 INFO  time: compiled rock-the-jvm-advanced in 0.23s
+2020.06.10 08:27:33 INFO  compiling rock-the-jvm-advanced (2 scala sources)
+2020.06.10 08:27:33 INFO  time: compiled rock-the-jvm-advanced in 0.1s
+2020.06.10 08:31:17 INFO  compiling rock-the-jvm-advanced (2 scala sources)
+2020.06.10 08:31:17 INFO  time: compiled rock-the-jvm-advanced in 0.25s
+2020.06.10 08:31:20 INFO  compiling rock-the-jvm-advanced (2 scala sources)
+2020.06.10 08:31:20 INFO  time: compiled rock-the-jvm-advanced in 94ms
+2020.06.10 08:31:26 INFO  compiling rock-the-jvm-advanced (2 scala sources)
+2020.06.10 08:31:26 INFO  time: compiled rock-the-jvm-advanced in 0.63s
+2020.06.10 08:31:29 INFO  compiling rock-the-jvm-advanced (2 scala sources)
+2020.06.10 08:31:29 INFO  time: compiled rock-the-jvm-advanced in 0.33s
+2020.06.10 08:32:35 INFO  compiling rock-the-jvm-advanced (2 scala sources)
+2020.06.10 08:32:37 INFO  time: compiled rock-the-jvm-advanced in 2.1s
+2020.06.10 08:32:39 INFO  compiling rock-the-jvm-advanced (2 scala sources)
+2020.06.10 08:32:40 INFO  time: compiled rock-the-jvm-advanced in 1.05s
+2020.06.10 08:33:08 INFO  compiling rock-the-jvm-advanced (2 scala sources)
+2020.06.10 08:33:09 INFO  time: compiled rock-the-jvm-advanced in 1.03s
+2020.06.10 08:33:11 INFO  compiling rock-the-jvm-advanced (2 scala sources)
+2020.06.10 08:33:11 INFO  time: compiled rock-the-jvm-advanced in 0.98s
+jún. 10, 2020 8:33:58 DE org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 938
+2020.06.10 08:34:30 INFO  compiling rock-the-jvm-advanced (2 scala sources)
+2020.06.10 08:34:31 INFO  time: compiled rock-the-jvm-advanced in 1.48s
+2020.06.10 08:34:33 INFO  compiling rock-the-jvm-advanced (2 scala sources)
+2020.06.10 08:34:33 INFO  time: compiled rock-the-jvm-advanced in 0.88s
+2020.06.10 08:34:59 INFO  compiling rock-the-jvm-advanced (2 scala sources)
+2020.06.10 08:35:00 INFO  time: compiled rock-the-jvm-advanced in 1.58s
+2020.06.10 08:35:02 INFO  compiling rock-the-jvm-advanced (2 scala sources)
+2020.06.10 08:35:02 INFO  time: compiled rock-the-jvm-advanced in 0.91s
+2020.06.10 08:35:17 INFO  compiling rock-the-jvm-advanced (2 scala sources)
+2020.06.10 08:35:19 INFO  time: compiled rock-the-jvm-advanced in 1.49s
+2020.06.10 08:35:21 INFO  compiling rock-the-jvm-advanced (2 scala sources)
+2020.06.10 08:35:21 INFO  time: compiled rock-the-jvm-advanced in 0.88s
+2020.06.10 08:35:58 INFO  compiling rock-the-jvm-advanced (2 scala sources)
+2020.06.10 08:35:58 INFO  time: compiled rock-the-jvm-advanced in 0.53s
+2020.06.10 08:36:00 INFO  compiling rock-the-jvm-advanced (2 scala sources)
+2020.06.10 08:36:00 INFO  time: compiled rock-the-jvm-advanced in 0.21s
+2020.06.10 08:36:03 INFO  compiling rock-the-jvm-advanced (2 scala sources)
+2020.06.10 08:36:03 INFO  time: compiled rock-the-jvm-advanced in 0.49s
+2020.06.10 08:36:05 INFO  compiling rock-the-jvm-advanced (2 scala sources)
+2020.06.10 08:36:05 INFO  time: compiled rock-the-jvm-advanced in 0.2s
+2020.06.10 08:36:15 INFO  compiling rock-the-jvm-advanced (2 scala sources)
+2020.06.10 08:36:17 INFO  time: compiled rock-the-jvm-advanced in 2.05s
+2020.06.10 08:36:19 INFO  compiling rock-the-jvm-advanced (2 scala sources)
+2020.06.10 08:36:19 INFO  time: compiled rock-the-jvm-advanced in 0.98s
+2020.06.10 08:53:47 INFO  compiling rock-the-jvm-advanced (2 scala sources)
+2020.06.10 08:53:50 INFO  time: compiled rock-the-jvm-advanced in 2.88s
+2020.06.10 08:54:02 INFO  compiling rock-the-jvm-advanced (1 scala source)
+2020.06.10 08:54:03 INFO  time: compiled rock-the-jvm-advanced in 1.22s
+2020.06.10 08:55:40 INFO  compiling rock-the-jvm-advanced (1 scala source)
+2020.06.10 08:55:40 INFO  time: compiled rock-the-jvm-advanced in 0.21s
+2020.06.10 08:55:42 INFO  compiling rock-the-jvm-advanced (1 scala source)
+2020.06.10 08:55:42 INFO  time: compiled rock-the-jvm-advanced in 84ms
+2020.06.10 08:55:55 INFO  compiling rock-the-jvm-advanced (1 scala source)
+2020.06.10 08:55:55 INFO  time: compiled rock-the-jvm-advanced in 0.22s
+2020.06.10 08:55:57 INFO  compiling rock-the-jvm-advanced (1 scala source)
+2020.06.10 08:55:57 INFO  time: compiled rock-the-jvm-advanced in 86ms
+2020.06.10 08:56:44 INFO  compiling rock-the-jvm-advanced (1 scala source)
+2020.06.10 08:56:44 INFO  time: compiled rock-the-jvm-advanced in 0.44s
+2020.06.10 08:56:47 INFO  compiling rock-the-jvm-advanced (1 scala source)
+2020.06.10 08:56:47 INFO  time: compiled rock-the-jvm-advanced in 0.11s
+2020.06.10 08:57:20 INFO  compiling rock-the-jvm-advanced (1 scala source)
+2020.06.10 08:57:20 INFO  time: compiled rock-the-jvm-advanced in 0.23s
+2020.06.10 08:57:22 INFO  compiling rock-the-jvm-advanced (1 scala source)
+2020.06.10 08:57:22 INFO  time: compiled rock-the-jvm-advanced in 0.12s
+2020.06.10 08:57:47 INFO  compiling rock-the-jvm-advanced (1 scala source)
+2020.06.10 08:57:47 INFO  time: compiled rock-the-jvm-advanced in 0.23s
+2020.06.10 08:57:49 INFO  compiling rock-the-jvm-advanced (1 scala source)
+2020.06.10 08:57:49 INFO  time: compiled rock-the-jvm-advanced in 89ms
+2020.06.10 08:57:52 INFO  compiling rock-the-jvm-advanced (1 scala source)
+2020.06.10 08:57:52 INFO  time: compiled rock-the-jvm-advanced in 0.23s
+2020.06.10 08:57:55 INFO  compiling rock-the-jvm-advanced (1 scala source)
+2020.06.10 08:57:55 INFO  time: compiled rock-the-jvm-advanced in 0.11s
+2020.06.10 08:58:06 INFO  compiling rock-the-jvm-advanced (1 scala source)
+2020.06.10 08:58:06 INFO  time: compiled rock-the-jvm-advanced in 0.25s
+2020.06.10 08:58:08 INFO  compiling rock-the-jvm-advanced (1 scala source)
+2020.06.10 08:58:08 INFO  time: compiled rock-the-jvm-advanced in 94ms
+2020.06.10 08:58:23 INFO  compiling rock-the-jvm-advanced (1 scala source)
+2020.06.10 08:58:23 INFO  time: compiled rock-the-jvm-advanced in 0.18s
+2020.06.10 08:58:25 INFO  compiling rock-the-jvm-advanced (1 scala source)
+2020.06.10 08:58:25 INFO  time: compiled rock-the-jvm-advanced in 92ms
+2020.06.10 08:58:53 INFO  compiling rock-the-jvm-advanced (1 scala source)
+2020.06.10 08:58:53 INFO  time: compiled rock-the-jvm-advanced in 0.3s
+2020.06.10 08:58:55 INFO  compiling rock-the-jvm-advanced (1 scala source)
+2020.06.10 08:58:55 INFO  time: compiled rock-the-jvm-advanced in 94ms
+2020.06.10 08:59:29 INFO  compiling rock-the-jvm-advanced (1 scala source)
+2020.06.10 08:59:29 INFO  time: compiled rock-the-jvm-advanced in 0.25s
+2020.06.10 08:59:32 INFO  compiling rock-the-jvm-advanced (1 scala source)
+2020.06.10 08:59:32 INFO  time: compiled rock-the-jvm-advanced in 95ms
+2020.06.10 09:00:49 INFO  compiling rock-the-jvm-advanced (1 scala source)
+2020.06.10 09:00:49 INFO  time: compiled rock-the-jvm-advanced in 0.43s
+2020.06.10 09:00:52 INFO  compiling rock-the-jvm-advanced (1 scala source)
+2020.06.10 09:00:52 INFO  time: compiled rock-the-jvm-advanced in 0.14s
+2020.06.10 09:01:05 INFO  compiling rock-the-jvm-advanced (1 scala source)
+2020.06.10 09:01:06 INFO  time: compiled rock-the-jvm-advanced in 1.07s
+2020.06.10 09:01:08 INFO  compiling rock-the-jvm-advanced (1 scala source)
+2020.06.10 09:01:08 INFO  time: compiled rock-the-jvm-advanced in 0.63s
+2020.06.10 09:01:26 INFO  compiling rock-the-jvm-advanced (1 scala source)
+2020.06.10 09:01:27 INFO  time: compiled rock-the-jvm-advanced in 1.05s
+2020.06.10 09:01:29 INFO  compiling rock-the-jvm-advanced (1 scala source)
+2020.06.10 09:01:29 INFO  time: compiled rock-the-jvm-advanced in 0.65s
+2020.06.10 09:01:52 INFO  compiling rock-the-jvm-advanced (1 scala source)
+2020.06.10 09:01:52 INFO  time: compiled rock-the-jvm-advanced in 0.9s
+2020.06.10 09:01:55 INFO  compiling rock-the-jvm-advanced (1 scala source)
+2020.06.10 09:01:55 INFO  time: compiled rock-the-jvm-advanced in 0.63s
+2020.06.10 09:02:17 INFO  compiling rock-the-jvm-advanced (1 scala source)
+2020.06.10 09:02:17 INFO  time: compiled rock-the-jvm-advanced in 0.41s
+2020.06.10 09:02:20 INFO  compiling rock-the-jvm-advanced (1 scala source)
+2020.06.10 09:02:20 INFO  time: compiled rock-the-jvm-advanced in 0.16s
+2020.06.10 09:02:35 INFO  compiling rock-the-jvm-advanced (1 scala source)
+2020.06.10 09:02:35 INFO  time: compiled rock-the-jvm-advanced in 0.96s
+2020.06.10 09:02:38 INFO  compiling rock-the-jvm-advanced (1 scala source)
+2020.06.10 09:02:38 INFO  time: compiled rock-the-jvm-advanced in 0.64s
+2020.06.10 09:03:22 INFO  compiling rock-the-jvm-advanced (1 scala source)
+2020.06.10 09:03:22 INFO  time: compiled rock-the-jvm-advanced in 0.25s
+2020.06.10 09:03:24 INFO  compiling rock-the-jvm-advanced (1 scala source)
+2020.06.10 09:03:24 INFO  time: compiled rock-the-jvm-advanced in 83ms
+2020.06.10 09:03:30 INFO  compiling rock-the-jvm-advanced (1 scala source)
+2020.06.10 09:03:30 INFO  time: compiled rock-the-jvm-advanced in 0.31s
+2020.06.10 09:03:33 INFO  compiling rock-the-jvm-advanced (1 scala source)
+2020.06.10 09:03:33 INFO  time: compiled rock-the-jvm-advanced in 0.13s
+2020.06.10 09:04:14 INFO  compiling rock-the-jvm-advanced (1 scala source)
+2020.06.10 09:04:14 INFO  time: compiled rock-the-jvm-advanced in 0.24s
+2020.06.10 09:04:16 INFO  compiling rock-the-jvm-advanced (1 scala source)
+2020.06.10 09:04:16 INFO  time: compiled rock-the-jvm-advanced in 0.1s
+2020.06.10 09:04:19 INFO  compiling rock-the-jvm-advanced (1 scala source)
+2020.06.10 09:04:19 INFO  time: compiled rock-the-jvm-advanced in 0.33s
+2020.06.10 09:04:21 INFO  compiling rock-the-jvm-advanced (1 scala source)
+2020.06.10 09:04:21 INFO  time: compiled rock-the-jvm-advanced in 0.12s
+2020.06.10 09:10:21 INFO  compiling rock-the-jvm-advanced (1 scala source)
+2020.06.10 09:10:22 INFO  time: compiled rock-the-jvm-advanced in 1.53s
+2020.06.10 11:13:40 INFO  compiling rock-the-jvm-advanced (1 scala source)
+2020.06.10 11:13:43 INFO  time: compiled rock-the-jvm-advanced in 2.35s
+2020.06.10 12:00:47 INFO  compiling rock-the-jvm-advanced (1 scala source)
+2020.06.10 12:00:50 INFO  time: compiled rock-the-jvm-advanced in 3.21s
+jún. 10, 2020 12:03:04 DU org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1280
+2020.06.10 12:03:18 INFO  compiling rock-the-jvm-advanced (1 scala source)
+2020.06.10 12:03:18 INFO  time: compiled rock-the-jvm-advanced in 0.5s
+2020.06.10 12:03:21 INFO  compiling rock-the-jvm-advanced (1 scala source)
+2020.06.10 12:03:21 INFO  time: compiled rock-the-jvm-advanced in 0.17s
+2020.06.10 12:04:01 INFO  compiling rock-the-jvm-advanced (1 scala source)
+2020.06.10 12:04:03 INFO  time: compiled rock-the-jvm-advanced in 1.16s
+2020.06.10 12:04:05 INFO  compiling rock-the-jvm-advanced (1 scala source)
+2020.06.10 12:04:05 INFO  time: compiled rock-the-jvm-advanced in 0.68s
+2020.06.10 12:06:03 INFO  compiling rock-the-jvm-advanced (1 scala source)
+2020.06.10 12:06:05 INFO  time: compiled rock-the-jvm-advanced in 1.93s
+2020.06.10 12:06:07 INFO  compiling rock-the-jvm-advanced (1 scala source)
+2020.06.10 12:06:08 INFO  time: compiled rock-the-jvm-advanced in 1.05s
+2020.06.10 12:06:42 INFO  compiling rock-the-jvm-advanced (1 scala source)
+2020.06.10 12:06:42 INFO  time: compiled rock-the-jvm-advanced in 0.42s
+2020.06.10 12:06:44 INFO  compiling rock-the-jvm-advanced (1 scala source)
+2020.06.10 12:06:44 INFO  time: compiled rock-the-jvm-advanced in 0.2s
+jún. 10, 2020 12:06:57 DU org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1356
+2020.06.10 12:06:59 INFO  compiling rock-the-jvm-advanced (1 scala source)
+2020.06.10 12:07:01 INFO  time: compiled rock-the-jvm-advanced in 1.34s
+2020.06.10 12:07:03 INFO  compiling rock-the-jvm-advanced (1 scala source)
+2020.06.10 12:07:04 INFO  time: compiled rock-the-jvm-advanced in 1.16s
+2020.06.10 12:07:45 INFO  compiling rock-the-jvm-advanced (1 scala source)
+2020.06.10 12:07:45 INFO  time: compiled rock-the-jvm-advanced in 0.98s
+2020.06.10 12:07:48 INFO  compiling rock-the-jvm-advanced (1 scala source)
+2020.06.10 12:07:49 INFO  time: compiled rock-the-jvm-advanced in 1.03s
+2020.06.10 12:11:36 INFO  C:\Marci\rock-the-jvm-advanced\src\main\scala\exercises\MySet.scala:37:1: stale bloop error: class NonEmptySet needs to be abstract.
+Missing implementations for 7 members. Stub implementations follow:
+  def +(elem: A): exercises.MySet[A] = ???
+  def ++(anotherSet: exercises.MySet[A]): exercises.MySet[A] = ???
+  def contains(elem: A): Boolean = ???
+  def filter(predicate: A => Boolean): exercises.MySet[A] = ???
+  def flatMap[B](f: A => exercises.MySet[B]): exercises.MySet[B] = ???
+  def foreach(f: A => Unit): Unit = ???
+  def map[B](f: A => B): exercises.MySet[B] = ???
+
+> class NonEmptySet[A](head: A, tail: MySet[A]) extends MySet[A] {
+> 
+> 
+> }
+2020.06.10 12:11:36 INFO  C:\Marci\rock-the-jvm-advanced\src\main\scala\exercises\MySet.scala:37:1: stale bloop error: class NonEmptySet needs to be abstract.
+Missing implementations for 7 members. Stub implementations follow:
+  def +(elem: A): exercises.MySet[A] = ???
+  def ++(anotherSet: exercises.MySet[A]): exercises.MySet[A] = ???
+  def contains(elem: A): Boolean = ???
+  def filter(predicate: A => Boolean): exercises.MySet[A] = ???
+  def flatMap[B](f: A => exercises.MySet[B]): exercises.MySet[B] = ???
+  def foreach(f: A => Unit): Unit = ???
+  def map[B](f: A => B): exercises.MySet[B] = ???
+
+> class NonEmptySet[A](head: A, tail: MySet[A]) extends MySet[A] {
+> 
+> 
+> }
+2020.06.10 12:11:36 INFO  C:\Marci\rock-the-jvm-advanced\src\main\scala\exercises\MySet.scala:37:1: stale bloop error: class NonEmptySet needs to be abstract.
+Missing implementations for 7 members. Stub implementations follow:
+  def +(elem: A): exercises.MySet[A] = ???
+  def ++(anotherSet: exercises.MySet[A]): exercises.MySet[A] = ???
+  def contains(elem: A): Boolean = ???
+  def filter(predicate: A => Boolean): exercises.MySet[A] = ???
+  def flatMap[B](f: A => exercises.MySet[B]): exercises.MySet[B] = ???
+  def foreach(f: A => Unit): Unit = ???
+  def map[B](f: A => B): exercises.MySet[B] = ???
+
+> class NonEmptySet[A](head: A, tail: MySet[A]) extends MySet[A] {
+> 
+> 
+> }
+2020.06.10 12:11:36 INFO  C:\Marci\rock-the-jvm-advanced\src\main\scala\exercises\MySet.scala:37:1: stale bloop error: class NonEmptySet needs to be abstract.
+Missing implementations for 7 members. Stub implementations follow:
+  def +(elem: A): exercises.MySet[A] = ???
+  def ++(anotherSet: exercises.MySet[A]): exercises.MySet[A] = ???
+  def contains(elem: A): Boolean = ???
+  def filter(predicate: A => Boolean): exercises.MySet[A] = ???
+  def flatMap[B](f: A => exercises.MySet[B]): exercises.MySet[B] = ???
+  def foreach(f: A => Unit): Unit = ???
+  def map[B](f: A => B): exercises.MySet[B] = ???
+
+> class NonEmptySet[A](head: A, tail: MySet[A]) extends MySet[A] {
+> 
+> 
+> }
+2020.06.10 12:11:40 INFO  C:\Marci\rock-the-jvm-advanced\src\main\scala\exercises\MySet.scala:37:1: stale bloop error: class NonEmptySet needs to be abstract.
+Missing implementations for 7 members. Stub implementations follow:
+  def +(elem: A): exercises.MySet[A] = ???
+  def ++(anotherSet: exercises.MySet[A]): exercises.MySet[A] = ???
+  def contains(elem: A): Boolean = ???
+  def filter(predicate: A => Boolean): exercises.MySet[A] = ???
+  def flatMap[B](f: A => exercises.MySet[B]): exercises.MySet[B] = ???
+  def foreach(f: A => Unit): Unit = ???
+  def map[B](f: A => B): exercises.MySet[B] = ???
+
+> class NonEmptySet[A](head: A, tail: MySet[A]) extends MySet[A] {
+> 
+> 
+> }
+2020.06.10 12:11:40 INFO  C:\Marci\rock-the-jvm-advanced\src\main\scala\exercises\MySet.scala:37:1: stale bloop error: class NonEmptySet needs to be abstract.
+Missing implementations for 7 members. Stub implementations follow:
+  def +(elem: A): exercises.MySet[A] = ???
+  def ++(anotherSet: exercises.MySet[A]): exercises.MySet[A] = ???
+  def contains(elem: A): Boolean = ???
+  def filter(predicate: A => Boolean): exercises.MySet[A] = ???
+  def flatMap[B](f: A => exercises.MySet[B]): exercises.MySet[B] = ???
+  def foreach(f: A => Unit): Unit = ???
+  def map[B](f: A => B): exercises.MySet[B] = ???
+
+> class NonEmptySet[A](head: A, tail: MySet[A]) extends MySet[A] {
+> 
+> 
+> }
+2020.06.10 12:11:40 INFO  C:\Marci\rock-the-jvm-advanced\src\main\scala\exercises\MySet.scala:37:1: stale bloop error: class NonEmptySet needs to be abstract.
+Missing implementations for 7 members. Stub implementations follow:
+  def +(elem: A): exercises.MySet[A] = ???
+  def ++(anotherSet: exercises.MySet[A]): exercises.MySet[A] = ???
+  def contains(elem: A): Boolean = ???
+  def filter(predicate: A => Boolean): exercises.MySet[A] = ???
+  def flatMap[B](f: A => exercises.MySet[B]): exercises.MySet[B] = ???
+  def foreach(f: A => Unit): Unit = ???
+  def map[B](f: A => B): exercises.MySet[B] = ???
+
+> class NonEmptySet[A](head: A, tail: MySet[A]) extends MySet[A] {
+> 
+> 
+> }
+2020.06.10 12:11:40 INFO  C:\Marci\rock-the-jvm-advanced\src\main\scala\exercises\MySet.scala:37:1: stale bloop error: class NonEmptySet needs to be abstract.
+Missing implementations for 7 members. Stub implementations follow:
+  def +(elem: A): exercises.MySet[A] = ???
+  def ++(anotherSet: exercises.MySet[A]): exercises.MySet[A] = ???
+  def contains(elem: A): Boolean = ???
+  def filter(predicate: A => Boolean): exercises.MySet[A] = ???
+  def flatMap[B](f: A => exercises.MySet[B]): exercises.MySet[B] = ???
+  def foreach(f: A => Unit): Unit = ???
+  def map[B](f: A => B): exercises.MySet[B] = ???
+
+> class NonEmptySet[A](head: A, tail: MySet[A]) extends MySet[A] {
+> 
+> 
+> }
+2020.06.10 12:11:40 INFO  C:\Marci\rock-the-jvm-advanced\src\main\scala\exercises\MySet.scala:37:1: stale bloop error: class NonEmptySet needs to be abstract.
+Missing implementations for 7 members. Stub implementations follow:
+  def +(elem: A): exercises.MySet[A] = ???
+  def ++(anotherSet: exercises.MySet[A]): exercises.MySet[A] = ???
+  def contains(elem: A): Boolean = ???
+  def filter(predicate: A => Boolean): exercises.MySet[A] = ???
+  def flatMap[B](f: A => exercises.MySet[B]): exercises.MySet[B] = ???
+  def foreach(f: A => Unit): Unit = ???
+  def map[B](f: A => B): exercises.MySet[B] = ???
+
+> class NonEmptySet[A](head: A, tail: MySet[A]) extends MySet[A] {
+> 
+> 
+> }
+2020.06.10 12:11:40 INFO  C:\Marci\rock-the-jvm-advanced\src\main\scala\exercises\MySet.scala:37:1: stale bloop error: class NonEmptySet needs to be abstract.
+Missing implementations for 7 members. Stub implementations follow:
+  def +(elem: A): exercises.MySet[A] = ???
+  def ++(anotherSet: exercises.MySet[A]): exercises.MySet[A] = ???
+  def contains(elem: A): Boolean = ???
+  def filter(predicate: A => Boolean): exercises.MySet[A] = ???
+  def flatMap[B](f: A => exercises.MySet[B]): exercises.MySet[B] = ???
+  def foreach(f: A => Unit): Unit = ???
+  def map[B](f: A => B): exercises.MySet[B] = ???
+
+> class NonEmptySet[A](head: A, tail: MySet[A]) extends MySet[A] {
+> 
+> 
+> }
+2020.06.10 12:11:44 INFO  C:\Marci\rock-the-jvm-advanced\src\main\scala\exercises\MySet.scala:37:1: stale bloop error: class NonEmptySet needs to be abstract.
+Missing implementations for 7 members. Stub implementations follow:
+  def +(elem: A): exercises.MySet[A] = ???
+  def ++(anotherSet: exercises.MySet[A]): exercises.MySet[A] = ???
+  def contains(elem: A): Boolean = ???
+  def filter(predicate: A => Boolean): exercises.MySet[A] = ???
+  def flatMap[B](f: A => exercises.MySet[B]): exercises.MySet[B] = ???
+  def foreach(f: A => Unit): Unit = ???
+  def map[B](f: A => B): exercises.MySet[B] = ???
+
+> class NonEmptySet[A](head: A, tail: MySet[A]) extends MySet[A] {
+> 
+> 
+> }
+2020.06.10 12:11:44 INFO  C:\Marci\rock-the-jvm-advanced\src\main\scala\exercises\MySet.scala:37:1: stale bloop error: class NonEmptySet needs to be abstract.
+Missing implementations for 7 members. Stub implementations follow:
+  def +(elem: A): exercises.MySet[A] = ???
+  def ++(anotherSet: exercises.MySet[A]): exercises.MySet[A] = ???
+  def contains(elem: A): Boolean = ???
+  def filter(predicate: A => Boolean): exercises.MySet[A] = ???
+  def flatMap[B](f: A => exercises.MySet[B]): exercises.MySet[B] = ???
+  def foreach(f: A => Unit): Unit = ???
+  def map[B](f: A => B): exercises.MySet[B] = ???
+
+> class NonEmptySet[A](head: A, tail: MySet[A]) extends MySet[A] {
+> 
+> 
+> }
+2020.06.10 12:12:20 INFO  compiling rock-the-jvm-advanced (1 scala source)
+2020.06.10 12:12:20 INFO  time: compiled rock-the-jvm-advanced in 0.86s
+2020.06.10 12:12:23 INFO  compiling rock-the-jvm-advanced (1 scala source)
+2020.06.10 12:12:23 INFO  time: compiled rock-the-jvm-advanced in 0.23s
+2020.06.10 12:12:57 INFO  compiling rock-the-jvm-advanced (1 scala source)
+2020.06.10 12:12:57 INFO  time: compiled rock-the-jvm-advanced in 0.72s
+2020.06.10 12:12:59 INFO  compiling rock-the-jvm-advanced (1 scala source)
+2020.06.10 12:12:59 INFO  time: compiled rock-the-jvm-advanced in 0.25s
+2020.06.10 12:15:15 INFO  compiling rock-the-jvm-advanced (1 scala source)
+2020.06.10 12:15:15 INFO  time: compiled rock-the-jvm-advanced in 0.63s
+2020.06.10 12:15:17 INFO  compiling rock-the-jvm-advanced (1 scala source)
+2020.06.10 12:15:17 INFO  time: compiled rock-the-jvm-advanced in 0.23s
+2020.06.10 12:15:32 INFO  compiling rock-the-jvm-advanced (1 scala source)
+2020.06.10 12:15:32 INFO  time: compiled rock-the-jvm-advanced in 0.38s
+2020.06.10 12:15:35 INFO  compiling rock-the-jvm-advanced (1 scala source)
+2020.06.10 12:15:35 INFO  time: compiled rock-the-jvm-advanced in 0.16s
+2020.06.10 12:15:38 INFO  compiling rock-the-jvm-advanced (1 scala source)
+2020.06.10 12:15:38 INFO  time: compiled rock-the-jvm-advanced in 0.36s
+2020.06.10 12:15:40 INFO  compiling rock-the-jvm-advanced (1 scala source)
+2020.06.10 12:15:40 INFO  time: compiled rock-the-jvm-advanced in 0.17s
+2020.06.10 12:16:18 INFO  compiling rock-the-jvm-advanced (1 scala source)
+2020.06.10 12:16:19 INFO  time: compiled rock-the-jvm-advanced in 1.5s
+jún. 10, 2020 12:18:22 DU org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1000
+jún. 10, 2020 12:18:23 DU org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1643
+jún. 10, 2020 12:19:09 DU org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1645
+2020.06.10 12:19:16 INFO  compiling rock-the-jvm-advanced (1 scala source)
+2020.06.10 12:19:16 INFO  time: compiled rock-the-jvm-advanced in 0.45s
+2020.06.10 12:19:19 INFO  compiling rock-the-jvm-advanced (1 scala source)
+2020.06.10 12:19:19 INFO  time: compiled rock-the-jvm-advanced in 0.15s
+2020.06.10 12:20:07 INFO  compiling rock-the-jvm-advanced (1 scala source)
+2020.06.10 12:20:08 INFO  time: compiled rock-the-jvm-advanced in 1.76s
+jún. 10, 2020 12:20:20 DU org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1675
+jún. 10, 2020 12:21:05 DU org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1704
+jún. 10, 2020 12:21:06 DU org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1738
+2020.06.10 12:21:10 INFO  compiling rock-the-jvm-advanced (1 scala source)
+2020.06.10 12:21:12 INFO  time: compiled rock-the-jvm-advanced in 2.09s
+2020.06.10 12:22:46 INFO  compiling rock-the-jvm-advanced (1 scala source)
+2020.06.10 12:22:46 INFO  time: compiled rock-the-jvm-advanced in 0.24s
+2020.06.10 12:22:49 INFO  compiling rock-the-jvm-advanced (1 scala source)
+2020.06.10 12:22:49 INFO  time: compiled rock-the-jvm-advanced in 0.18s
+2020.06.10 12:24:59 INFO  compiling rock-the-jvm-advanced (1 scala source)
+2020.06.10 12:25:01 INFO  time: compiled rock-the-jvm-advanced in 1.74s
+2020.06.10 12:44:40 INFO  started: Metals version 0.9.0 in workspace 'C:\Marci\rock-the-jvm-advanced'
+2020.06.10 12:44:41 INFO  time: initialize in 0.42s
+2020.06.10 12:44:45 INFO  skipping build import with status 'Installed'
+2020.06.10 12:44:45 INFO  no build target: using presentation compiler with only scala-library
+Starting the bsp launcher for bloop...
+Opening a bsp server connection with 'bsp --protocol tcp --port 12410'...
+Waiting for the bsp connection to come up...
+[0m[32m[D][0m Loading workspace settings from bloop.settings.json
+[0m[32m[D][0m Waiting for a connection at 127.0.0.1:12410...
+The server is listening for incoming connections at tcp://127.0.0.1:12410...
+Starting thread that pumps stdin and redirects it to the bsp server...
+Starting thread that pumps server stdout and redirects it to the client stdout...
+2020.06.10 12:44:47 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\User\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2020.06.10 12:44:47 INFO  time: connected to build server in 1.56s
+2020.06.10 12:44:47 INFO  Connected to Build server v1.4.0-RC1-229-b7c15aa9
+2020.06.10 12:44:48 WARN  Could not find java sources in None. Java symbols will not be available.
+2020.06.10 12:44:48 INFO  time: indexed workspace in 1.59s
+2020.06.10 12:44:49 INFO  Deduplicating compilation of rock-the-jvm-advanced from bsp client 'Metals 0.9.0' (since 1.759s)
+2020.06.10 12:45:41 INFO  started: Metals version 0.9.0 in workspace 'C:\Marci\rock-the-jvm-advanced'
+2020.06.10 12:45:41 INFO  time: initialize in 0.39s
+2020.06.10 12:45:46 INFO  skipping build import with status 'Installed'
+2020.06.10 12:45:46 INFO  no build target: using presentation compiler with only scala-library
+Starting the bsp launcher for bloop...
+Opening a bsp server connection with 'bsp --protocol tcp --port 23936'...
+Waiting for the bsp connection to come up...
+[0m[32m[D][0m Loading workspace settings from bloop.settings.json
+[0m[32m[D][0m Waiting for a connection at 127.0.0.1:23936...
+The server is listening for incoming connections at tcp://127.0.0.1:23936...
+Starting thread that pumps stdin and redirects it to the bsp server...
+Starting thread that pumps server stdout and redirects it to the client stdout...
+2020.06.10 12:45:47 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\User\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2020.06.10 12:45:47 INFO  time: connected to build server in 1.3s
+2020.06.10 12:45:47 INFO  Connected to Build server v1.4.0-RC1-229-b7c15aa9
+2020.06.10 12:45:48 WARN  Could not find java sources in None. Java symbols will not be available.
+2020.06.10 12:45:48 INFO  time: indexed workspace in 1.27s
+2020.06.10 12:51:04 INFO  started: Metals version 0.9.0 in workspace 'C:\Marci\rock-the-jvm-advanced'
+2020.06.10 12:51:04 INFO  time: initialize in 0.42s
+2020.06.10 12:51:09 INFO  skipping build import with status 'Installed'
+2020.06.10 12:51:09 INFO  no build target: using presentation compiler with only scala-library
+Starting the bsp launcher for bloop...
+Opening a bsp server connection with 'bsp --protocol tcp --port 38321'...
+Waiting for the bsp connection to come up...
+[0m[32m[D][0m Loading workspace settings from bloop.settings.json
+[0m[32m[D][0m Waiting for a connection at 127.0.0.1:38321...
+The server is listening for incoming connections at tcp://127.0.0.1:38321...
+Starting thread that pumps stdin and redirects it to the bsp server...
+Starting thread that pumps server stdout and redirects it to the client stdout...
+2020.06.10 12:51:11 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\User\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2020.06.10 12:51:11 INFO  time: connected to build server in 1.42s
+2020.06.10 12:51:11 INFO  Connected to Build server v1.4.0-RC1-229-b7c15aa9
+2020.06.10 12:51:12 WARN  Could not find java sources in None. Java symbols will not be available.
+2020.06.10 12:51:12 INFO  time: indexed workspace in 1.37s
+2020.06.10 12:57:09 INFO  started: Metals version 0.9.0 in workspace 'C:\Marci\rock-the-jvm-advanced'
+2020.06.10 12:57:10 INFO  time: initialize in 0.37s
+2020.06.10 12:57:14 INFO  skipping build import with status 'Installed'
+2020.06.10 12:57:14 INFO  no build target: using presentation compiler with only scala-library
+Starting the bsp launcher for bloop...
+Opening a bsp server connection with 'bsp --protocol tcp --port 30519'...
+Waiting for the bsp connection to come up...
+[0m[32m[D][0m Loading workspace settings from bloop.settings.json
+[0m[32m[D][0m Waiting for a connection at 127.0.0.1:30519...
+The server is listening for incoming connections at tcp://127.0.0.1:30519...
+Starting thread that pumps stdin and redirects it to the bsp server...
+Starting thread that pumps server stdout and redirects it to the client stdout...
+2020.06.10 12:57:16 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\User\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2020.06.10 12:57:16 INFO  time: connected to build server in 1.35s
+2020.06.10 12:57:16 INFO  Connected to Build server v1.4.0-RC1-229-b7c15aa9
+2020.06.10 12:57:17 WARN  Could not find java sources in None. Java symbols will not be available.
+2020.06.10 12:57:17 INFO  time: indexed workspace in 1.23s
+2020.06.10 13:25:02 INFO  started: Metals version 0.9.0 in workspace 'C:\Marci\rock-the-jvm-advanced'
+2020.06.10 13:25:02 INFO  time: initialize in 0.4s
+2020.06.10 13:25:07 INFO  skipping build import with status 'Installed'
+2020.06.10 13:25:07 INFO  no build target: using presentation compiler with only scala-library
+Starting the bsp launcher for bloop...
+Opening a bsp server connection with 'bsp --protocol tcp --port 20328'...
+Waiting for the bsp connection to come up...
+[0m[32m[D][0m Loading workspace settings from bloop.settings.json
+[0m[32m[D][0m Waiting for a connection at 127.0.0.1:20328...
+The server is listening for incoming connections at tcp://127.0.0.1:20328...
+Starting thread that pumps stdin and redirects it to the bsp server...
+Starting thread that pumps server stdout and redirects it to the client stdout...
+2020.06.10 13:25:08 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\User\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2020.06.10 13:25:08 INFO  time: connected to build server in 1.38s
+2020.06.10 13:25:08 INFO  Connected to Build server v1.4.0-RC1-229-b7c15aa9
+2020.06.10 13:25:08 INFO  time: imported build in 0.11s
+2020.06.10 13:25:09 WARN  Could not find java sources in None. Java symbols will not be available.
+2020.06.10 13:25:09 INFO  time: indexed workspace in 1.31s
+jún. 10, 2020 1:25:10 DU org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleNotification
+WARNING: Notification threw an exception: {
+  "jsonrpc": "2.0",
+  "method": "textDocument/didOpen",
+  "params": {
+    "textDocument": {
+      "uri": "file:///c%3A/Marci/rock-the-jvm-advanced/try.scala",
+      "languageId": "scala",
+      "version": 1,
+      "text": "\n"
+    }
+  }
+}
+java.lang.RuntimeException: java.lang.reflect.InvocationTargetException
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:67)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.notify(GenericEndpoint.java:152)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleNotification(RemoteEndpoint.java:220)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:187)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:194)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:94)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:113)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: java.lang.reflect.InvocationTargetException
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:65)
+	... 11 more
+Caused by: java.nio.file.NoSuchFileException: c:\Marci\rock-the-jvm-advanced\try.scala
+	at sun.nio.fs.WindowsException.translateToIOException(Unknown Source)
+	at sun.nio.fs.WindowsException.rethrowAsIOException(Unknown Source)
+	at sun.nio.fs.WindowsException.rethrowAsIOException(Unknown Source)
+	at sun.nio.fs.WindowsFileSystemProvider.newByteChannel(Unknown Source)
+	at java.nio.file.Files.newByteChannel(Unknown Source)
+	at java.nio.file.Files.newByteChannel(Unknown Source)
+	at java.nio.file.Files.readAllBytes(Unknown Source)
+	at scala.meta.internal.io.PlatformFileIO$.slurp(PlatformFileIO.scala:45)
+	at scala.meta.internal.io.FileIO$.slurp(FileIO.scala:24)
+	at scala.meta.internal.metals.MetalsLanguageServer.didOpen(MetalsLanguageServer.scala:717)
+	... 16 more
+
+2020.06.10 13:25:18 WARN  no build target for: C:\Marci\rock-the-jvm-advanced\try.scala
+2020.06.10 13:25:18 INFO  skipping build import with status 'Installed'
+2020.06.10 17:41:22 INFO  started: Metals version 0.9.0 in workspace 'C:\Marci\rock-the-jvm-advanced'
+2020.06.10 17:41:22 INFO  time: initialize in 0.4s
+2020.06.10 17:41:27 INFO  skipping build import with status 'Installed'
+2020.06.10 17:41:27 INFO  no build target: using presentation compiler with only scala-library
+Starting the bsp launcher for bloop...
+Opening a bsp server connection with 'bsp --protocol tcp --port 40295'...
+Waiting for the bsp connection to come up...
+[0m[32m[D][0m Waiting for a connection at 127.0.0.1:40295...
+The server is listening for incoming connections at tcp://127.0.0.1:40295...
+Starting thread that pumps stdin and redirects it to the bsp server...
+Starting thread that pumps server stdout and redirects it to the client stdout...
+2020.06.10 17:41:28 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\User\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2020.06.10 17:41:28 INFO  time: connected to build server in 1.51s
+2020.06.10 17:41:28 INFO  Connected to Build server v1.4.0-RC1-229-b7c15aa9
+2020.06.10 17:41:30 WARN  Could not find java sources in None. Java symbols will not be available.
+2020.06.10 17:41:30 INFO  time: indexed workspace in 1.96s
+2020.06.10 18:02:21 INFO  started: Metals version 0.9.0 in workspace 'C:\Marci\rock-the-jvm-advanced'
+2020.06.10 18:02:21 INFO  time: initialize in 0.45s
+2020.06.10 18:02:26 INFO  skipping build import with status 'Installed'
+2020.06.10 18:02:26 INFO  no build target: using presentation compiler with only scala-library
+Starting the bsp launcher for bloop...
+Opening a bsp server connection with 'bsp --protocol tcp --port 24970'...
+Waiting for the bsp connection to come up...
+[0m[32m[D][0m Waiting for a connection at 127.0.0.1:24970...
+The server is listening for incoming connections at tcp://127.0.0.1:24970...
+Starting thread that pumps stdin and redirects it to the bsp server...
+Starting thread that pumps server stdout and redirects it to the client stdout...
+2020.06.10 18:02:29 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\User\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2020.06.10 18:02:29 INFO  time: connected to build server in 2.97s
+2020.06.10 18:02:29 INFO  Connected to Build server v1.4.0-RC1-229-b7c15aa9
+2020.06.10 18:02:29 INFO  time: imported build in 0.22s
+2020.06.10 18:02:32 WARN  Could not find java sources in None. Java symbols will not be available.
+2020.06.10 18:02:32 INFO  time: indexed workspace in 2.55s
+2020.06.10 18:02:32 INFO  Deduplicating compilation of rock-the-jvm-advanced from bsp client 'Metals 0.9.0' (since 2.939s)
+2020.06.10 18:04:01 INFO  started: Metals version 0.9.0 in workspace 'C:\Marci\rock-the-jvm-advanced'
+2020.06.10 18:04:02 INFO  time: initialize in 0.6s
+2020.06.10 18:04:07 INFO  skipping build import with status 'Installed'
+2020.06.10 18:04:07 INFO  no build target: using presentation compiler with only scala-library
+Starting the bsp launcher for bloop...
+Opening a bsp server connection with 'bsp --protocol tcp --port 18730'...
+Waiting for the bsp connection to come up...
+[0m[32m[D][0m Waiting for a connection at 127.0.0.1:18730...
+The server is listening for incoming connections at tcp://127.0.0.1:18730...
+Starting thread that pumps stdin and redirects it to the bsp server...
+Starting thread that pumps server stdout and redirects it to the client stdout...
+2020.06.10 18:04:09 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\User\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2020.06.10 18:04:09 INFO  time: connected to build server in 2.34s
+2020.06.10 18:04:09 INFO  Connected to Build server v1.4.0-RC1-229-b7c15aa9
+2020.06.10 18:04:09 INFO  time: imported build in 0.18s
+2020.06.10 18:04:11 WARN  Could not find java sources in None. Java symbols will not be available.
+2020.06.10 18:04:11 INFO  time: indexed workspace in 2.1s
+jún. 10, 2020 6:05:14 DU scala.meta.internal.pc.CompilerAccess retryWithCleanCompiler
+INFO: compiler crashed due to an error in the Scala compiler, retrying with new compiler instance.
+2020.06.10 18:15:47 INFO  started: Metals version 0.9.0 in workspace 'C:\Marci\rock-the-jvm-advanced'
+2020.06.10 18:15:48 INFO  time: initialize in 0.48s
+2020.06.10 18:15:53 INFO  skipping build import with status 'Installed'
+2020.06.10 18:15:53 INFO  no build target: using presentation compiler with only scala-library
+Starting the bsp launcher for bloop...
+Opening a bsp server connection with 'bsp --protocol tcp --port 15417'...
+Waiting for the bsp connection to come up...
+[0m[32m[D][0m Waiting for a connection at 127.0.0.1:15417...
+The server is listening for incoming connections at tcp://127.0.0.1:15417...
+Starting thread that pumps stdin and redirects it to the bsp server...
+Starting thread that pumps server stdout and redirects it to the client stdout...
+2020.06.10 18:15:55 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\User\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2020.06.10 18:15:55 INFO  time: connected to build server in 2.54s
+2020.06.10 18:15:55 INFO  Connected to Build server v1.4.0-RC1-229-b7c15aa9
+2020.06.10 18:15:55 INFO  time: imported build in 0.17s
+2020.06.10 18:15:57 WARN  Could not find java sources in None. Java symbols will not be available.
+2020.06.10 18:15:57 INFO  time: indexed workspace in 2.25s
+2020.06.10 18:15:58 INFO  Deduplicating compilation of rock-the-jvm-advanced from bsp client 'Metals 0.9.0' (since 2.591s)
+2020.06.10 18:30:59 INFO  started: Metals version 0.9.0 in workspace 'C:\Marci\rock-the-jvm-advanced'
+2020.06.10 18:30:59 INFO  time: initialize in 0.39s
+2020.06.10 18:31:04 INFO  skipping build import with status 'Installed'
+2020.06.10 18:31:04 INFO  no build target: using presentation compiler with only scala-library
+Starting the bsp launcher for bloop...
+Opening a bsp server connection with 'bsp --protocol tcp --port 24151'...
+Waiting for the bsp connection to come up...
+[0m[32m[D][0m Loading workspace settings from bloop.settings.json
+[0m[32m[D][0m Waiting for a connection at 127.0.0.1:24151...
+The server is listening for incoming connections at tcp://127.0.0.1:24151...
+Starting thread that pumps stdin and redirects it to the bsp server...
+Starting thread that pumps server stdout and redirects it to the client stdout...
+2020.06.10 18:31:05 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\User\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2020.06.10 18:31:05 INFO  time: connected to build server in 1.33s
+2020.06.10 18:31:05 INFO  Connected to Build server v1.4.0-RC1-229-b7c15aa9
+2020.06.10 18:31:07 WARN  Could not find java sources in None. Java symbols will not be available.
+2020.06.10 18:31:07 INFO  time: indexed workspace in 1.27s
+2020.06.10 18:31:36 WARN  no build target for: C:\Marci\rock-the-jvm-advanced\AnotherSet.scala
+2020.06.10 18:32:03 WARN  no build target for: C:\Marci\rock-the-jvm-advanced\AnotherSet.scala
+2020.06.10 18:32:03 INFO  skipping build import with status 'Installed'
+2020.06.10 18:32:49 WARN  no build target for: C:\Marci\rock-the-jvm-advanced\AnotherSet.scala
+2020.06.10 18:32:49 INFO  skipping build import with status 'Installed'
+2020.06.10 18:33:13 INFO  started: Metals version 0.9.0 in workspace 'C:\Marci\rock-the-jvm-advanced'
+2020.06.10 18:33:13 INFO  time: initialize in 0.4s
+2020.06.10 18:33:18 INFO  skipping build import with status 'Installed'
+2020.06.10 18:33:18 INFO  no build target: using presentation compiler with only scala-library
+Starting the bsp launcher for bloop...
+Opening a bsp server connection with 'bsp --protocol tcp --port 36787'...
+Waiting for the bsp connection to come up...
+[0m[32m[D][0m Loading workspace settings from bloop.settings.json
+[0m[32m[D][0m Waiting for a connection at 127.0.0.1:36787...
+The server is listening for incoming connections at tcp://127.0.0.1:36787...
+Starting thread that pumps stdin and redirects it to the bsp server...
+Starting thread that pumps server stdout and redirects it to the client stdout...
+2020.06.10 18:33:19 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\User\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2020.06.10 18:33:19 INFO  time: connected to build server in 1.33s
+2020.06.10 18:33:19 INFO  Connected to Build server v1.4.0-RC1-229-b7c15aa9
+2020.06.10 18:33:20 WARN  Could not find java sources in None. Java symbols will not be available.
+2020.06.10 18:33:20 INFO  time: indexed workspace in 1.26s
+2020.06.10 18:33:20 WARN  no build target for: C:\Marci\rock-the-jvm-advanced\AnotherSet.scala
+2020.06.10 18:33:20 WARN  no build target for: C:\Marci\rock-the-jvm-advanced\AnotherSet.scala
+2020.06.10 18:33:25 INFO  compiling rock-the-jvm-advanced (1 scala source)
+2020.06.10 18:33:27 INFO  time: compiled rock-the-jvm-advanced in 1.49s
+2020.06.10 18:33:42 INFO  compiling rock-the-jvm-advanced (1 scala source)
+2020.06.10 18:33:43 INFO  time: compiled rock-the-jvm-advanced in 1.05s
+2020.06.10 21:52:12 INFO  started: Metals version 0.9.0 in workspace 'C:\Marci\rock-the-jvm-advanced'
+2020.06.10 21:52:13 INFO  time: initialize in 0.4s
+2020.06.10 21:52:17 INFO  skipping build import with status 'Installed'
+2020.06.10 21:52:17 INFO  no build target: using presentation compiler with only scala-library
+Starting the bsp launcher for bloop...
+Opening a bsp server connection with 'bsp --protocol tcp --port 44128'...
+Waiting for the bsp connection to come up...
+[0m[32m[D][0m Waiting for a connection at 127.0.0.1:44128...
+The server is listening for incoming connections at tcp://127.0.0.1:44128...
+Starting thread that pumps stdin and redirects it to the bsp server...
+Starting thread that pumps server stdout and redirects it to the client stdout...
+2020.06.10 21:52:19 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\User\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2020.06.10 21:52:19 INFO  time: connected to build server in 1.31s
+2020.06.10 21:52:19 INFO  Connected to Build server v1.4.0-RC1-229-b7c15aa9
+2020.06.10 21:52:20 WARN  Could not find java sources in None. Java symbols will not be available.
+2020.06.10 21:52:20 INFO  time: indexed workspace in 1.93s
+jún. 10, 2020 9:57:47 DU scala.meta.internal.pc.CompilerAccess retryWithCleanCompiler
+INFO: compiler crashed due to an error in the Scala compiler, retrying with new compiler instance.
+jún. 10, 2020 9:57:47 DU scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: null
+java.lang.NullPointerException
+	at scala.reflect.internal.Definitions$DefinitionsClass.isByNameParamType(Definitions.scala:419)
+	at scala.reflect.internal.TreeInfo.isStableIdent(TreeInfo.scala:136)
+	at scala.reflect.internal.TreeInfo.isStableIdentifier(TreeInfo.scala:109)
+	at scala.reflect.internal.TreeInfo.isPath(TreeInfo.scala:98)
+	at scala.tools.nsc.interactive.Global.stabilizedType(Global.scala:962)
+	at scala.tools.nsc.interactive.Global.typedTreeAt(Global.scala:810)
+	at scala.meta.internal.pc.PcDefinitionProvider.definitionTypedTreeAt(PcDefinitionProvider.scala:88)
+	at scala.meta.internal.pc.PcDefinitionProvider.definition(PcDefinitionProvider.scala:22)
+
+2020.06.11 08:01:26 INFO  started: Metals version 0.9.0 in workspace 'C:\Marci\rock-the-jvm-advanced'
+2020.06.11 08:01:26 INFO  time: initialize in 0.38s
+2020.06.11 08:01:31 INFO  skipping build import with status 'Installed'
+2020.06.11 08:01:31 INFO  no build target: using presentation compiler with only scala-library
+Starting the bsp launcher for bloop...
+Opening a bsp server connection with 'bsp --protocol tcp --port 37570'...
+Waiting for the bsp connection to come up...
+[0m[32m[D][0m Waiting for a connection at 127.0.0.1:37570...
+The server is listening for incoming connections at tcp://127.0.0.1:37570...
+Starting thread that pumps stdin and redirects it to the bsp server...
+Starting thread that pumps server stdout and redirects it to the client stdout...
+2020.06.11 08:01:32 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\User\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2020.06.11 08:01:32 INFO  time: connected to build server in 1.28s
+2020.06.11 08:01:32 INFO  Connected to Build server v1.4.0-RC1-229-b7c15aa9
+2020.06.11 08:01:34 WARN  Could not find java sources in None. Java symbols will not be available.
+2020.06.11 08:01:34 INFO  time: indexed workspace in 1.31s
+2020.06.11 08:01:51 INFO  compiling rock-the-jvm-advanced (1 scala source)
+2020.06.11 08:01:51 INFO  time: compiled rock-the-jvm-advanced in 0.92s
+2020.06.11 08:02:45 INFO  compiling rock-the-jvm-advanced (1 scala source)
+2020.06.11 08:02:45 INFO  time: compiled rock-the-jvm-advanced in 0.91s
+2020.06.11 08:03:25 INFO  started: Metals version 0.9.0 in workspace 'C:\Marci\rock-the-jvm-advanced'
+2020.06.11 08:03:25 INFO  time: initialize in 0.38s
+2020.06.11 08:03:30 INFO  skipping build import with status 'Installed'
+2020.06.11 08:03:30 INFO  no build target: using presentation compiler with only scala-library
+Starting the bsp launcher for bloop...
+Opening a bsp server connection with 'bsp --protocol tcp --port 17249'...
+Waiting for the bsp connection to come up...
+[0m[32m[D][0m Waiting for a connection at 127.0.0.1:17249...
+The server is listening for incoming connections at tcp://127.0.0.1:17249...
+Starting thread that pumps stdin and redirects it to the bsp server...
+Starting thread that pumps server stdout and redirects it to the client stdout...
+2020.06.11 08:03:31 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\User\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2020.06.11 08:03:31 INFO  time: connected to build server in 1.31s
+2020.06.11 08:03:31 INFO  Connected to Build server v1.4.0-RC1-229-b7c15aa9
+2020.06.11 08:03:33 WARN  Could not find java sources in None. Java symbols will not be available.
+2020.06.11 08:03:33 INFO  time: indexed workspace in 1.21s
+2020.06.11 08:05:46 INFO  started: Metals version 0.9.0 in workspace 'C:\Marci\rock-the-jvm-advanced'
+2020.06.11 08:05:46 INFO  time: initialize in 0.38s
+2020.06.11 08:05:51 INFO  skipping build import with status 'Installed'
+2020.06.11 08:05:51 INFO  no build target: using presentation compiler with only scala-library
+Starting the bsp launcher for bloop...
+Opening a bsp server connection with 'bsp --protocol tcp --port 16198'...
+Waiting for the bsp connection to come up...
+[0m[32m[D][0m Waiting for a connection at 127.0.0.1:16198...
+The server is listening for incoming connections at tcp://127.0.0.1:16198...
+Starting thread that pumps stdin and redirects it to the bsp server...
+Starting thread that pumps server stdout and redirects it to the client stdout...
+2020.06.11 08:05:52 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\User\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2020.06.11 08:05:52 INFO  time: connected to build server in 1.26s
+2020.06.11 08:05:52 INFO  Connected to Build server v1.4.0-RC1-229-b7c15aa9
+2020.06.11 08:05:53 WARN  Could not find java sources in None. Java symbols will not be available.
+2020.06.11 08:05:53 INFO  time: indexed workspace in 1.24s
+jún. 11, 2020 8:05:55 DE org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1
+jún. 11, 2020 8:05:55 DE org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2
+jún. 11, 2020 8:05:55 DE org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 3
+2020.06.11 08:06:40 INFO  compiling rock-the-jvm-advanced (1 scala source)
+2020.06.11 08:06:40 INFO  time: compiled rock-the-jvm-advanced in 0.81s
+2020.06.11 08:07:55 INFO  compiling rock-the-jvm-advanced (1 scala source)
+2020.06.11 08:07:55 INFO  time: compiled rock-the-jvm-advanced in 0.82s
+2020.06.11 08:10:41 INFO  started: Metals version 0.9.0 in workspace 'C:\Marci\rock-the-jvm-advanced'
+2020.06.11 08:10:41 INFO  time: initialize in 0.38s
+2020.06.11 08:10:46 INFO  skipping build import with status 'Installed'
+2020.06.11 08:10:46 INFO  no build target: using presentation compiler with only scala-library
+Starting the bsp launcher for bloop...
+Opening a bsp server connection with 'bsp --protocol tcp --port 24023'...
+Waiting for the bsp connection to come up...
+[0m[32m[D][0m Waiting for a connection at 127.0.0.1:24023...
+The server is listening for incoming connections at tcp://127.0.0.1:24023...
+Starting thread that pumps stdin and redirects it to the bsp server...
+Starting thread that pumps server stdout and redirects it to the client stdout...
+2020.06.11 08:10:47 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\User\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2020.06.11 08:10:47 INFO  time: connected to build server in 1.26s
+2020.06.11 08:10:47 INFO  Connected to Build server v1.4.0-RC1-229-b7c15aa9
+2020.06.11 08:10:48 WARN  Could not find java sources in None. Java symbols will not be available.
+2020.06.11 08:10:48 INFO  time: indexed workspace in 1.18s
+2020.06.11 08:11:18 INFO  compiling rock-the-jvm-advanced (1 scala source)
+2020.06.11 08:11:18 INFO  time: compiled rock-the-jvm-advanced in 0.7s
+2020.06.11 08:14:34 INFO  compiling rock-the-jvm-advanced (1 scala source)
+2020.06.11 08:14:48 INFO  started: Metals version 0.9.0 in workspace 'C:\Marci\rock-the-jvm-advanced'
+2020.06.11 08:14:48 INFO  time: initialize in 0.37s
+2020.06.11 08:14:53 INFO  skipping build import with status 'Installed'
+2020.06.11 08:14:53 INFO  no build target: using presentation compiler with only scala-library
+Starting the bsp launcher for bloop...
+Opening a bsp server connection with 'bsp --protocol tcp --port 32765'...
+Waiting for the bsp connection to come up...
+[0m[32m[D][0m Waiting for a connection at 127.0.0.1:32765...
+The server is listening for incoming connections at tcp://127.0.0.1:32765...
+Starting thread that pumps stdin and redirects it to the bsp server...
+Starting thread that pumps server stdout and redirects it to the client stdout...
+2020.06.11 08:14:54 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\User\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2020.06.11 08:14:54 INFO  time: connected to build server in 1.27s
+2020.06.11 08:14:54 INFO  Connected to Build server v1.4.0-RC1-229-b7c15aa9
+2020.06.11 08:14:55 WARN  Could not find java sources in None. Java symbols will not be available.
+2020.06.11 08:14:55 INFO  time: indexed workspace in 1.26s
+2020.06.11 08:14:55 INFO  compiling rock-the-jvm-advanced (1 scala source)
+2020.06.11 08:14:55 INFO  Deduplicating compilation of rock-the-jvm-advanced from bsp client 'Metals 0.9.0' (since 1.621s)
+2020.06.11 08:14:55 INFO  compiling rock-the-jvm-advanced (1 scala source)
+2020.06.11 08:14:57 INFO  time: compiled rock-the-jvm-advanced in 1.04s
+2020.06.11 08:15:26 INFO  started: Metals version 0.9.0 in workspace 'C:\Marci\rock-the-jvm-advanced'
+2020.06.11 08:15:27 INFO  time: initialize in 0.37s
+2020.06.11 08:15:31 INFO  skipping build import with status 'Installed'
+2020.06.11 08:15:31 INFO  no build target: using presentation compiler with only scala-library
+Starting the bsp launcher for bloop...
+Opening a bsp server connection with 'bsp --protocol tcp --port 42427'...
+Waiting for the bsp connection to come up...
+[0m[32m[D][0m Waiting for a connection at 127.0.0.1:42427...
+The server is listening for incoming connections at tcp://127.0.0.1:42427...
+Starting thread that pumps stdin and redirects it to the bsp server...
+Starting thread that pumps server stdout and redirects it to the client stdout...
+2020.06.11 08:15:32 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\User\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2020.06.11 08:15:32 INFO  time: connected to build server in 1.23s
+2020.06.11 08:15:32 INFO  Connected to Build server v1.4.0-RC1-229-b7c15aa9
+2020.06.11 08:15:34 WARN  Could not find java sources in None. Java symbols will not be available.
+2020.06.11 08:15:34 INFO  time: indexed workspace in 1.26s
+2020.06.11 08:16:47 INFO  started: Metals version 0.9.0 in workspace 'C:\Marci\rock-the-jvm-advanced'
+2020.06.11 08:16:48 INFO  time: initialize in 0.52s
+2020.06.11 08:16:52 INFO  skipping build import with status 'Installed'
+2020.06.11 08:16:52 INFO  no build target: using presentation compiler with only scala-library
+Starting the bsp launcher for bloop...
+Opening a bsp server connection with 'bsp --protocol tcp --port 37106'...
+Waiting for the bsp connection to come up...
+[0m[32m[D][0m Waiting for a connection at 127.0.0.1:37106...
+The server is listening for incoming connections at tcp://127.0.0.1:37106...
+Starting thread that pumps stdin and redirects it to the bsp server...
+Starting thread that pumps server stdout and redirects it to the client stdout...
+2020.06.11 08:16:54 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\User\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2020.06.11 08:16:54 INFO  time: connected to build server in 1.63s
+2020.06.11 08:16:54 INFO  Connected to Build server v1.4.0-RC1-229-b7c15aa9
+2020.06.11 08:16:54 INFO  time: imported build in 0.1s
+2020.06.11 08:16:55 WARN  Could not find java sources in None. Java symbols will not be available.
+2020.06.11 08:16:55 INFO  time: indexed workspace in 1.56s
+2020.06.11 08:30:11 INFO  compiling rock-the-jvm-advanced (1 scala source)
+2020.06.11 08:30:13 INFO  time: compiled rock-the-jvm-advanced in 1.33s
+2020.06.11 08:30:15 INFO  compiling rock-the-jvm-advanced (1 scala source)
+2020.06.11 08:30:16 INFO  time: compiled rock-the-jvm-advanced in 1.15s
+2020.06.11 08:31:20 INFO  compiling rock-the-jvm-advanced (1 scala source)
+2020.06.11 08:31:21 INFO  time: compiled rock-the-jvm-advanced in 1.06s
+2020.06.11 08:31:23 INFO  compiling rock-the-jvm-advanced (1 scala source)
+2020.06.11 08:31:23 INFO  time: compiled rock-the-jvm-advanced in 0.93s
+jún. 11, 2020 8:33:20 DE org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 156
+2020.06.11 08:35:11 INFO  compiling rock-the-jvm-advanced (1 scala source)
+2020.06.11 08:35:13 INFO  time: compiled rock-the-jvm-advanced in 1.57s
+2020.06.11 08:37:51 INFO  compiling rock-the-jvm-advanced (1 scala source)
+2020.06.11 08:37:53 INFO  time: compiled rock-the-jvm-advanced in 2.27s
+jún. 11, 2020 8:42:02 DE org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 97
+jún. 11, 2020 8:42:20 DE org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 245
+2020.06.11 08:42:29 INFO  compiling rock-the-jvm-advanced (1 scala source)
+2020.06.11 08:42:32 INFO  time: compiled rock-the-jvm-advanced in 2.63s
+jún. 11, 2020 8:44:04 DE org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 264
+2020.06.11 08:44:19 INFO  compiling rock-the-jvm-advanced (1 scala source)
+2020.06.11 08:44:21 INFO  time: compiled rock-the-jvm-advanced in 1.54s
+2020.06.11 08:44:23 INFO  compiling rock-the-jvm-advanced (1 scala source)
+2020.06.11 08:44:23 INFO  time: compiled rock-the-jvm-advanced in 0.94s
+2020.06.11 08:44:49 INFO  compiling rock-the-jvm-advanced (1 scala source)
+2020.06.11 08:44:51 INFO  time: compiled rock-the-jvm-advanced in 2.17s
+2020.06.11 08:45:28 INFO  compiling rock-the-jvm-advanced (1 scala source)
+2020.06.11 08:45:30 INFO  time: compiled rock-the-jvm-advanced in 1.41s
+jún. 11, 2020 8:46:02 DE org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 299
+2020.06.11 08:46:08 INFO  compiling rock-the-jvm-advanced (1 scala source)
+2020.06.11 08:46:10 INFO  time: compiled rock-the-jvm-advanced in 1.41s
+jún. 11, 2020 8:50:24 DE org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 329
+jún. 11, 2020 8:50:25 DE org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 390
+jún. 11, 2020 8:50:34 DE org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 391
+2020.06.11 08:52:52 INFO  compiling rock-the-jvm-advanced (1 scala source)
+2020.06.11 08:52:52 INFO  time: compiled rock-the-jvm-advanced in 0.24s
+2020.06.11 08:52:55 INFO  compiling rock-the-jvm-advanced (1 scala source)
+2020.06.11 08:52:55 INFO  time: compiled rock-the-jvm-advanced in 0.16s
+2020.06.11 08:53:10 INFO  compiling rock-the-jvm-advanced (1 scala source)
+2020.06.11 08:53:10 INFO  time: compiled rock-the-jvm-advanced in 0.24s
+2020.06.11 08:53:13 INFO  compiling rock-the-jvm-advanced (1 scala source)
+2020.06.11 08:53:13 INFO  time: compiled rock-the-jvm-advanced in 0.19s
+2020.06.11 08:56:12 INFO  compiling rock-the-jvm-advanced (1 scala source)
+2020.06.11 08:56:12 INFO  time: compiled rock-the-jvm-advanced in 0.24s
+2020.06.11 08:56:14 INFO  compiling rock-the-jvm-advanced (1 scala source)
+2020.06.11 08:56:14 INFO  time: compiled rock-the-jvm-advanced in 0.16s
+2020.06.11 08:56:57 INFO  compiling rock-the-jvm-advanced (1 scala source)
+2020.06.11 08:56:57 INFO  time: compiled rock-the-jvm-advanced in 0.22s
+2020.06.11 08:56:59 INFO  compiling rock-the-jvm-advanced (1 scala source)
+2020.06.11 08:56:59 INFO  time: compiled rock-the-jvm-advanced in 0.11s
+2020.06.11 08:57:20 INFO  compiling rock-the-jvm-advanced (1 scala source)
+2020.06.11 08:57:20 INFO  time: compiled rock-the-jvm-advanced in 0.15s
+2020.06.11 08:57:22 INFO  compiling rock-the-jvm-advanced (1 scala source)
+2020.06.11 08:57:22 INFO  time: compiled rock-the-jvm-advanced in 98ms
+2020.06.11 08:57:47 INFO  compiling rock-the-jvm-advanced (1 scala source)
+2020.06.11 08:57:47 INFO  time: compiled rock-the-jvm-advanced in 0.27s
+2020.06.11 08:57:50 INFO  compiling rock-the-jvm-advanced (1 scala source)
+2020.06.11 08:57:50 INFO  time: compiled rock-the-jvm-advanced in 0.15s
+2020.06.11 08:58:02 INFO  compiling rock-the-jvm-advanced (1 scala source)
+2020.06.11 08:58:03 INFO  time: compiled rock-the-jvm-advanced in 1.3s
+jún. 11, 2020 8:58:45 DE org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 400
+jún. 11, 2020 8:58:46 DE org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 563
+2020.06.11 08:58:48 INFO  compiling rock-the-jvm-advanced (1 scala source)
+2020.06.11 08:58:49 INFO  time: compiled rock-the-jvm-advanced in 1.26s
+jún. 11, 2020 8:59:32 DE org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 564
+jún. 11, 2020 8:59:33 DE org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 570
+2020.06.11 08:59:37 INFO  compiling rock-the-jvm-advanced (1 scala source)
+2020.06.11 08:59:38 INFO  time: compiled rock-the-jvm-advanced in 1.21s
+2020.06.11 09:00:02 INFO  compiling rock-the-jvm-advanced (1 scala source)
+2020.06.11 09:00:04 INFO  time: compiled rock-the-jvm-advanced in 1.58s
+2020.06.11 09:00:47 INFO  compiling rock-the-jvm-advanced (1 scala source)
+2020.06.11 09:00:50 INFO  time: compiled rock-the-jvm-advanced in 2.62s
+jún. 11, 2020 9:01:15 DE org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 571
+jún. 11, 2020 9:01:16 DE org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 605
+2020.06.11 09:01:31 INFO  compiling rock-the-jvm-advanced (1 scala source)
+2020.06.11 09:01:32 INFO  time: compiled rock-the-jvm-advanced in 1.36s
+2020.06.11 09:02:11 INFO  compiling rock-the-jvm-advanced (1 scala source)
+2020.06.11 09:02:13 INFO  time: compiled rock-the-jvm-advanced in 1.64s
+2020.06.11 09:02:40 INFO  compiling rock-the-jvm-advanced (1 scala source)
+2020.06.11 09:02:41 INFO  time: compiled rock-the-jvm-advanced in 1.36s
+jún. 11, 2020 9:03:20 DE org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 606
+2020.06.11 09:03:24 INFO  compiling rock-the-jvm-advanced (1 scala source)
+2020.06.11 09:03:26 INFO  time: compiled rock-the-jvm-advanced in 2.19s
+2020.06.11 09:30:14 INFO  started: Metals version 0.9.0 in workspace 'C:\Marci\rock-the-jvm-advanced'
+2020.06.11 09:30:14 INFO  time: initialize in 0.59s
+2020.06.11 09:30:15 INFO  skipping build import with status 'Installed'
+2020.06.11 09:30:15 INFO  no build target: using presentation compiler with only scala-library
+Starting the bsp launcher for bloop...
+Opening a bsp server connection with 'bsp --protocol tcp --port 40041'...
+Waiting for the bsp connection to come up...
+[0m[32m[D][0m Loading workspace settings from bloop.settings.json
+[0m[32m[D][0m Waiting for a connection at 127.0.0.1:40041...
+The server is listening for incoming connections at tcp://127.0.0.1:40041...
+Starting thread that pumps stdin and redirects it to the bsp server...
+Starting thread that pumps server stdout and redirects it to the client stdout...
+2020.06.11 09:30:16 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\User\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2020.06.11 09:30:17 INFO  time: connected to build server in 1.82s
+2020.06.11 09:30:17 INFO  Connected to Build server v1.4.0-RC1-229-b7c15aa9
+2020.06.11 09:30:18 WARN  Could not find java sources in None. Java symbols will not be available.
+2020.06.11 09:30:18 INFO  time: indexed workspace in 1.97s
+2020.06.11 09:31:11 INFO  Deduplicating compilation of rock-the-jvm-advanced from bsp client 'Metals 0.9.0' (since 1h 14m 17.562s)
+2020.06.11 09:31:11 INFO  compiling rock-the-jvm-advanced (1 scala source)
+2020.06.11 09:31:11 INFO  compiling rock-the-jvm-advanced (1 scala source)
+2020.06.11 09:31:13 INFO  time: compiled rock-the-jvm-advanced in 1.77s
+2020.06.11 09:31:13 INFO  time: compiled rock-the-jvm-advanced in 1.77s
+2020.06.11 09:34:49 INFO  Deduplicating compilation of rock-the-jvm-advanced from bsp client 'Metals 0.9.0' (since 1h 17m 54.83s)
+2020.06.11 09:34:49 INFO  compiling rock-the-jvm-advanced (1 scala source)
+2020.06.11 09:34:49 INFO  compiling rock-the-jvm-advanced (1 scala source)
+2020.06.11 09:34:51 INFO  time: compiled rock-the-jvm-advanced in 1.96s
+2020.06.11 09:34:51 INFO  time: compiled rock-the-jvm-advanced in 2.02s
+2020.06.11 11:10:49 INFO  started: Metals version 0.9.0 in workspace 'C:\Marci\rock-the-jvm-advanced'
+2020.06.11 11:10:49 INFO  time: initialize in 0.41s
+2020.06.11 11:10:50 INFO  skipping build import with status 'Installed'
+2020.06.11 11:10:50 INFO  no build target: using presentation compiler with only scala-library
+Starting the bsp launcher for bloop...
+Opening a bsp server connection with 'bsp --protocol tcp --port 17452'...
+Waiting for the bsp connection to come up...
+[0m[32m[D][0m Waiting for a connection at 127.0.0.1:17452...
+The server is listening for incoming connections at tcp://127.0.0.1:17452...
+Starting thread that pumps stdin and redirects it to the bsp server...
+Starting thread that pumps server stdout and redirects it to the client stdout...
+2020.06.11 11:10:51 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\User\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2020.06.11 11:10:51 INFO  time: connected to build server in 1.49s
+2020.06.11 11:10:51 INFO  Connected to Build server v1.4.0-RC1-229-b7c15aa9
+2020.06.11 11:10:53 WARN  Could not find java sources in None. Java symbols will not be available.
+2020.06.11 11:10:53 ERROR code navigation does not work for the file 'C:\Marci\rock-the-jvm-advanced\src\main\scala\exercises\MySet.scala' because the build target rock-the-jvm-advanced is being compiled. Wait until compilation is finished and try again.
+2020.06.11 11:10:53 INFO  time: indexed workspace in 2.04s
+2020.06.11 11:25:54 INFO  started: Metals version 0.9.0 in workspace 'C:\Marci\rock-the-jvm-advanced'
+2020.06.11 11:25:54 INFO  time: initialize in 0.44s
+2020.06.11 11:25:55 INFO  skipping build import with status 'Installed'
+2020.06.11 11:25:55 INFO  no build target: using presentation compiler with only scala-library
+Starting the bsp launcher for bloop...
+Opening a bsp server connection with 'bsp --protocol tcp --port 22283'...
+Waiting for the bsp connection to come up...
+[0m[32m[D][0m Waiting for a connection at 127.0.0.1:22283...
+The server is listening for incoming connections at tcp://127.0.0.1:22283...
+Starting thread that pumps stdin and redirects it to the bsp server...
+Starting thread that pumps server stdout and redirects it to the client stdout...
+2020.06.11 11:25:56 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\User\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2020.06.11 11:25:56 INFO  time: connected to build server in 1.51s
+2020.06.11 11:25:56 INFO  Connected to Build server v1.4.0-RC1-229-b7c15aa9
+2020.06.11 11:25:56 INFO  time: imported build in 0.1s
+2020.06.11 11:25:57 WARN  Could not find java sources in None. Java symbols will not be available.
+2020.06.11 11:25:57 INFO  time: indexed workspace in 1.36s
+2020.06.11 11:27:57 INFO  Deduplicating compilation of rock-the-jvm-advanced from bsp client 'Metals 0.9.0' (since 2m 1.394s)
+2020.06.11 11:27:57 INFO  compiling rock-the-jvm-advanced (1 scala source)
+2020.06.11 11:27:57 INFO  Deduplicating compilation of rock-the-jvm-advanced from bsp client 'Metals 0.9.0' (since 2m 1.392s)
+2020.06.11 11:27:57 INFO  compiling rock-the-jvm-advanced (1 scala source)
+2020.06.11 11:27:57 INFO  compiling rock-the-jvm-advanced (1 scala source)
+2020.06.11 11:27:57 INFO  Deduplicating compilation of rock-the-jvm-advanced from bsp client 'Metals 0.9.0' (since 2m 1.442s)
+2020.06.11 11:27:57 INFO  compiling rock-the-jvm-advanced (1 scala source)
+2020.06.11 11:28:00 INFO  time: compiled rock-the-jvm-advanced in 3.14s
+2020.06.11 11:28:01 INFO  time: compiled rock-the-jvm-advanced in 3.21s
+2020.06.11 11:28:01 INFO  time: compiled rock-the-jvm-advanced in 3.25s
+2020.06.11 11:28:01 INFO  time: compiled rock-the-jvm-advanced in 3.23s
+2020.06.11 11:29:35 INFO  Deduplicating compilation of rock-the-jvm-advanced from bsp client 'Metals 0.9.0' (since 1h 59m 18.367s)
+2020.06.11 11:29:35 INFO  Deduplicating compilation of rock-the-jvm-advanced from bsp client 'Metals 0.9.0' (since 1h 59m 18.393s)
+2020.06.11 11:29:35 INFO  compiling rock-the-jvm-advanced (1 scala source)
+2020.06.11 11:29:35 INFO  compiling rock-the-jvm-advanced (1 scala source)
+2020.06.11 11:29:35 INFO  compiling rock-the-jvm-advanced (1 scala source)
+2020.06.11 11:29:35 INFO  Deduplicating compilation of rock-the-jvm-advanced from bsp client 'Metals 0.9.0' (since 1h 59m 18.412s)
+2020.06.11 11:29:35 INFO  compiling rock-the-jvm-advanced (1 scala source)
+2020.06.11 11:29:35 INFO  time: compiled rock-the-jvm-advanced in 0.49s
+2020.06.11 11:29:35 INFO  time: compiled rock-the-jvm-advanced in 0.49s
+2020.06.11 11:29:35 INFO  time: compiled rock-the-jvm-advanced in 0.48s
+2020.06.11 11:29:35 INFO  time: compiled rock-the-jvm-advanced in 0.55s
+2020.06.11 11:29:38 INFO  compiling rock-the-jvm-advanced (1 scala source)
+2020.06.11 11:29:38 INFO  time: compiled rock-the-jvm-advanced in 0.21s
+2020.06.11 11:41:01 INFO  Deduplicating compilation of rock-the-jvm-advanced from bsp client 'Metals 0.9.0' (since 2h 10m 44.041s)
+2020.06.11 11:41:01 INFO  Deduplicating compilation of rock-the-jvm-advanced from bsp client 'Metals 0.9.0' (since 2h 10m 44.047s)
+2020.06.11 11:41:01 INFO  compiling rock-the-jvm-advanced (1 scala source)
+2020.06.11 11:41:01 INFO  compiling rock-the-jvm-advanced (1 scala source)
+2020.06.11 11:41:01 INFO  compiling rock-the-jvm-advanced (1 scala source)
+2020.06.11 11:41:01 INFO  Deduplicating compilation of rock-the-jvm-advanced from bsp client 'Metals 0.9.0' (since 2h 10m 44.071s)
+2020.06.11 11:41:01 INFO  compiling rock-the-jvm-advanced (1 scala source)
+2020.06.11 11:41:01 INFO  time: compiled rock-the-jvm-advanced in 0.38s
+2020.06.11 11:41:01 INFO  time: compiled rock-the-jvm-advanced in 0.38s
+2020.06.11 11:41:01 INFO  time: compiled rock-the-jvm-advanced in 0.38s
+2020.06.11 11:41:01 INFO  time: compiled rock-the-jvm-advanced in 0.37s
+2020.06.11 11:41:03 INFO  compiling rock-the-jvm-advanced (1 scala source)
+2020.06.11 11:41:03 INFO  time: compiled rock-the-jvm-advanced in 0.19s
+2020.06.11 11:42:22 INFO  Deduplicating compilation of rock-the-jvm-advanced from bsp client 'Metals 0.9.0' (since 16m 26.192s)
+2020.06.11 11:42:22 INFO  Deduplicating compilation of rock-the-jvm-advanced from bsp client 'Metals 0.9.0' (since 16m 26.194s)
+2020.06.11 11:42:22 INFO  compiling rock-the-jvm-advanced (1 scala source)
+2020.06.11 11:42:22 INFO  compiling rock-the-jvm-advanced (1 scala source)
+2020.06.11 11:42:22 INFO  compiling rock-the-jvm-advanced (1 scala source)
+2020.06.11 11:42:22 INFO  Deduplicating compilation of rock-the-jvm-advanced from bsp client 'Metals 0.9.0' (since 16m 26.396s)
+2020.06.11 11:42:22 INFO  compiling rock-the-jvm-advanced (1 scala source)
+2020.06.11 11:42:22 INFO  time: compiled rock-the-jvm-advanced in 0.31s
+2020.06.11 11:42:22 INFO  time: compiled rock-the-jvm-advanced in 0.12s
+2020.06.11 11:42:22 INFO  time: compiled rock-the-jvm-advanced in 0.31s
+2020.06.11 11:42:22 INFO  time: compiled rock-the-jvm-advanced in 0.32s
+2020.06.11 11:42:25 INFO  compiling rock-the-jvm-advanced (1 scala source)
+2020.06.11 11:42:25 INFO  time: compiled rock-the-jvm-advanced in 0.14s
+2020.06.11 11:43:25 INFO  Deduplicating compilation of rock-the-jvm-advanced from bsp client 'Metals 0.9.0' (since 17m 28.981s)
+2020.06.11 11:43:25 INFO  Deduplicating compilation of rock-the-jvm-advanced from bsp client 'Metals 0.9.0' (since 17m 29.012s)
+2020.06.11 11:43:25 INFO  Deduplicating compilation of rock-the-jvm-advanced from bsp client 'Metals 0.9.0' (since 17m 29.012s)
+2020.06.11 11:43:25 INFO  compiling rock-the-jvm-advanced (1 scala source)
+2020.06.11 11:43:25 INFO  compiling rock-the-jvm-advanced (1 scala source)
+2020.06.11 11:43:25 INFO  compiling rock-the-jvm-advanced (1 scala source)
+2020.06.11 11:43:25 INFO  compiling rock-the-jvm-advanced (1 scala source)
+2020.06.11 11:43:25 INFO  time: compiled rock-the-jvm-advanced in 0.44s
+2020.06.11 11:43:25 INFO  time: compiled rock-the-jvm-advanced in 0.44s
+2020.06.11 11:43:25 INFO  time: compiled rock-the-jvm-advanced in 0.44s
+2020.06.11 11:43:25 INFO  time: compiled rock-the-jvm-advanced in 0.46s
+2020.06.11 11:43:28 INFO  compiling rock-the-jvm-advanced (1 scala source)
+2020.06.11 11:43:28 INFO  time: compiled rock-the-jvm-advanced in 0.3s
+2020.06.11 11:43:36 INFO  Deduplicating compilation of rock-the-jvm-advanced from bsp client 'Metals 0.9.0' (since 17m 40.49s)
+2020.06.11 11:43:36 INFO  Deduplicating compilation of rock-the-jvm-advanced from bsp client 'Metals 0.9.0' (since 17m 40.49s)
+2020.06.11 11:43:36 INFO  compiling rock-the-jvm-advanced (1 scala source)
+2020.06.11 11:43:36 INFO  compiling rock-the-jvm-advanced (1 scala source)
+2020.06.11 11:43:36 INFO  compiling rock-the-jvm-advanced (1 scala source)
+2020.06.11 11:43:37 INFO  Deduplicating compilation of rock-the-jvm-advanced from bsp client 'Metals 0.9.0' (since 17m 40.49s)
+2020.06.11 11:43:37 INFO  compiling rock-the-jvm-advanced (1 scala source)
+2020.06.11 11:43:36 INFO  time: compiled rock-the-jvm-advanced in 0.48s
+2020.06.11 11:43:36 INFO  time: compiled rock-the-jvm-advanced in 0.48s
+2020.06.11 11:43:36 INFO  time: compiled rock-the-jvm-advanced in 0.48s
+2020.06.11 11:43:37 INFO  time: compiled rock-the-jvm-advanced in 0.34s
+2020.06.11 11:43:39 INFO  compiling rock-the-jvm-advanced (1 scala source)
+2020.06.11 11:43:39 INFO  time: compiled rock-the-jvm-advanced in 0.22s
+2020.06.11 11:44:50 INFO  C:\Marci\rock-the-jvm-advanced\src\main\scala\exercises\MySet.scala:4:8: stale bloop error: object typesafe is not a member of package com
+import com.typesafe.scalalogging.LazyLogging
+       ^^^^^^^^^^^^
+2020.06.11 11:44:50 INFO  C:\Marci\rock-the-jvm-advanced\src\main\scala\exercises\MySet.scala:6:44: stale bloop error: not found: type LazyLogging
+trait MySet[A] extends (A => Boolean) with LazyLogging {
+                                           ^
+2020.06.11 11:44:50 INFO  C:\Marci\rock-the-jvm-advanced\src\main\scala\exercises\MySet.scala:4:8: stale bloop error: object typesafe is not a member of package com
+import com.typesafe.scalalogging.LazyLogging
+       ^^^^^^^^^^^^
+2020.06.11 11:44:50 INFO  C:\Marci\rock-the-jvm-advanced\src\main\scala\exercises\MySet.scala:6:44: stale bloop error: not found: type LazyLogging
+trait MySet[A] extends (A => Boolean) with LazyLogging {
+                                           ^
+2020.06.11 11:44:50 INFO  C:\Marci\rock-the-jvm-advanced\src\main\scala\exercises\MySet.scala:4:8: stale bloop error: object typesafe is not a member of package com
+import com.typesafe.scalalogging.LazyLogging
+       ^^^^^^^^^^^^
+2020.06.11 11:44:50 INFO  C:\Marci\rock-the-jvm-advanced\src\main\scala\exercises\MySet.scala:6:44: stale bloop error: not found: type LazyLogging
+trait MySet[A] extends (A => Boolean) with LazyLogging {
+                                           ^
+2020.06.11 11:44:50 INFO  C:\Marci\rock-the-jvm-advanced\src\main\scala\exercises\MySet.scala:4:8: stale bloop error: object typesafe is not a member of package com
+import com.typesafe.scalalogging.LazyLogging
+       ^^^^^^^^^^^^
+2020.06.11 11:44:50 INFO  C:\Marci\rock-the-jvm-advanced\src\main\scala\exercises\MySet.scala:6:44: stale bloop error: not found: type LazyLogging
+trait MySet[A] extends (A => Boolean) with LazyLogging {
+                                           ^
+2020.06.11 11:44:51 INFO  C:\Marci\rock-the-jvm-advanced\src\main\scala\exercises\MySet.scala:4:8: stale bloop error: object typesafe is not a member of package com
+import com.typesafe.scalalogging.LazyLogging
+       ^^^^^^^^^^^^
+2020.06.11 11:44:51 INFO  C:\Marci\rock-the-jvm-advanced\src\main\scala\exercises\MySet.scala:6:44: stale bloop error: not found: type LazyLogging
+trait MySet[A] extends (A => Boolean) with LazyLogging {
+                                           ^
+2020.06.11 11:44:51 INFO  C:\Marci\rock-the-jvm-advanced\src\main\scala\exercises\MySet.scala:4:8: stale bloop error: object typesafe is not a member of package com
+import com.typesafe.scalalogging.LazyLogging
+       ^^^^^^^^^^^^
+2020.06.11 11:44:51 INFO  C:\Marci\rock-the-jvm-advanced\src\main\scala\exercises\MySet.scala:6:44: stale bloop error: not found: type LazyLogging
+trait MySet[A] extends (A => Boolean) with LazyLogging {
+                                           ^
+2020.06.11 11:44:51 INFO  C:\Marci\rock-the-jvm-advanced\src\main\scala\exercises\MySet.scala:4:8: stale bloop error: object typesafe is not a member of package com
+import com.typesafe.scalalogging.LazyLogging
+       ^^^^^^^^^^^^
+2020.06.11 11:44:51 INFO  C:\Marci\rock-the-jvm-advanced\src\main\scala\exercises\MySet.scala:6:44: stale bloop error: not found: type LazyLogging
+trait MySet[A] extends (A => Boolean) with LazyLogging {
+                                           ^
+2020.06.11 11:44:51 INFO  C:\Marci\rock-the-jvm-advanced\src\main\scala\exercises\MySet.scala:4:8: stale bloop error: object typesafe is not a member of package com
+import com.typesafe.scalalogging.LazyLogging
+       ^^^^^^^^^^^^
+2020.06.11 11:44:51 INFO  C:\Marci\rock-the-jvm-advanced\src\main\scala\exercises\MySet.scala:6:44: stale bloop error: not found: type LazyLogging
+trait MySet[A] extends (A => Boolean) with LazyLogging {
+                                           ^
+2020.06.11 11:44:51 INFO  C:\Marci\rock-the-jvm-advanced\src\main\scala\exercises\MySet.scala:4:8: stale bloop error: object typesafe is not a member of package com
+import com.typesafe.scalalogging.LazyLogging
+       ^^^^^^^^^^^^
+2020.06.11 11:44:51 INFO  C:\Marci\rock-the-jvm-advanced\src\main\scala\exercises\MySet.scala:6:44: stale bloop error: not found: type LazyLogging
+trait MySet[A] extends (A => Boolean) with LazyLogging {
+                                           ^
+2020.06.11 11:44:51 INFO  C:\Marci\rock-the-jvm-advanced\src\main\scala\exercises\MySet.scala:4:8: stale bloop error: object typesafe is not a member of package com
+import com.typesafe.scalalogging.LazyLogging
+       ^^^^^^^^^^^^
+2020.06.11 11:44:51 INFO  C:\Marci\rock-the-jvm-advanced\src\main\scala\exercises\MySet.scala:6:44: stale bloop error: not found: type LazyLogging
+trait MySet[A] extends (A => Boolean) with LazyLogging {
+                                           ^
+2020.06.11 11:44:59 INFO  C:\Marci\rock-the-jvm-advanced\src\main\scala\exercises\MySet.scala:4:8: stale bloop error: object typesafe is not a member of package com
+import com.typesafe.scalalogging.LazyLogging
+       ^^^^^^^^^^^^
+2020.06.11 11:44:59 INFO  C:\Marci\rock-the-jvm-advanced\src\main\scala\exercises\MySet.scala:6:44: stale bloop error: not found: type LazyLogging
+trait MySet[A] extends (A => Boolean) with LazyLogging {
+                                           ^
+2020.06.11 11:44:59 INFO  C:\Marci\rock-the-jvm-advanced\src\main\scala\exercises\MySet.scala:4:8: stale bloop error: object typesafe is not a member of package com
+import com.typesafe.scalalogging.LazyLogging
+       ^^^^^^^^^^^^
+2020.06.11 11:44:59 INFO  C:\Marci\rock-the-jvm-advanced\src\main\scala\exercises\MySet.scala:6:44: stale bloop error: not found: type LazyLogging
+trait MySet[A] extends (A => Boolean) with LazyLogging {
+                                           ^
+2020.06.11 11:44:59 INFO  C:\Marci\rock-the-jvm-advanced\src\main\scala\exercises\MySet.scala:4:8: stale bloop error: object typesafe is not a member of package com
+import com.typesafe.scalalogging.LazyLogging
+       ^^^^^^^^^^^^
+2020.06.11 11:44:59 INFO  C:\Marci\rock-the-jvm-advanced\src\main\scala\exercises\MySet.scala:6:44: stale bloop error: not found: type LazyLogging
+trait MySet[A] extends (A => Boolean) with LazyLogging {
+                                           ^
+2020.06.11 11:44:59 INFO  C:\Marci\rock-the-jvm-advanced\src\main\scala\exercises\MySet.scala:4:8: stale bloop error: object typesafe is not a member of package com
+import com.typesafe.scalalogging.LazyLogging
+       ^^^^^^^^^^^^
+2020.06.11 11:44:59 INFO  C:\Marci\rock-the-jvm-advanced\src\main\scala\exercises\MySet.scala:6:44: stale bloop error: not found: type LazyLogging
+trait MySet[A] extends (A => Boolean) with LazyLogging {
+                                           ^
+2020.06.11 11:45:01 INFO  compiling rock-the-jvm-advanced (1 scala source)
+2020.06.11 11:45:01 INFO  time: compiled rock-the-jvm-advanced in 0.33s
+2020.06.11 11:45:04 INFO  compiling rock-the-jvm-advanced (1 scala source)
+2020.06.11 11:45:04 INFO  time: compiled rock-the-jvm-advanced in 0.25s
+2020.06.11 11:47:56 INFO  started: Metals version 0.9.0 in workspace 'C:\Marci\rock-the-jvm-advanced'
+2020.06.11 11:47:57 INFO  time: initialize in 0.41s
+2020.06.11 11:48:02 INFO  no build target: using presentation compiler with only scala-library
+Starting the bsp launcher for bloop...
+Opening a bsp server connection with 'bsp --protocol tcp --port 44226'...
+Waiting for the bsp connection to come up...
+[0m[32m[D][0m Loading workspace settings from bloop.settings.json
+[0m[32m[D][0m Waiting for a connection at 127.0.0.1:44226...
+The server is listening for incoming connections at tcp://127.0.0.1:44226...
+Starting thread that pumps stdin and redirects it to the bsp server...
+Starting thread that pumps server stdout and redirects it to the client stdout...
+2020.06.11 11:48:03 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\User\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2020.06.11 11:48:03 INFO  time: connected to build server in 1.45s
+2020.06.11 11:48:03 INFO  Connected to Build server v1.4.0-RC1-229-b7c15aa9
+2020.06.11 11:48:04 WARN  Could not find java sources in None. Java symbols will not be available.
+2020.06.11 11:48:04 INFO  time: indexed workspace in 1.32s
+2020.06.11 11:48:04 INFO  compiling rock-the-jvm-advanced (1 scala source)
+2020.06.11 11:48:04 INFO  Deduplicating compilation of rock-the-jvm-advanced from bsp client 'Metals 0.9.0' (since 1.633s)
+2020.06.11 11:48:04 INFO  compiling rock-the-jvm-advanced (1 scala source)
+2020.06.11 11:48:05 INFO  time: compiled rock-the-jvm-advanced in 0.98s
+2020.06.11 11:48:09 INFO  running 'C:\Program Files (x86)\Java\jre1.8.0_191\bin\java -Djline.terminal=jline.UnsupportedTerminal -Dsbt.log.noformat=true -Dfile.encoding=UTF-8 -jar C:\Users\User\AppData\Local\Temp\metals4229854135316646233\sbt-launch.jar -Dbloop.export-jar-classifiers=sources bloopInstall'
+2020.06.11 11:48:13 INFO  [info] welcome to sbt 1.3.12 (Oracle Corporation Java 1.8.0_191)
+2020.06.11 11:48:15 INFO  [info] loading global plugins from C:\Users\User\.sbt\1.0\plugins
+2020.06.11 11:48:17 INFO  [info] loading settings for project rock-the-jvm-advanced-build from metals.sbt ...
+2020.06.11 11:48:17 INFO  [info] loading project definition from C:\Marci\rock-the-jvm-advanced\project
+2020.06.11 11:48:17 INFO  [info] loading settings for project rock-the-jvm-advanced from build.sbt ...
+2020.06.11 11:48:17 INFO  [info] set current project to rock-the-jvm-advanced (in build file:/C:/Marci/rock-the-jvm-advanced/)
+2020.06.11 11:48:18 INFO  [success] Generated .bloop\rock-the-jvm-advanced-test.json
+2020.06.11 11:48:18 INFO  [success] Generated .bloop\rock-the-jvm-advanced.json
+2020.06.11 11:48:18 INFO  [success] Total time: 0 s, completed 2020.06.11. 11:48:18
+2020.06.11 11:48:18 INFO  build tool exit: 0
+2020.06.11 11:48:18 INFO  time: ran 'sbt bloopInstall' in 9.31s
+2020.06.11 11:48:18 INFO  disconnected: build server
+No more data in the client stdin, exiting...
+No more data in the server stdin, exiting...
+Starting the bsp launcher for bloop...
+Opening a bsp server connection with 'bsp --protocol tcp --port 43460'...
+Waiting for the bsp connection to come up...
+[0m[32m[D][0m Loading workspace settings from bloop.settings.json
+[0m[32m[D][0m Loading 2 projects from 'C:\Marci\rock-the-jvm-advanced\.bloop'...
+[0m[32m[D][0m Loading project from 'C:\Marci\rock-the-jvm-advanced\.bloop\rock-the-jvm-advanced.json'
+[0m[32m[D][0m Loading project from 'C:\Marci\rock-the-jvm-advanced\.bloop\rock-the-jvm-advanced-test.json'
+[0m[32m[D][0m Configured SemanticDB in projects 'rock-the-jvm-advanced', 'rock-the-jvm-advanced-test'
+[0m[32m[D][0m Waiting for a connection at 127.0.0.1:43460...
+The server is listening for incoming connections at tcp://127.0.0.1:43460...
+Starting thread that pumps stdin and redirects it to the bsp server...
+Starting thread that pumps server stdout and redirects it to the client stdout...
+2020.06.11 11:48:19 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\User\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2020.06.11 11:48:18 INFO  time: connected to build server in 0.58s
+2020.06.11 11:48:18 INFO  Connected to Build server v1.4.0-RC1-229-b7c15aa9
+2020.06.11 11:48:20 WARN  Could not find java sources in None. Java symbols will not be available.
+2020.06.11 11:48:20 INFO  time: indexed workspace in 0.81s
+2020.06.11 11:48:20 INFO  compiling rock-the-jvm-advanced (8 scala sources)
+2020.06.11 11:48:23 INFO  time: compiled rock-the-jvm-advanced in 3.25s
+2020.06.11 11:48:42 INFO  running 'C:\Program Files (x86)\Java\jre1.8.0_191\bin\java -Djline.terminal=jline.UnsupportedTerminal -Dsbt.log.noformat=true -Dfile.encoding=UTF-8 -jar C:\Users\User\AppData\Local\Temp\metals5623907167704394810\sbt-launch.jar -Dbloop.export-jar-classifiers=sources bloopInstall'
+2020.06.11 11:48:46 INFO  [info] welcome to sbt 1.3.12 (Oracle Corporation Java 1.8.0_191)
+2020.06.11 11:48:48 INFO  [info] loading global plugins from C:\Users\User\.sbt\1.0\plugins
+2020.06.11 11:48:49 INFO  [info] loading settings for project rock-the-jvm-advanced-build from metals.sbt ...
+2020.06.11 11:48:49 INFO  [info] loading project definition from C:\Marci\rock-the-jvm-advanced\project
+2020.06.11 11:48:49 INFO  [info] loading settings for project rock-the-jvm-advanced from build.sbt ...
+2020.06.11 11:48:49 INFO  [info] set current project to rock-the-jvm-advanced (in build file:/C:/Marci/rock-the-jvm-advanced/)
+2020.06.11 11:48:51 INFO  [success] Generated .bloop\rock-the-jvm-advanced.json
+2020.06.11 11:48:51 INFO  [success] Generated .bloop\rock-the-jvm-advanced-test.json
+2020.06.11 11:48:51 INFO  [success] Total time: 0 s, completed 2020.06.11. 11:48:51
+2020.06.11 11:48:51 INFO  build tool exit: 0
+2020.06.11 11:48:51 INFO  time: ran 'sbt bloopInstall' in 8.69s
+2020.06.11 11:48:51 INFO  disconnected: build server
+No more data in the client stdin, exiting...
+No more data in the server stdin, exiting...
+Starting the bsp launcher for bloop...
+Opening a bsp server connection with 'bsp --protocol tcp --port 19595'...
+Waiting for the bsp connection to come up...
+[0m[32m[D][0m Loading workspace settings from bloop.settings.json
+[0m[32m[D][0m Waiting for a connection at 127.0.0.1:19595...
+The server is listening for incoming connections at tcp://127.0.0.1:19595...
+Starting thread that pumps stdin and redirects it to the bsp server...
+Starting thread that pumps server stdout and redirects it to the client stdout...
+2020.06.11 11:48:51 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\User\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2020.06.11 11:48:51 INFO  time: connected to build server in 0.55s
+2020.06.11 11:48:51 INFO  Connected to Build server v1.4.0-RC1-229-b7c15aa9
+2020.06.11 11:48:51 WARN  Could not find java sources in None. Java symbols will not be available.
+2020.06.11 11:48:51 INFO  time: indexed workspace in 0.65s
+2020.06.11 11:50:10 INFO  compiling rock-the-jvm-advanced (1 scala source)
+2020.06.11 11:50:10 INFO  time: compiled rock-the-jvm-advanced in 0.21s
+2020.06.11 11:50:12 INFO  compiling rock-the-jvm-advanced (1 scala source)
+2020.06.11 11:50:12 INFO  time: compiled rock-the-jvm-advanced in 0.11s
+2020.06.11 14:52:47 INFO  compiling rock-the-jvm-advanced (1 scala source)
+2020.06.11 14:52:47 INFO  time: compiled rock-the-jvm-advanced in 0.29s
+2020.06.11 14:52:49 INFO  compiling rock-the-jvm-advanced (1 scala source)
+2020.06.11 14:52:49 INFO  time: compiled rock-the-jvm-advanced in 0.18s
+2020.06.11 14:52:54 INFO  compiling rock-the-jvm-advanced (1 scala source)
+2020.06.11 14:52:56 INFO  time: compiled rock-the-jvm-advanced in 2.19s
+2020.06.11 14:59:07 INFO  compiling rock-the-jvm-advanced (1 scala source)
+2020.06.11 14:59:08 INFO  time: compiled rock-the-jvm-advanced in 1.49s
+2020.06.11 15:00:51 INFO  compiling rock-the-jvm-advanced (1 scala source)
+2020.06.11 15:00:53 INFO  time: compiled rock-the-jvm-advanced in 1.51s
+2020.06.11 15:01:11 INFO  compiling rock-the-jvm-advanced (1 scala source)
+2020.06.11 15:01:13 INFO  time: compiled rock-the-jvm-advanced in 1.45s
+2020.06.11 15:06:11 INFO  compiling rock-the-jvm-advanced (1 scala source)
+2020.06.11 15:06:13 INFO  time: compiled rock-the-jvm-advanced in 1.71s
+2020.06.11 16:02:02 INFO  compiling rock-the-jvm-advanced-test (1 scala source)
+2020.06.11 16:02:02 INFO  time: compiled rock-the-jvm-advanced-test in 0.71s
+2020.06.11 16:04:21 INFO  compiling rock-the-jvm-advanced-test (1 scala source)
+2020.06.11 16:04:21 INFO  time: compiled rock-the-jvm-advanced-test in 0.58s
+2020.06.11 16:59:19 INFO  compiling rock-the-jvm-advanced-test (1 scala source)
+2020.06.11 16:59:19 INFO  time: compiled rock-the-jvm-advanced-test in 0.27s
+2020.06.11 16:59:22 INFO  compiling rock-the-jvm-advanced-test (1 scala source)
+2020.06.11 16:59:22 INFO  time: compiled rock-the-jvm-advanced-test in 0.22s
+2020.06.11 17:45:24 INFO  running 'C:\Program Files (x86)\Java\jre1.8.0_191\bin\java -Djline.terminal=jline.UnsupportedTerminal -Dsbt.log.noformat=true -Dfile.encoding=UTF-8 -jar C:\Users\User\AppData\Local\Temp\metals7362082930333369127\sbt-launch.jar -Dbloop.export-jar-classifiers=sources bloopInstall'
+2020.06.11 17:45:31 INFO  [info] welcome to sbt 1.3.12 (Oracle Corporation Java 1.8.0_191)
+2020.06.11 17:45:33 INFO  [info] loading global plugins from C:\Users\User\.sbt\1.0\plugins
+2020.06.11 17:45:35 INFO  [info] loading settings for project rock-the-jvm-advanced-build from metals.sbt ...
+2020.06.11 17:45:35 INFO  [info] loading project definition from C:\Marci\rock-the-jvm-advanced\project
+2020.06.11 17:45:38 INFO  [info] loading settings for project rock-the-jvm-advanced from build.sbt ...
+2020.06.11 17:45:38 INFO  [info] set current project to rock-the-jvm-advanced (in build file:/C:/Marci/rock-the-jvm-advanced/)
+2020.06.11 17:45:40 INFO  [warn] 
+2020.06.11 17:45:40 INFO  [warn] 	Note: Unresolved dependencies path:
+2020.06.11 17:45:40 INFO  [error] sbt.librarymanagement.ResolveException: Error downloading com.scalatest.Matchers:scalatest-matchers-core_2.11_2.13:3.0.0-SNAP13
+2020.06.11 17:45:40 INFO  [error]   Not found
+2020.06.11 17:45:40 INFO  [error]   Not found
+2020.06.11 17:45:40 INFO  [error]   not found: C:\Users\User\.ivy2\local\com.scalatest.Matchers\scalatest-matchers-core_2.11_2.13\3.0.0-SNAP13\ivys\ivy.xml
+2020.06.11 17:45:40 INFO  [error]   not found: https://repo1.maven.org/maven2/com/scalatest/Matchers/scalatest-matchers-core_2.11_2.13/3.0.0-SNAP13/scalatest-matchers-core_2.11_2.13-3.0.0-SNAP13.pom
+2020.06.11 17:45:40 INFO  [error] 	at lmcoursier.CoursierDependencyResolution.unresolvedWarningOrThrow(CoursierDependencyResolution.scala:249)
+2020.06.11 17:45:40 INFO  [error] 	at lmcoursier.CoursierDependencyResolution.$anonfun$update$35(CoursierDependencyResolution.scala:218)
+2020.06.11 17:45:40 INFO  [error] 	at scala.util.Either$LeftProjection.map(Either.scala:573)
+2020.06.11 17:45:40 INFO  [error] 	at lmcoursier.CoursierDependencyResolution.update(CoursierDependencyResolution.scala:218)
+2020.06.11 17:45:40 INFO  [error] 	at sbt.librarymanagement.DependencyResolution.update(DependencyResolution.scala:60)
+2020.06.11 17:45:40 INFO  [error] 	at sbt.internal.LibraryManagement$.resolve$1(LibraryManagement.scala:52)
+2020.06.11 17:45:40 INFO  [error] 	at sbt.internal.LibraryManagement$.$anonfun$cachedUpdate$12(LibraryManagement.scala:102)
+2020.06.11 17:45:40 INFO  [error] 	at sbt.util.Tracked$.$anonfun$lastOutput$1(Tracked.scala:69)
+2020.06.11 17:45:40 INFO  [error] 	at sbt.internal.LibraryManagement$.$anonfun$cachedUpdate$20(LibraryManagement.scala:115)
+2020.06.11 17:45:40 INFO  [error] 	at scala.util.control.Exception$Catch.apply(Exception.scala:228)
+2020.06.11 17:45:40 INFO  [error] 	at sbt.internal.LibraryManagement$.$anonfun$cachedUpdate$11(LibraryManagement.scala:115)
+2020.06.11 17:45:40 INFO  [error] 	at sbt.internal.LibraryManagement$.$anonfun$cachedUpdate$11$adapted(LibraryManagement.scala:96)
+2020.06.11 17:45:40 INFO  [error] 	at sbt.util.Tracked$.$anonfun$inputChanged$1(Tracked.scala:150)
+2020.06.11 17:45:40 INFO  [error] 	at sbt.internal.LibraryManagement$.cachedUpdate(LibraryManagement.scala:129)
+2020.06.11 17:45:40 INFO  [error] 	at sbt.Classpaths$.$anonfun$updateTask0$5(Defaults.scala:2950)
+2020.06.11 17:45:40 INFO  [error] 	at scala.Function1.$anonfun$compose$1(Function1.scala:49)
+2020.06.11 17:45:40 INFO  [error] 	at sbt.internal.util.$tilde$greater.$anonfun$$u2219$1(TypeFunctions.scala:62)
+2020.06.11 17:45:40 INFO  [error] 	at sbt.std.Transform$$anon$4.work(Transform.scala:67)
+2020.06.11 17:45:40 INFO  [error] 	at sbt.Execute.$anonfun$submit$2(Execute.scala:281)
+2020.06.11 17:45:40 INFO  [error] 	at sbt.internal.util.ErrorHandling$.wideConvert(ErrorHandling.scala:19)
+2020.06.11 17:45:40 INFO  [error] 	at sbt.Execute.work(Execute.scala:290)
+2020.06.11 17:45:40 INFO  [error] 	at sbt.Execute.$anonfun$submit$1(Execute.scala:281)
+2020.06.11 17:45:40 INFO  [error] 	at sbt.ConcurrentRestrictions$$anon$4.$anonfun$submitValid$1(ConcurrentRestrictions.scala:178)
+2020.06.11 17:45:40 INFO  [error] 	at sbt.CompletionService$$anon$2.call(CompletionService.scala:37)
+2020.06.11 17:45:40 INFO  [error] 	at java.util.concurrent.FutureTask.run(Unknown Source)
+2020.06.11 17:45:40 INFO  [error] 	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+2020.06.11 17:45:40 INFO  [error] 	at java.util.concurrent.FutureTask.run(Unknown Source)
+2020.06.11 17:45:40 INFO  [error] 	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+2020.06.11 17:45:40 INFO  [error] 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+2020.06.11 17:45:40 INFO  [error] 	at java.lang.Thread.run(Unknown Source)
+2020.06.11 17:45:40 INFO  [error] (update) sbt.librarymanagement.ResolveException: Error downloading com.scalatest.Matchers:scalatest-matchers-core_2.11_2.13:3.0.0-SNAP13
+2020.06.11 17:45:40 INFO  [error]   Not found
+2020.06.11 17:45:40 INFO  [error]   Not found
+2020.06.11 17:45:40 INFO  [error]   not found: C:\Users\User\.ivy2\local\com.scalatest.Matchers\scalatest-matchers-core_2.11_2.13\3.0.0-SNAP13\ivys\ivy.xml
+2020.06.11 17:45:40 INFO  [error]   not found: https://repo1.maven.org/maven2/com/scalatest/Matchers/scalatest-matchers-core_2.11_2.13/3.0.0-SNAP13/scalatest-matchers-core_2.11_2.13-3.0.0-SNAP13.pom
+2020.06.11 17:45:40 INFO  [error] Total time: 2 s, completed 2020.06.11. 17:45:41
+2020.06.11 17:45:40 INFO  build tool exit: 1
+2020.06.11 17:45:41 INFO  time: ran 'sbt bloopInstall' in 16s
+2020.06.11 17:45:41 INFO  disconnected: build server
+2020.06.11 17:45:41 ERROR sbt command failed: C:\Program Files (x86)\Java\jre1.8.0_191\bin\java -Djline.terminal=jline.UnsupportedTerminal -Dsbt.log.noformat=true -Dfile.encoding=UTF-8 -jar C:\Users\User\AppData\Local\Temp\metals7362082930333369127\sbt-launch.jar -Dbloop.export-jar-classifiers=sources bloopInstall
+No more data in the client stdin, exiting...
+No more data in the server stdin, exiting...
+Starting the bsp launcher for bloop...
+Opening a bsp server connection with 'bsp --protocol tcp --port 15791'...
+Waiting for the bsp connection to come up...
+[0m[32m[D][0m Loading workspace settings from bloop.settings.json
+[0m[32m[D][0m Waiting for a connection at 127.0.0.1:15791...
+The server is listening for incoming connections at tcp://127.0.0.1:15791...
+Starting thread that pumps stdin and redirects it to the bsp server...
+Starting thread that pumps server stdout and redirects it to the client stdout...
+2020.06.11 17:45:41 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\User\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2020.06.11 17:45:41 INFO  time: connected to build server in 0.72s
+2020.06.11 17:45:41 INFO  Connected to Build server v1.4.0-RC1-229-b7c15aa9
+2020.06.11 17:45:42 WARN  Could not find java sources in None. Java symbols will not be available.
+2020.06.11 17:45:42 INFO  time: indexed workspace in 1.3s
+2020.06.11 17:45:43 INFO  compiling rock-the-jvm-advanced-test (1 scala source)
+2020.06.11 17:45:43 INFO  time: compiled rock-the-jvm-advanced-test in 0.34s
+2020.06.11 17:46:23 INFO  running 'C:\Program Files (x86)\Java\jre1.8.0_191\bin\java -Djline.terminal=jline.UnsupportedTerminal -Dsbt.log.noformat=true -Dfile.encoding=UTF-8 -jar C:\Users\User\AppData\Local\Temp\metals361472150542875443\sbt-launch.jar -Dbloop.export-jar-classifiers=sources bloopInstall'
+2020.06.11 17:46:27 INFO  [info] welcome to sbt 1.3.12 (Oracle Corporation Java 1.8.0_191)
+2020.06.11 17:46:30 INFO  [info] loading global plugins from C:\Users\User\.sbt\1.0\plugins
+2020.06.11 17:46:32 INFO  [info] loading settings for project rock-the-jvm-advanced-build from metals.sbt ...
+2020.06.11 17:46:32 INFO  [info] loading project definition from C:\Marci\rock-the-jvm-advanced\project
+2020.06.11 17:46:34 INFO  [info] loading settings for project rock-the-jvm-advanced from build.sbt ...
+2020.06.11 17:46:34 INFO  [info] set current project to rock-the-jvm-advanced (in build file:/C:/Marci/rock-the-jvm-advanced/)
+2020.06.11 17:46:36 INFO  [warn] 
+2020.06.11 17:46:36 INFO  [warn] 	Note: Unresolved dependencies path:
+2020.06.11 17:46:36 INFO  [error] sbt.librarymanagement.ResolveException: Error downloading org.scalatest:scalatest-matchers-core_2.13:3.0.0-SNAP13
+2020.06.11 17:46:36 INFO  [error]   Not found
+2020.06.11 17:46:36 INFO  [error]   Not found
+2020.06.11 17:46:36 INFO  [error]   not found: C:\Users\User\.ivy2\local\org.scalatest\scalatest-matchers-core_2.13\3.0.0-SNAP13\ivys\ivy.xml
+2020.06.11 17:46:36 INFO  [error]   not found: https://repo1.maven.org/maven2/org/scalatest/scalatest-matchers-core_2.13/3.0.0-SNAP13/scalatest-matchers-core_2.13-3.0.0-SNAP13.pom
+2020.06.11 17:46:36 INFO  [error] 	at lmcoursier.CoursierDependencyResolution.unresolvedWarningOrThrow(CoursierDependencyResolution.scala:249)
+2020.06.11 17:46:36 INFO  [error] 	at lmcoursier.CoursierDependencyResolution.$anonfun$update$35(CoursierDependencyResolution.scala:218)
+2020.06.11 17:46:36 INFO  [error] 	at scala.util.Either$LeftProjection.map(Either.scala:573)
+2020.06.11 17:46:36 INFO  [error] 	at lmcoursier.CoursierDependencyResolution.update(CoursierDependencyResolution.scala:218)
+2020.06.11 17:46:36 INFO  [error] 	at sbt.librarymanagement.DependencyResolution.update(DependencyResolution.scala:60)
+2020.06.11 17:46:36 INFO  [error] 	at sbt.internal.LibraryManagement$.resolve$1(LibraryManagement.scala:52)
+2020.06.11 17:46:36 INFO  [error] 	at sbt.internal.LibraryManagement$.$anonfun$cachedUpdate$12(LibraryManagement.scala:102)
+2020.06.11 17:46:36 INFO  [error] 	at sbt.util.Tracked$.$anonfun$lastOutput$1(Tracked.scala:69)
+2020.06.11 17:46:36 INFO  [error] 	at sbt.internal.LibraryManagement$.$anonfun$cachedUpdate$20(LibraryManagement.scala:115)
+2020.06.11 17:46:36 INFO  [error] 	at scala.util.control.Exception$Catch.apply(Exception.scala:228)
+2020.06.11 17:46:36 INFO  [error] 	at sbt.internal.LibraryManagement$.$anonfun$cachedUpdate$11(LibraryManagement.scala:115)
+2020.06.11 17:46:36 INFO  [error] 	at sbt.internal.LibraryManagement$.$anonfun$cachedUpdate$11$adapted(LibraryManagement.scala:96)
+2020.06.11 17:46:36 INFO  [error] 	at sbt.util.Tracked$.$anonfun$inputChanged$1(Tracked.scala:150)
+2020.06.11 17:46:36 INFO  [error] 	at sbt.internal.LibraryManagement$.cachedUpdate(LibraryManagement.scala:129)
+2020.06.11 17:46:36 INFO  [error] 	at sbt.Classpaths$.$anonfun$updateTask0$5(Defaults.scala:2950)
+2020.06.11 17:46:36 INFO  [error] 	at scala.Function1.$anonfun$compose$1(Function1.scala:49)
+2020.06.11 17:46:36 INFO  [error] 	at sbt.internal.util.$tilde$greater.$anonfun$$u2219$1(TypeFunctions.scala:62)
+2020.06.11 17:46:36 INFO  [error] 	at sbt.std.Transform$$anon$4.work(Transform.scala:67)
+2020.06.11 17:46:36 INFO  [error] 	at sbt.Execute.$anonfun$submit$2(Execute.scala:281)
+2020.06.11 17:46:36 INFO  [error] 	at sbt.internal.util.ErrorHandling$.wideConvert(ErrorHandling.scala:19)
+2020.06.11 17:46:36 INFO  [error] 	at sbt.Execute.work(Execute.scala:290)
+2020.06.11 17:46:36 INFO  [error] 	at sbt.Execute.$anonfun$submit$1(Execute.scala:281)
+2020.06.11 17:46:36 INFO  [error] 	at sbt.ConcurrentRestrictions$$anon$4.$anonfun$submitValid$1(ConcurrentRestrictions.scala:178)
+2020.06.11 17:46:36 INFO  [error] 	at sbt.CompletionService$$anon$2.call(CompletionService.scala:37)
+2020.06.11 17:46:36 INFO  [error] 	at java.util.concurrent.FutureTask.run(Unknown Source)
+2020.06.11 17:46:36 INFO  [error] 	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+2020.06.11 17:46:36 INFO  [error] 	at java.util.concurrent.FutureTask.run(Unknown Source)
+2020.06.11 17:46:36 INFO  [error] 	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+2020.06.11 17:46:36 INFO  [error] 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+2020.06.11 17:46:36 INFO  [error] 	at java.lang.Thread.run(Unknown Source)
+2020.06.11 17:46:36 INFO  [error] (update) sbt.librarymanagement.ResolveException: Error downloading org.scalatest:scalatest-matchers-core_2.13:3.0.0-SNAP13
+2020.06.11 17:46:36 INFO  [error]   Not found
+2020.06.11 17:46:36 INFO  [error]   Not found
+2020.06.11 17:46:36 INFO  [error]   not found: C:\Users\User\.ivy2\local\org.scalatest\scalatest-matchers-core_2.13\3.0.0-SNAP13\ivys\ivy.xml
+2020.06.11 17:46:36 INFO  [error]   not found: https://repo1.maven.org/maven2/org/scalatest/scalatest-matchers-core_2.13/3.0.0-SNAP13/scalatest-matchers-core_2.13-3.0.0-SNAP13.pom
+2020.06.11 17:46:36 INFO  [error] Total time: 1 s, completed 2020.06.11. 17:46:36
+2020.06.11 17:46:36 INFO  build tool exit: 1
+2020.06.11 17:46:36 INFO  time: ran 'sbt bloopInstall' in 13s
+2020.06.11 17:46:36 ERROR sbt command failed: C:\Program Files (x86)\Java\jre1.8.0_191\bin\java -Djline.terminal=jline.UnsupportedTerminal -Dsbt.log.noformat=true -Dfile.encoding=UTF-8 -jar C:\Users\User\AppData\Local\Temp\metals361472150542875443\sbt-launch.jar -Dbloop.export-jar-classifiers=sources bloopInstall
+2020.06.11 17:46:36 INFO  disconnected: build server
+No more data in the client stdin, exiting...
+No more data in the server stdin, exiting...
+Starting the bsp launcher for bloop...
+Opening a bsp server connection with 'bsp --protocol tcp --port 12847'...
+Waiting for the bsp connection to come up...
+[0m[32m[D][0m Loading workspace settings from bloop.settings.json
+[0m[32m[D][0m Waiting for a connection at 127.0.0.1:12847...
+The server is listening for incoming connections at tcp://127.0.0.1:12847...
+Starting thread that pumps stdin and redirects it to the bsp server...
+Starting thread that pumps server stdout and redirects it to the client stdout...
+2020.06.11 17:46:37 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\User\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2020.06.11 17:46:37 INFO  time: connected to build server in 0.66s
+2020.06.11 17:46:37 INFO  Connected to Build server v1.4.0-RC1-229-b7c15aa9
+2020.06.11 17:46:37 INFO  time: imported build in 0.14s
+2020.06.11 17:46:37 WARN  Could not find java sources in None. Java symbols will not be available.
+2020.06.11 17:46:37 INFO  time: indexed workspace in 0.53s
+2020.06.11 17:46:38 INFO  compiling rock-the-jvm-advanced-test (1 scala source)
+2020.06.11 17:46:38 INFO  time: compiled rock-the-jvm-advanced-test in 0.46s
+2020.06.11 18:01:58 INFO  started: Metals version 0.9.0 in workspace 'C:\Marci\rock-the-jvm-advanced'
+2020.06.11 18:01:59 INFO  time: initialize in 0.8s
+2020.06.11 18:02:04 INFO  skipping build import with status 'Failed'
+2020.06.11 18:02:04 INFO  no build target: using presentation compiler with only scala-library
+Starting the bsp launcher for bloop...
+Opening a bsp server connection with 'bsp --protocol tcp --port 39479'...
+Waiting for the bsp connection to come up...
+[0m[32m[D][0m Loading workspace settings from bloop.settings.json
+[0m[32m[D][0m Waiting for a connection at 127.0.0.1:39479...
+The server is listening for incoming connections at tcp://127.0.0.1:39479...
+Starting thread that pumps stdin and redirects it to the bsp server...
+Starting thread that pumps server stdout and redirects it to the client stdout...
+2020.06.11 18:02:06 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\User\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2020.06.11 18:02:06 INFO  time: connected to build server in 2.22s
+2020.06.11 18:02:06 INFO  Connected to Build server v1.4.0-RC1-229-b7c15aa9
+2020.06.11 18:02:06 INFO  time: imported build in 0.12s
+2020.06.11 18:02:08 WARN  Could not find java sources in None. Java symbols will not be available.
+2020.06.11 18:02:08 INFO  time: indexed workspace in 2.42s
+2020.06.11 18:02:08 INFO  Deduplicating compilation of rock-the-jvm-advanced from bsp client 'Metals 0.9.0' (since 2.659s)
+2020.06.11 18:02:08 INFO  Deduplicating compilation of rock-the-jvm-advanced-test from bsp client 'Metals 0.9.0' (since 2.702s)
+2020.06.11 18:02:08 INFO  compiling rock-the-jvm-advanced-test (1 scala source)
+2020.06.11 18:02:08 INFO  compiling rock-the-jvm-advanced-test (1 scala source)
+2020.06.11 18:02:11 INFO  time: compiled rock-the-jvm-advanced-test in 2.14s
+2020.06.11 18:08:20 INFO  compiling rock-the-jvm-advanced-test (1 scala source)
+2020.06.11 18:08:20 INFO  time: compiled rock-the-jvm-advanced-test in 0.14s
+2020.06.11 18:09:04 INFO  compiling rock-the-jvm-advanced-test (1 scala source)
+2020.06.11 18:09:04 INFO  time: compiled rock-the-jvm-advanced-test in 0.42s
+2020.06.11 18:17:47 INFO  compiling rock-the-jvm-advanced-test (1 scala source)
+2020.06.11 18:17:49 INFO  time: compiled rock-the-jvm-advanced-test in 1.2s
+2020.06.11 18:20:07 INFO  compiling rock-the-jvm-advanced-test (1 scala source)
+2020.06.11 18:20:07 INFO  time: compiled rock-the-jvm-advanced-test in 0.53s
+2020.06.11 18:25:01 INFO  compiling rock-the-jvm-advanced-test (1 scala source)
+2020.06.11 18:25:01 INFO  time: compiled rock-the-jvm-advanced-test in 0.2s
+2020.06.11 18:25:12 INFO  compiling rock-the-jvm-advanced-test (1 scala source)
+2020.06.11 18:25:12 INFO  time: compiled rock-the-jvm-advanced-test in 0.21s
+2020.06.11 18:25:14 INFO  compiling rock-the-jvm-advanced-test (1 scala source)
+2020.06.11 18:25:14 INFO  time: compiled rock-the-jvm-advanced-test in 0.12s
+2020.06.11 18:25:43 INFO  running 'C:\Program Files (x86)\Java\jre1.8.0_191\bin\java -Djline.terminal=jline.UnsupportedTerminal -Dsbt.log.noformat=true -Dfile.encoding=UTF-8 -jar C:\Users\User\AppData\Local\Temp\metals7825340166452794153\sbt-launch.jar -Dbloop.export-jar-classifiers=sources bloopInstall'
+2020.06.11 18:25:48 INFO  [info] welcome to sbt 1.3.12 (Oracle Corporation Java 1.8.0_191)
+2020.06.11 18:25:50 INFO  [info] loading global plugins from C:\Users\User\.sbt\1.0\plugins
+2020.06.11 18:25:52 INFO  [info] loading settings for project rock-the-jvm-advanced-build from metals.sbt ...
+2020.06.11 18:25:52 INFO  [info] loading project definition from C:\Marci\rock-the-jvm-advanced\project
+2020.06.11 18:25:52 INFO  [info] loading settings for project rock-the-jvm-advanced from build.sbt ...
+2020.06.11 18:25:53 INFO  [info] set current project to rock-the-jvm-advanced (in build file:/C:/Marci/rock-the-jvm-advanced/)
+2020.06.11 18:25:58 INFO  [success] Generated .bloop\rock-the-jvm-advanced.json
+2020.06.11 18:25:58 INFO  [success] Generated .bloop\rock-the-jvm-advanced-test.json
+2020.06.11 18:25:58 INFO  [success] Total time: 4 s, completed 2020.06.11. 18:25:58
+2020.06.11 18:25:58 INFO  time: ran 'sbt bloopInstall' in 14s
+2020.06.11 18:25:58 INFO  build tool exit: 0
+2020.06.11 18:25:58 INFO  disconnected: build server
+No more data in the client stdin, exiting...
+2020.06.11 18:26:01 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\User\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2020.06.11 18:26:01 INFO  time: connected to build server in 2.33s
+2020.06.11 18:26:01 INFO  Connected to Build server v1.4.0-RC1-229-b7c15aa9
+2020.06.11 18:26:01 INFO  time: imported build in 0.11s
+2020.06.11 18:26:02 WARN  Could not find java sources in None. Java symbols will not be available.
+2020.06.11 18:26:05 INFO  time: indexed workspace in 4.17s
+2020.06.11 18:26:06 INFO  compiling rock-the-jvm-advanced (8 scala sources)
+2020.06.11 18:26:14 INFO  time: compiled rock-the-jvm-advanced in 8.49s
+2020.06.11 18:26:14 INFO  compiling rock-the-jvm-advanced-test (1 scala source)
+2020.06.11 18:26:14 INFO  time: compiled rock-the-jvm-advanced-test in 0.21s
+2020.06.11 18:27:23 INFO  running 'C:\Program Files (x86)\Java\jre1.8.0_191\bin\java -Djline.terminal=jline.UnsupportedTerminal -Dsbt.log.noformat=true -Dfile.encoding=UTF-8 -jar C:\Users\User\AppData\Local\Temp\metals7799106036404946744\sbt-launch.jar -Dbloop.export-jar-classifiers=sources bloopInstall'
+2020.06.11 18:27:27 INFO  [info] welcome to sbt 1.3.12 (Oracle Corporation Java 1.8.0_191)
+2020.06.11 18:27:29 INFO  [info] loading global plugins from C:\Users\User\.sbt\1.0\plugins
+2020.06.11 18:27:30 INFO  [info] loading settings for project rock-the-jvm-advanced-build from metals.sbt ...
+2020.06.11 18:27:30 INFO  [info] loading project definition from C:\Marci\rock-the-jvm-advanced\project
+2020.06.11 18:27:30 INFO  [info] loading settings for project rock-the-jvm-advanced from build.sbt ...
+2020.06.11 18:27:30 INFO  [info] set current project to rock-the-jvm-advanced (in build file:/C:/Marci/rock-the-jvm-advanced/)
+2020.06.11 18:27:32 INFO  [success] Generated .bloop\rock-the-jvm-advanced.json
+2020.06.11 18:27:32 INFO  [success] Generated .bloop\rock-the-jvm-advanced-test.json
+2020.06.11 18:27:32 INFO  [success] Total time: 0 s, completed 2020.06.11. 18:27:32
+2020.06.11 18:27:32 INFO  build tool exit: 0
+2020.06.11 18:27:32 INFO  time: ran 'sbt bloopInstall' in 9.28s
+2020.06.11 18:27:32 INFO  disconnected: build server
+2020.06.11 18:27:32 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\User\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2020.06.11 18:27:32 INFO  time: connected to build server in 0.53s
+2020.06.11 18:27:32 INFO  Connected to Build server v1.4.0-RC1-229-b7c15aa9
+2020.06.11 18:27:33 WARN  Could not find java sources in None. Java symbols will not be available.
+2020.06.11 18:27:33 INFO  time: indexed workspace in 0.72s
+2020.06.11 18:27:33 INFO  compiling rock-the-jvm-advanced-test (1 scala source)
+2020.06.11 18:27:33 INFO  time: compiled rock-the-jvm-advanced-test in 0.19s
+2020.06.11 18:28:22 INFO  started: Metals version 0.9.0 in workspace 'C:\Marci\rock-the-jvm-advanced'
+2020.06.11 18:28:22 INFO  time: initialize in 0.41s
+2020.06.11 18:28:27 INFO  skipping build import with status 'Installed'
+2020.06.11 18:28:27 INFO  no build target: using presentation compiler with only scala-library
+Starting the bsp launcher for bloop...
+Opening a bsp server connection with 'bsp --protocol tcp --port 22570'...
+Waiting for the bsp connection to come up...
+[0m[32m[D][0m Loading workspace settings from bloop.settings.json
+[0m[32m[D][0m Waiting for a connection at 127.0.0.1:22570...
+The server is listening for incoming connections at tcp://127.0.0.1:22570...
+Starting thread that pumps stdin and redirects it to the bsp server...
+Starting thread that pumps server stdout and redirects it to the client stdout...
+2020.06.11 18:28:28 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\User\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2020.06.11 18:28:28 INFO  time: connected to build server in 1.42s
+2020.06.11 18:28:28 INFO  Connected to Build server v1.4.0-RC1-229-b7c15aa9
+2020.06.11 18:28:30 WARN  Could not find java sources in None. Java symbols will not be available.
+2020.06.11 18:28:30 INFO  compiling rock-the-jvm-advanced-test (1 scala source)
+2020.06.11 18:28:30 INFO  time: indexed workspace in 1.69s
+2020.06.11 18:28:31 INFO  Deduplicating compilation of rock-the-jvm-advanced-test from bsp client 'Metals 0.9.0' (since 1.919s)
+2020.06.11 18:28:31 INFO  compiling rock-the-jvm-advanced-test (1 scala source)
+2020.06.11 18:28:31 INFO  time: compiled rock-the-jvm-advanced-test in 0.19s
+2020.06.11 18:28:48 INFO  compiling rock-the-jvm-advanced-test (1 scala source)
+2020.06.11 18:28:48 INFO  time: compiled rock-the-jvm-advanced-test in 0.24s
+2020.06.11 18:28:51 INFO  compiling rock-the-jvm-advanced-test (1 scala source)
+2020.06.11 18:28:51 INFO  time: compiled rock-the-jvm-advanced-test in 0.17s
+2020.06.11 18:31:20 INFO  compiling rock-the-jvm-advanced-test (1 scala source)
+2020.06.11 18:31:20 INFO  time: compiled rock-the-jvm-advanced-test in 0.35s
+2020.06.11 18:32:03 INFO  compiling rock-the-jvm-advanced-test (1 scala source)
+2020.06.11 18:32:03 INFO  time: compiled rock-the-jvm-advanced-test in 0.19s
+2020.06.11 20:27:36 INFO  started: Metals version 0.9.0 in workspace 'C:\Marci\rock-the-jvm-advanced'
+2020.06.11 20:27:36 INFO  time: initialize in 0.38s
+2020.06.11 20:27:41 INFO  skipping build import with status 'Installed'
+Starting the bsp launcher for bloop...
+Opening a bsp server connection with 'bsp --protocol tcp --port 13551'...
+Waiting for the bsp connection to come up...
+[0m[32m[D][0m Loading workspace settings from bloop.settings.json
+[0m[32m[D][0m Waiting for a connection at 127.0.0.1:13551...
+The server is listening for incoming connections at tcp://127.0.0.1:13551...
+Starting thread that pumps stdin and redirects it to the bsp server...
+Starting thread that pumps server stdout and redirects it to the client stdout...
+2020.06.11 20:27:42 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\User\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2020.06.11 20:27:42 INFO  time: connected to build server in 1.26s
+2020.06.11 20:27:42 INFO  Connected to Build server v1.4.0-RC1-229-b7c15aa9
+2020.06.11 20:27:43 WARN  Could not find java sources in None. Java symbols will not be available.
+2020.06.11 20:27:43 INFO  time: indexed workspace in 1.57s
+2020.06.11 20:28:04 INFO  compiling rock-the-jvm-advanced-test (1 scala source)
+2020.06.11 20:28:04 INFO  time: compiled rock-the-jvm-advanced-test in 0.48s
+2020.06.11 20:28:19 INFO  running 'C:\Program Files (x86)\Java\jre1.8.0_191\bin\java -Djline.terminal=jline.UnsupportedTerminal -Dsbt.log.noformat=true -Dfile.encoding=UTF-8 -jar C:\Users\User\AppData\Local\Temp\metals8980721108704780314\sbt-launch.jar -Dbloop.export-jar-classifiers=sources bloopInstall'
+2020.06.11 20:28:23 INFO  [info] welcome to sbt 1.3.12 (Oracle Corporation Java 1.8.0_191)
+2020.06.11 20:28:24 INFO  [info] loading global plugins from C:\Users\User\.sbt\1.0\plugins
+2020.06.11 20:28:26 INFO  [info] loading settings for project rock-the-jvm-advanced-build from metals.sbt ...
+2020.06.11 20:28:26 INFO  [info] loading project definition from C:\Marci\rock-the-jvm-advanced\project
+2020.06.11 20:28:28 INFO  [info] loading settings for project rock-the-jvm-advanced from build.sbt ...
+2020.06.11 20:28:28 INFO  [info] set current project to rock-the-jvm-advanced (in build file:/C:/Marci/rock-the-jvm-advanced/)
+2020.06.11 20:28:31 INFO  [success] Generated .bloop\rock-the-jvm-advanced.json
+2020.06.11 20:28:31 INFO  [success] Generated .bloop\rock-the-jvm-advanced-test.json
+2020.06.11 20:28:31 INFO  [success] Total time: 3 s, completed 2020.06.11. 20:28:31
+2020.06.11 20:28:31 INFO  time: ran 'sbt bloopInstall' in 12s
+2020.06.11 20:28:31 INFO  build tool exit: 0
+2020.06.11 20:28:31 INFO  disconnected: build server
+No more data in the client stdin, exiting...
+No more data in the server stdin, exiting...
+Starting the bsp launcher for bloop...
+Opening a bsp server connection with 'bsp --protocol tcp --port 42994'...
+Waiting for the bsp connection to come up...
+[0m[32m[D][0m Loading workspace settings from bloop.settings.json
+[0m[32m[D][0m Loading 2 projects from 'C:\Marci\rock-the-jvm-advanced\.bloop'...
+[0m[32m[D][0m Loading project from 'C:\Marci\rock-the-jvm-advanced\.bloop\rock-the-jvm-advanced-test.json'
+[0m[32m[D][0m Loading project from 'C:\Marci\rock-the-jvm-advanced\.bloop\rock-the-jvm-advanced.json'
+[0m[32m[D][0m Configured SemanticDB in projects 'rock-the-jvm-advanced-test', 'rock-the-jvm-advanced'
+[0m[32m[D][0m Waiting for a connection at 127.0.0.1:42994...
+The server is listening for incoming connections at tcp://127.0.0.1:42994...
+Starting thread that pumps stdin and redirects it to the bsp server...
+Starting thread that pumps server stdout and redirects it to the client stdout...
+2020.06.11 20:28:32 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\User\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2020.06.11 20:28:32 INFO  time: connected to build server in 0.48s
+2020.06.11 20:28:32 INFO  Connected to Build server v1.4.0-RC1-229-b7c15aa9
+2020.06.11 20:28:32 WARN  Could not find java sources in None. Java symbols will not be available.
+2020.06.11 20:28:33 INFO  time: indexed workspace in 1.24s
+2020.06.11 20:28:33 INFO  compiling rock-the-jvm-advanced (8 scala sources)
+2020.06.11 20:28:36 INFO  compiling rock-the-jvm-advanced-test (1 scala source)
+2020.06.11 20:28:36 INFO  time: compiled rock-the-jvm-advanced in 2.77s
+2020.06.11 20:28:36 INFO  time: compiled rock-the-jvm-advanced-test in 0.16s
+2020.06.11 20:33:45 INFO  started: Metals version 0.9.0 in workspace 'C:\Marci\rock-the-jvm-advanced'
+2020.06.11 20:33:46 INFO  time: initialize in 0.37s
+2020.06.11 20:33:51 INFO  skipping build import with status 'Installed'
+Starting the bsp launcher for bloop...
+Opening a bsp server connection with 'bsp --protocol tcp --port 39774'...
+Waiting for the bsp connection to come up...
+[0m[32m[D][0m Loading workspace settings from bloop.settings.json
+[0m[32m[D][0m Waiting for a connection at 127.0.0.1:39774...
+The server is listening for incoming connections at tcp://127.0.0.1:39774...
+Starting thread that pumps stdin and redirects it to the bsp server...
+Starting thread that pumps server stdout and redirects it to the client stdout...
+2020.06.11 20:33:51 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\User\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2020.06.11 20:33:51 INFO  time: connected to build server in 0.96s
+2020.06.11 20:33:51 INFO  Connected to Build server v1.4.0-RC1-229-b7c15aa9
+2020.06.11 20:33:53 WARN  Could not find java sources in None. Java symbols will not be available.
+2020.06.11 20:33:53 INFO  time: indexed workspace in 1.24s
+2020.06.11 20:34:37 INFO  compiling rock-the-jvm-advanced-test (1 scala source)
+2020.06.11 20:34:37 INFO  time: compiled rock-the-jvm-advanced-test in 0.47s
+2020.06.11 20:34:56 INFO  compiling rock-the-jvm-advanced-test (1 scala source)
+2020.06.11 20:34:56 INFO  time: compiled rock-the-jvm-advanced-test in 0.18s
+2020.06.11 20:34:58 INFO  compiling rock-the-jvm-advanced-test (1 scala source)
+2020.06.11 20:34:58 INFO  time: compiled rock-the-jvm-advanced-test in 0.21s
+2020.06.11 20:46:03 INFO  started: Metals version 0.9.0 in workspace 'C:\Marci\rock-the-jvm-advanced'
+2020.06.11 20:46:03 INFO  time: initialize in 0.41s
+2020.06.11 20:54:01 INFO  started: Metals version 0.9.0 in workspace 'C:\Marci\rock-the-jvm-advanced'
+2020.06.11 20:54:01 INFO  time: initialize in 0.44s
+2020.06.11 20:57:28 INFO  started: Metals version 0.9.0 in workspace 'C:\Marci\rock-the-jvm-advanced'
+2020.06.11 20:57:28 INFO  time: initialize in 0.4s
+Starting the bsp launcher for bloop...
+Opening a bsp server connection with 'bsp --protocol tcp --port 44410'...
+Waiting for the bsp connection to come up...
+[0m[32m[D][0m Loading workspace settings from bloop.settings.json
+[0m[32m[D][0m Waiting for a connection at 127.0.0.1:44410...
+The server is listening for incoming connections at tcp://127.0.0.1:44410...
+Starting thread that pumps stdin and redirects it to the bsp server...
+Starting thread that pumps server stdout and redirects it to the client stdout...
+2020.06.11 20:57:32 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\User\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2020.06.11 20:57:32 INFO  time: connected to build server in 1.08s
+2020.06.11 20:57:32 INFO  Connected to Build server v1.4.0-RC1-229-b7c15aa9
+2020.06.11 20:57:33 WARN  Could not find java sources in None. Java symbols will not be available.
+2020.06.11 20:57:33 INFO  time: indexed workspace in 1.4s
+2020.06.11 20:57:38 INFO  running 'C:\Program Files (x86)\Java\jre1.8.0_191\bin\java -Djline.terminal=jline.UnsupportedTerminal -Dsbt.log.noformat=true -Dfile.encoding=UTF-8 -jar C:\Users\User\AppData\Local\Temp\metals5298667641752575774\sbt-launch.jar -Dbloop.export-jar-classifiers=sources bloopInstall'
+2020.06.11 20:57:42 INFO  [info] welcome to sbt 1.3.12 (Oracle Corporation Java 1.8.0_191)
+2020.06.11 20:57:44 INFO  [info] loading global plugins from C:\Users\User\.sbt\1.0\plugins
+2020.06.11 20:57:46 INFO  [info] loading settings for project rock-the-jvm-advanced-build from metals.sbt ...
+2020.06.11 20:57:46 INFO  [info] loading project definition from C:\Marci\rock-the-jvm-advanced\project
+2020.06.11 20:57:48 INFO  [info] loading settings for project rock-the-jvm-advanced from build.sbt ...
+2020.06.11 20:57:48 INFO  [info] set current project to rock-the-jvm-advanced (in build file:/C:/Marci/rock-the-jvm-advanced/)
+2020.06.11 20:57:52 INFO  [success] Generated .bloop\rock-the-jvm-advanced.json
+2020.06.11 20:57:52 INFO  [success] Generated .bloop\rock-the-jvm-advanced-test.json
+2020.06.11 20:57:52 INFO  [success] Total time: 3 s, completed 2020.06.11. 20:57:52
+2020.06.11 20:57:52 INFO  build tool exit: 0
+2020.06.11 20:57:52 INFO  time: ran 'sbt bloopInstall' in 13s
+2020.06.11 20:57:52 INFO  disconnected: build server
+No more data in the client stdin, exiting...
+No more data in the server stdin, exiting...
+Starting the bsp launcher for bloop...
+Opening a bsp server connection with 'bsp --protocol tcp --port 26379'...
+Waiting for the bsp connection to come up...
+[0m[32m[D][0m Loading workspace settings from bloop.settings.json
+[0m[32m[D][0m Loading 2 projects from 'C:\Marci\rock-the-jvm-advanced\.bloop'...
+[0m[32m[D][0m Loading project from 'C:\Marci\rock-the-jvm-advanced\.bloop\rock-the-jvm-advanced.json'
+[0m[32m[D][0m Loading project from 'C:\Marci\rock-the-jvm-advanced\.bloop\rock-the-jvm-advanced-test.json'
+[0m[32m[D][0m Configured SemanticDB in projects 'rock-the-jvm-advanced', 'rock-the-jvm-advanced-test'
+[0m[32m[D][0m Waiting for a connection at 127.0.0.1:26379...
+The server is listening for incoming connections at tcp://127.0.0.1:26379...
+Starting thread that pumps stdin and redirects it to the bsp server...
+Starting thread that pumps server stdout and redirects it to the client stdout...
+2020.06.11 20:57:53 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\User\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2020.06.11 20:57:53 INFO  time: connected to build server in 0.55s
+2020.06.11 20:57:52 INFO  Connected to Build server v1.4.0-RC1-229-b7c15aa9
+2020.06.11 20:57:53 WARN  Could not find java sources in None. Java symbols will not be available.
+2020.06.11 20:57:55 INFO  time: indexed workspace in 1.71s
+2020.06.11 20:58:03 INFO  running 'C:\Program Files (x86)\Java\jre1.8.0_191\bin\java -Djline.terminal=jline.UnsupportedTerminal -Dsbt.log.noformat=true -Dfile.encoding=UTF-8 -jar C:\Users\User\AppData\Local\Temp\metals5647198619761525237\sbt-launch.jar -Dbloop.export-jar-classifiers=sources bloopInstall'
+2020.06.11 20:58:06 INFO  [info] welcome to sbt 1.3.12 (Oracle Corporation Java 1.8.0_191)
+2020.06.11 20:58:08 INFO  [info] loading global plugins from C:\Users\User\.sbt\1.0\plugins
+2020.06.11 20:58:10 INFO  [info] loading settings for project rock-the-jvm-advanced-build from metals.sbt ...
+2020.06.11 20:58:10 INFO  [info] loading project definition from C:\Marci\rock-the-jvm-advanced\project
+2020.06.11 20:58:10 INFO  [info] loading settings for project rock-the-jvm-advanced from build.sbt ...
+2020.06.11 20:58:10 INFO  [info] set current project to rock-the-jvm-advanced (in build file:/C:/Marci/rock-the-jvm-advanced/)
+2020.06.11 20:58:11 INFO  [success] Generated .bloop\rock-the-jvm-advanced.json
+2020.06.11 20:58:11 INFO  [success] Generated .bloop\rock-the-jvm-advanced-test.json
+2020.06.11 20:58:11 INFO  [success] Total time: 0 s, completed 2020.06.11. 20:58:11
+2020.06.11 20:58:11 INFO  build tool exit: 0
+2020.06.11 20:58:11 INFO  time: ran 'sbt bloopInstall' in 8.5s
+2020.06.11 20:58:11 INFO  disconnected: build server
+No more data in the client stdin, exiting...
+No more data in the server stdin, exiting...
+Starting the bsp launcher for bloop...
+Opening a bsp server connection with 'bsp --protocol tcp --port 37085'...
+Waiting for the bsp connection to come up...
+[0m[32m[D][0m Loading workspace settings from bloop.settings.json
+[0m[32m[D][0m Waiting for a connection at 127.0.0.1:37085...
+The server is listening for incoming connections at tcp://127.0.0.1:37085...
+Starting thread that pumps stdin and redirects it to the bsp server...
+Starting thread that pumps server stdout and redirects it to the client stdout...
+2020.06.11 20:58:12 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\User\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2020.06.11 20:58:12 INFO  time: connected to build server in 0.59s
+2020.06.11 20:58:12 INFO  Connected to Build server v1.4.0-RC1-229-b7c15aa9
+2020.06.11 20:58:12 WARN  Could not find java sources in None. Java symbols will not be available.
+2020.06.11 20:58:12 INFO  time: indexed workspace in 0.51s
+2020.06.11 20:58:16 INFO  compiling rock-the-jvm-advanced (8 scala sources)
+2020.06.11 20:58:19 INFO  compiling rock-the-jvm-advanced-test (1 scala source)
+2020.06.11 20:58:19 INFO  time: compiled rock-the-jvm-advanced in 2.92s
+2020.06.11 20:58:19 INFO  time: compiled rock-the-jvm-advanced-test in 0.28s
+2020.06.11 20:58:53 INFO  compiling rock-the-jvm-advanced-test (1 scala source)
+2020.06.11 20:58:53 INFO  time: compiled rock-the-jvm-advanced-test in 0.16s
+2020.06.11 21:01:26 INFO  started: Metals version 0.9.0 in workspace 'C:\Marci\rock-the-jvm-advanced'
+2020.06.11 21:01:27 INFO  time: initialize in 0.41s
+2020.06.11 21:01:31 INFO  skipping build import with status 'Installed'
+2020.06.11 21:01:31 INFO  no build target: using presentation compiler with only scala-library
+Starting the bsp launcher for bloop...
+Opening a bsp server connection with 'bsp --protocol tcp --port 26340'...
+Waiting for the bsp connection to come up...
+[0m[32m[D][0m Loading workspace settings from bloop.settings.json
+[0m[32m[D][0m Waiting for a connection at 127.0.0.1:26340...
+The server is listening for incoming connections at tcp://127.0.0.1:26340...
+Starting thread that pumps stdin and redirects it to the bsp server...
+Starting thread that pumps server stdout and redirects it to the client stdout...
+2020.06.11 21:01:33 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\User\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2020.06.11 21:01:33 INFO  time: connected to build server in 1.36s
+2020.06.11 21:01:33 INFO  Connected to Build server v1.4.0-RC1-229-b7c15aa9
+2020.06.11 21:01:34 WARN  Could not find java sources in None. Java symbols will not be available.
+2020.06.11 21:01:34 INFO  time: indexed workspace in 1.92s
+2020.06.11 21:01:36 INFO  compiling rock-the-jvm-advanced-test (1 scala source)
+2020.06.11 21:01:36 INFO  Deduplicating compilation of rock-the-jvm-advanced-test from bsp client 'Metals 0.9.0' (since 2.163s)
+2020.06.11 21:01:36 INFO  compiling rock-the-jvm-advanced-test (1 scala source)
+2020.06.11 21:01:36 INFO  time: compiled rock-the-jvm-advanced-test in 0.19s
+2020.06.11 21:06:38 INFO  C:\Marci\rock-the-jvm-advanced\src\test\scala\MySetTest.scala:7:3: stale bloop error: expected start of definition
+  firsSet shouldBe MySet(1,2,3,4,5)
+  ^
+2020.06.11 21:06:38 INFO  C:\Marci\rock-the-jvm-advanced\src\test\scala\MySetTest.scala:7:3: stale bloop error: expected start of definition
+  firsSet shouldBe MySet(1,2,3,4,5)
+  ^
+2020.06.11 21:06:39 INFO  C:\Marci\rock-the-jvm-advanced\src\test\scala\MySetTest.scala:7:3: stale bloop error: expected start of definition
+  firsSet shouldBe MySet(1,2,3,4,5)
+  ^
+2020.06.11 21:06:39 INFO  C:\Marci\rock-the-jvm-advanced\src\test\scala\MySetTest.scala:7:3: stale bloop error: expected start of definition
+  firsSet shouldBe MySet(1,2,3,4,5)
+  ^
+2020.06.11 21:07:00 INFO  C:\Marci\rock-the-jvm-advanced\src\test\scala\MySetTest.scala:7:3: stale bloop error: expected start of definition
+  firsSet shouldBe MySet(1,2,3,4,5)
+  ^
+2020.06.11 21:07:00 INFO  C:\Marci\rock-the-jvm-advanced\src\test\scala\MySetTest.scala:7:3: stale bloop error: expected start of definition
+  firsSet shouldBe MySet(1,2,3,4,5)
+  ^
+2020.06.11 21:08:25 INFO  compiling rock-the-jvm-advanced-test (1 scala source)
+2020.06.11 21:08:25 INFO  time: compiled rock-the-jvm-advanced-test in 0.21s
+2020.06.11 21:08:27 INFO  compiling rock-the-jvm-advanced-test (1 scala source)
+2020.06.11 21:08:27 INFO  time: compiled rock-the-jvm-advanced-test in 0.2s
+2020.06.11 21:08:59 INFO  compiling rock-the-jvm-advanced-test (1 scala source)
+2020.06.11 21:08:59 INFO  time: compiled rock-the-jvm-advanced-test in 0.15s
+2020.06.11 21:09:01 INFO  compiling rock-the-jvm-advanced-test (1 scala source)
+2020.06.11 21:09:01 INFO  time: compiled rock-the-jvm-advanced-test in 0.15s
+2020.06.11 21:10:03 INFO  C:\Marci\rock-the-jvm-advanced\src\test\scala\MySetTest.scala:10:3: stale bloop error: expected start of definition
+  firsTest shouldBe MySet(1,2,3,4,5)
+  ^
+2020.06.11 21:10:03 INFO  C:\Marci\rock-the-jvm-advanced\src\test\scala\MySetTest.scala:10:3: stale bloop error: expected start of definition
+  firsTest shouldBe MySet(1,2,3,4,5)
+  ^
+2020.06.11 21:10:17 INFO  compiling rock-the-jvm-advanced-test (1 scala source)
+2020.06.11 21:10:17 INFO  time: compiled rock-the-jvm-advanced-test in 0.21s
+2020.06.11 21:10:19 INFO  compiling rock-the-jvm-advanced-test (1 scala source)
+2020.06.11 21:10:19 INFO  time: compiled rock-the-jvm-advanced-test in 0.17s
+2020.06.11 21:10:32 INFO  compiling rock-the-jvm-advanced-test (1 scala source)
+2020.06.11 21:10:32 INFO  time: compiled rock-the-jvm-advanced-test in 0.18s
+2020.06.11 21:10:34 INFO  compiling rock-the-jvm-advanced-test (1 scala source)
+2020.06.11 21:10:34 INFO  time: compiled rock-the-jvm-advanced-test in 0.17s
+2020.06.11 21:10:45 ERROR code navigation does not work for the file 'C:\Marci\rock-the-jvm-advanced\src\test\scala\MySetTest.scala' because the SemanticDB file 'C:\Marci\rock-the-jvm-advanced\.bloop\rock-the-jvm-advanced\bloop-bsp-clients-classes\test-classes-Metals-S91HscjOQdSDX0B-FUEreQ==\META-INF\semanticdb\src\test\scala\MySetTest.scala.semanticdb' doesn't exist. There can be many reasons for this error. 
+2020.06.11 21:11:14 INFO  compiling rock-the-jvm-advanced-test (1 scala source)
+2020.06.11 21:11:15 INFO  time: compiled rock-the-jvm-advanced-test in 1.29s
+2020.06.11 21:11:42 INFO  compiling rock-the-jvm-advanced-test (1 scala source)
+2020.06.11 21:11:44 INFO  time: compiled rock-the-jvm-advanced-test in 2.03s
+2020.06.11 22:04:27 INFO  started: Metals version 0.9.0 in workspace 'C:\Marci\rock-the-jvm-advanced'
+2020.06.11 22:04:28 INFO  time: initialize in 0.43s
+2020.06.11 22:04:32 INFO  skipping build import with status 'Installed'
+2020.06.11 22:04:32 INFO  no build target: using presentation compiler with only scala-library
+Starting the bsp launcher for bloop...
+Opening a bsp server connection with 'bsp --protocol tcp --port 23836'...
+Waiting for the bsp connection to come up...
+[0m[32m[D][0m Loading workspace settings from bloop.settings.json
+[0m[32m[D][0m Waiting for a connection at 127.0.0.1:23836...
+The server is listening for incoming connections at tcp://127.0.0.1:23836...
+Starting thread that pumps stdin and redirects it to the bsp server...
+Starting thread that pumps server stdout and redirects it to the client stdout...
+2020.06.11 22:04:33 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\User\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2020.06.11 22:04:33 INFO  time: connected to build server in 1.26s
+2020.06.11 22:04:33 INFO  Connected to Build server v1.4.0-RC1-229-b7c15aa9
+2020.06.11 22:04:35 INFO  compiling rock-the-jvm-advanced-test (1 scala source)
+2020.06.11 22:04:35 WARN  Could not find java sources in None. Java symbols will not be available.
+2020.06.11 22:04:36 INFO  time: indexed workspace in 2.91s
+2020.06.11 22:04:37 INFO  Deduplicating compilation of rock-the-jvm-advanced-test from bsp client 'Metals 0.9.0' (since 3.089s)
+2020.06.11 22:04:37 INFO  compiling rock-the-jvm-advanced-test (1 scala source)
+2020.06.11 22:04:37 INFO  time: compiled rock-the-jvm-advanced-test in 0.76s
+2020.06.11 22:05:52 INFO  compiling rock-the-jvm-advanced-test (1 scala source)
+2020.06.11 22:05:53 INFO  time: compiled rock-the-jvm-advanced-test in 1.12s
+2020.06.11 22:14:57 INFO  compiling rock-the-jvm-advanced-test (1 scala source)
+2020.06.11 22:14:58 INFO  time: compiled rock-the-jvm-advanced-test in 1.28s
+2020.06.11 22:17:30 INFO  compiling rock-the-jvm-advanced-test (1 scala source)
+2020.06.11 22:17:30 INFO  time: compiled rock-the-jvm-advanced-test in 0.35s
+2020.06.11 22:17:32 INFO  compiling rock-the-jvm-advanced-test (1 scala source)
+2020.06.11 22:17:32 INFO  time: compiled rock-the-jvm-advanced-test in 0.25s
+2020.06.11 22:17:45 INFO  compiling rock-the-jvm-advanced-test (1 scala source)
+2020.06.11 22:17:46 INFO  time: compiled rock-the-jvm-advanced-test in 1.14s
+2020.06.11 22:21:22 INFO  compiling rock-the-jvm-advanced-test (1 scala source)
+2020.06.11 22:21:23 INFO  time: compiled rock-the-jvm-advanced-test in 1.33s
+2020.06.11 22:23:05 INFO  compiling rock-the-jvm-advanced (1 scala source)
+2020.06.11 22:23:06 INFO  time: compiled rock-the-jvm-advanced in 1.29s
+2020.06.11 22:23:06 INFO  compiling rock-the-jvm-advanced (2 scala sources)
+2020.06.11 22:23:06 INFO  time: compiled rock-the-jvm-advanced in 0.64s
+2020.06.11 22:23:11 INFO  compiling rock-the-jvm-advanced-test (1 scala source)
+2020.06.11 22:23:11 INFO  time: compiled rock-the-jvm-advanced-test in 1s
+2020.06.11 22:24:58 INFO  compiling rock-the-jvm-advanced-test (1 scala source)
+2020.06.11 22:24:58 INFO  time: compiled rock-the-jvm-advanced-test in 0.29s
+2020.06.11 22:25:00 INFO  compiling rock-the-jvm-advanced-test (1 scala source)
+2020.06.11 22:25:00 INFO  time: compiled rock-the-jvm-advanced-test in 0.25s
+2020.06.11 22:25:11 INFO  compiling rock-the-jvm-advanced-test (1 scala source)
+2020.06.11 22:25:11 INFO  time: compiled rock-the-jvm-advanced-test in 0.32s
+2020.06.11 22:25:14 INFO  compiling rock-the-jvm-advanced-test (1 scala source)
+2020.06.11 22:25:14 INFO  time: compiled rock-the-jvm-advanced-test in 0.26s
+2020.06.11 22:25:47 INFO  compiling rock-the-jvm-advanced-test (1 scala source)
+2020.06.11 22:25:48 INFO  time: compiled rock-the-jvm-advanced-test in 1.01s
+2020.06.11 22:26:43 INFO  compiling rock-the-jvm-advanced-test (1 scala source)
+2020.06.11 22:26:44 INFO  time: compiled rock-the-jvm-advanced-test in 1.02s
+2020.06.11 22:31:30 INFO  compiling rock-the-jvm-advanced-test (1 scala source)
+2020.06.11 22:31:31 INFO  time: compiled rock-the-jvm-advanced-test in 1.22s
+2020.06.11 22:31:46 INFO  C:\Marci\rock-the-jvm-advanced\src\test\scala\MySetTest.scala:16:3: stale bloop warning: a pure expression does nothing in statement position; multiline expressions may require enclosing parentheses
+  "M"
+  ^^^
+2020.06.11 22:31:46 INFO  C:\Marci\rock-the-jvm-advanced\src\test\scala\MySetTest.scala:16:3: stale bloop warning: a pure expression does nothing in statement position; multiline expressions may require enclosing parentheses
+  "M"
+  ^^^
+2020.06.11 22:31:47 INFO  C:\Marci\rock-the-jvm-advanced\src\test\scala\MySetTest.scala:16:3: stale bloop warning: a pure expression does nothing in statement position; multiline expressions may require enclosing parentheses
+  "M"
+  ^^^
+2020.06.11 22:31:47 INFO  C:\Marci\rock-the-jvm-advanced\src\test\scala\MySetTest.scala:16:3: stale bloop warning: a pure expression does nothing in statement position; multiline expressions may require enclosing parentheses
+  "M"
+  ^^^
+2020.06.11 22:31:47 INFO  C:\Marci\rock-the-jvm-advanced\src\test\scala\MySetTest.scala:16:3: stale bloop warning: a pure expression does nothing in statement position; multiline expressions may require enclosing parentheses
+  "M"
+  ^^^
+2020.06.11 22:31:47 INFO  C:\Marci\rock-the-jvm-advanced\src\test\scala\MySetTest.scala:16:3: stale bloop warning: a pure expression does nothing in statement position; multiline expressions may require enclosing parentheses
+  "M"
+  ^^^
+2020.06.11 22:31:47 INFO  C:\Marci\rock-the-jvm-advanced\src\test\scala\MySetTest.scala:16:3: stale bloop warning: a pure expression does nothing in statement position; multiline expressions may require enclosing parentheses
+  "M"
+  ^^^
+2020.06.11 22:31:47 INFO  C:\Marci\rock-the-jvm-advanced\src\test\scala\MySetTest.scala:16:3: stale bloop warning: a pure expression does nothing in statement position; multiline expressions may require enclosing parentheses
+  "M"
+  ^^^
+2020.06.11 22:31:47 INFO  C:\Marci\rock-the-jvm-advanced\src\test\scala\MySetTest.scala:16:3: stale bloop warning: a pure expression does nothing in statement position; multiline expressions may require enclosing parentheses
+  "M"
+  ^^^
+2020.06.11 22:31:47 INFO  C:\Marci\rock-the-jvm-advanced\src\test\scala\MySetTest.scala:16:3: stale bloop warning: a pure expression does nothing in statement position; multiline expressions may require enclosing parentheses
+  "M"
+  ^^^
+2020.06.11 22:31:48 INFO  C:\Marci\rock-the-jvm-advanced\src\test\scala\MySetTest.scala:16:3: stale bloop warning: a pure expression does nothing in statement position; multiline expressions may require enclosing parentheses
+  "M"
+  ^^^
+2020.06.11 22:31:48 INFO  C:\Marci\rock-the-jvm-advanced\src\test\scala\MySetTest.scala:16:3: stale bloop warning: a pure expression does nothing in statement position; multiline expressions may require enclosing parentheses
+  "M"
+  ^^^
+2020.06.11 22:31:48 INFO  C:\Marci\rock-the-jvm-advanced\src\test\scala\MySetTest.scala:16:3: stale bloop warning: a pure expression does nothing in statement position; multiline expressions may require enclosing parentheses
+  "M"
+  ^^^
+2020.06.11 22:31:48 INFO  C:\Marci\rock-the-jvm-advanced\src\test\scala\MySetTest.scala:16:3: stale bloop warning: a pure expression does nothing in statement position; multiline expressions may require enclosing parentheses
+  "M"
+  ^^^
+2020.06.11 22:31:48 INFO  C:\Marci\rock-the-jvm-advanced\src\test\scala\MySetTest.scala:16:3: stale bloop warning: a pure expression does nothing in statement position; multiline expressions may require enclosing parentheses
+  "M"
+  ^^^
+2020.06.11 22:31:48 INFO  C:\Marci\rock-the-jvm-advanced\src\test\scala\MySetTest.scala:16:3: stale bloop warning: a pure expression does nothing in statement position; multiline expressions may require enclosing parentheses
+  "M"
+  ^^^
+2020.06.11 22:31:49 INFO  C:\Marci\rock-the-jvm-advanced\src\test\scala\MySetTest.scala:16:3: stale bloop warning: a pure expression does nothing in statement position; multiline expressions may require enclosing parentheses
+  "M"
+  ^^^
+2020.06.11 22:31:49 INFO  C:\Marci\rock-the-jvm-advanced\src\test\scala\MySetTest.scala:16:3: stale bloop warning: a pure expression does nothing in statement position; multiline expressions may require enclosing parentheses
+  "M"
+  ^^^
+2020.06.11 22:31:49 INFO  C:\Marci\rock-the-jvm-advanced\src\test\scala\MySetTest.scala:16:3: stale bloop warning: a pure expression does nothing in statement position; multiline expressions may require enclosing parentheses
+  "M"
+  ^^^
+2020.06.11 22:31:49 INFO  C:\Marci\rock-the-jvm-advanced\src\test\scala\MySetTest.scala:16:3: stale bloop warning: a pure expression does nothing in statement position; multiline expressions may require enclosing parentheses
+  "M"
+  ^^^
+2020.06.11 22:31:50 INFO  C:\Marci\rock-the-jvm-advanced\src\test\scala\MySetTest.scala:16:3: stale bloop warning: a pure expression does nothing in statement position; multiline expressions may require enclosing parentheses
+  "M"
+  ^^^
+2020.06.11 22:31:50 INFO  C:\Marci\rock-the-jvm-advanced\src\test\scala\MySetTest.scala:16:3: stale bloop warning: a pure expression does nothing in statement position; multiline expressions may require enclosing parentheses
+  "M"
+  ^^^
+2020.06.11 22:31:50 INFO  C:\Marci\rock-the-jvm-advanced\src\test\scala\MySetTest.scala:16:3: stale bloop warning: a pure expression does nothing in statement position; multiline expressions may require enclosing parentheses
+  "M"
+  ^^^
+2020.06.11 22:31:50 INFO  C:\Marci\rock-the-jvm-advanced\src\test\scala\MySetTest.scala:16:3: stale bloop warning: a pure expression does nothing in statement position; multiline expressions may require enclosing parentheses
+  "M"
+  ^^^
+2020.06.11 22:31:50 INFO  C:\Marci\rock-the-jvm-advanced\src\test\scala\MySetTest.scala:16:3: stale bloop warning: a pure expression does nothing in statement position; multiline expressions may require enclosing parentheses
+  "M"
+  ^^^
+2020.06.11 22:31:50 INFO  C:\Marci\rock-the-jvm-advanced\src\test\scala\MySetTest.scala:16:3: stale bloop warning: a pure expression does nothing in statement position; multiline expressions may require enclosing parentheses
+  "M"
+  ^^^
+2020.06.11 22:31:50 INFO  C:\Marci\rock-the-jvm-advanced\src\test\scala\MySetTest.scala:16:3: stale bloop warning: a pure expression does nothing in statement position; multiline expressions may require enclosing parentheses
+  "M"
+  ^^^
+2020.06.11 22:31:50 INFO  C:\Marci\rock-the-jvm-advanced\src\test\scala\MySetTest.scala:16:3: stale bloop warning: a pure expression does nothing in statement position; multiline expressions may require enclosing parentheses
+  "M"
+  ^^^
+2020.06.11 22:31:50 INFO  C:\Marci\rock-the-jvm-advanced\src\test\scala\MySetTest.scala:16:3: stale bloop warning: a pure expression does nothing in statement position; multiline expressions may require enclosing parentheses
+  "M"
+  ^^^
+2020.06.11 22:31:50 INFO  C:\Marci\rock-the-jvm-advanced\src\test\scala\MySetTest.scala:16:3: stale bloop warning: a pure expression does nothing in statement position; multiline expressions may require enclosing parentheses
+  "M"
+  ^^^
+2020.06.11 22:31:51 INFO  C:\Marci\rock-the-jvm-advanced\src\test\scala\MySetTest.scala:16:3: stale bloop warning: a pure expression does nothing in statement position; multiline expressions may require enclosing parentheses
+  "M"
+  ^^^
+2020.06.11 22:31:51 INFO  C:\Marci\rock-the-jvm-advanced\src\test\scala\MySetTest.scala:16:3: stale bloop warning: a pure expression does nothing in statement position; multiline expressions may require enclosing parentheses
+  "M"
+  ^^^
+2020.06.11 22:31:51 INFO  C:\Marci\rock-the-jvm-advanced\src\test\scala\MySetTest.scala:16:3: stale bloop warning: a pure expression does nothing in statement position; multiline expressions may require enclosing parentheses
+  "M"
+  ^^^
+2020.06.11 22:31:51 INFO  C:\Marci\rock-the-jvm-advanced\src\test\scala\MySetTest.scala:16:3: stale bloop warning: a pure expression does nothing in statement position; multiline expressions may require enclosing parentheses
+  "M"
+  ^^^
+2020.06.11 22:31:51 INFO  C:\Marci\rock-the-jvm-advanced\src\test\scala\MySetTest.scala:16:3: stale bloop warning: a pure expression does nothing in statement position; multiline expressions may require enclosing parentheses
+  "M"
+  ^^^
+2020.06.11 22:31:51 INFO  C:\Marci\rock-the-jvm-advanced\src\test\scala\MySetTest.scala:16:3: stale bloop warning: a pure expression does nothing in statement position; multiline expressions may require enclosing parentheses
+  "M"
+  ^^^
+2020.06.11 22:31:51 INFO  C:\Marci\rock-the-jvm-advanced\src\test\scala\MySetTest.scala:16:3: stale bloop warning: a pure expression does nothing in statement position; multiline expressions may require enclosing parentheses
+  "M"
+  ^^^
+2020.06.11 22:31:51 INFO  C:\Marci\rock-the-jvm-advanced\src\test\scala\MySetTest.scala:16:3: stale bloop warning: a pure expression does nothing in statement position; multiline expressions may require enclosing parentheses
+  "M"
+  ^^^
+2020.06.11 22:31:51 INFO  C:\Marci\rock-the-jvm-advanced\src\test\scala\MySetTest.scala:16:3: stale bloop warning: a pure expression does nothing in statement position; multiline expressions may require enclosing parentheses
+  "M"
+  ^^^
+2020.06.11 22:31:51 INFO  C:\Marci\rock-the-jvm-advanced\src\test\scala\MySetTest.scala:16:3: stale bloop warning: a pure expression does nothing in statement position; multiline expressions may require enclosing parentheses
+  "M"
+  ^^^
+2020.06.11 22:31:53 INFO  C:\Marci\rock-the-jvm-advanced\src\test\scala\MySetTest.scala:16:3: stale bloop warning: a pure expression does nothing in statement position; multiline expressions may require enclosing parentheses
+  "M"
+  ^^^
+2020.06.11 22:31:53 INFO  C:\Marci\rock-the-jvm-advanced\src\test\scala\MySetTest.scala:16:3: stale bloop warning: a pure expression does nothing in statement position; multiline expressions may require enclosing parentheses
+  "M"
+  ^^^
+2020.06.11 22:31:53 INFO  C:\Marci\rock-the-jvm-advanced\src\test\scala\MySetTest.scala:16:3: stale bloop warning: a pure expression does nothing in statement position; multiline expressions may require enclosing parentheses
+  "M"
+  ^^^
+2020.06.11 22:31:53 INFO  C:\Marci\rock-the-jvm-advanced\src\test\scala\MySetTest.scala:16:3: stale bloop warning: a pure expression does nothing in statement position; multiline expressions may require enclosing parentheses
+  "M"
+  ^^^
+2020.06.11 22:31:53 INFO  C:\Marci\rock-the-jvm-advanced\src\test\scala\MySetTest.scala:16:3: stale bloop warning: a pure expression does nothing in statement position; multiline expressions may require enclosing parentheses
+  "M"
+  ^^^
+2020.06.11 22:31:53 INFO  C:\Marci\rock-the-jvm-advanced\src\test\scala\MySetTest.scala:16:3: stale bloop warning: a pure expression does nothing in statement position; multiline expressions may require enclosing parentheses
+  "M"
+  ^^^
+2020.06.11 22:31:55 INFO  C:\Marci\rock-the-jvm-advanced\src\test\scala\MySetTest.scala:16:3: stale bloop warning: a pure expression does nothing in statement position; multiline expressions may require enclosing parentheses
+  "M"
+  ^^^
+2020.06.11 22:31:55 INFO  C:\Marci\rock-the-jvm-advanced\src\test\scala\MySetTest.scala:16:3: stale bloop warning: a pure expression does nothing in statement position; multiline expressions may require enclosing parentheses
+  "M"
+  ^^^
+2020.06.11 22:31:55 INFO  C:\Marci\rock-the-jvm-advanced\src\test\scala\MySetTest.scala:16:3: stale bloop warning: a pure expression does nothing in statement position; multiline expressions may require enclosing parentheses
+  "M"
+  ^^^
+2020.06.11 22:31:55 INFO  C:\Marci\rock-the-jvm-advanced\src\test\scala\MySetTest.scala:16:3: stale bloop warning: a pure expression does nothing in statement position; multiline expressions may require enclosing parentheses
+  "M"
+  ^^^
+2020.06.11 22:32:03 INFO  C:\Marci\rock-the-jvm-advanced\src\test\scala\MySetTest.scala:16:3: stale bloop warning: a pure expression does nothing in statement position; multiline expressions may require enclosing parentheses
+  "M"
+  ^^^
+2020.06.11 22:32:03 INFO  C:\Marci\rock-the-jvm-advanced\src\test\scala\MySetTest.scala:16:3: stale bloop warning: a pure expression does nothing in statement position; multiline expressions may require enclosing parentheses
+  "M"
+  ^^^
+2020.06.11 22:32:25 INFO  C:\Marci\rock-the-jvm-advanced\src\test\scala\MySetTest.scala:16:3: stale bloop warning: a pure expression does nothing in statement position; multiline expressions may require enclosing parentheses
+  "M"
+  ^^^
+2020.06.11 22:32:25 INFO  C:\Marci\rock-the-jvm-advanced\src\test\scala\MySetTest.scala:16:3: stale bloop warning: a pure expression does nothing in statement position; multiline expressions may require enclosing parentheses
+  "M"
+  ^^^
+jún. 11, 2020 10:32:25 DU org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 239
+2020.06.11 22:32:35 INFO  C:\Marci\rock-the-jvm-advanced\src\test\scala\MySetTest.scala:16:3: stale bloop warning: a pure expression does nothing in statement position; multiline expressions may require enclosing parentheses
+  "M"
+  ^^^
+2020.06.11 22:32:35 INFO  C:\Marci\rock-the-jvm-advanced\src\test\scala\MySetTest.scala:16:3: stale bloop warning: a pure expression does nothing in statement position; multiline expressions may require enclosing parentheses
+  "M"
+  ^^^
+2020.06.11 22:32:35 INFO  C:\Marci\rock-the-jvm-advanced\src\test\scala\MySetTest.scala:16:3: stale bloop warning: a pure expression does nothing in statement position; multiline expressions may require enclosing parentheses
+  "M"
+  ^^^
+2020.06.11 22:32:35 INFO  C:\Marci\rock-the-jvm-advanced\src\test\scala\MySetTest.scala:16:3: stale bloop warning: a pure expression does nothing in statement position; multiline expressions may require enclosing parentheses
+  "M"
+  ^^^
+2020.06.11 22:32:35 INFO  C:\Marci\rock-the-jvm-advanced\src\test\scala\MySetTest.scala:16:3: stale bloop warning: a pure expression does nothing in statement position; multiline expressions may require enclosing parentheses
+  "M"
+  ^^^
+2020.06.11 22:32:35 INFO  C:\Marci\rock-the-jvm-advanced\src\test\scala\MySetTest.scala:16:3: stale bloop warning: a pure expression does nothing in statement position; multiline expressions may require enclosing parentheses
+  "M"
+  ^^^
+2020.06.11 22:32:35 INFO  C:\Marci\rock-the-jvm-advanced\src\test\scala\MySetTest.scala:16:3: stale bloop warning: a pure expression does nothing in statement position; multiline expressions may require enclosing parentheses
+  "M"
+  ^^^
+2020.06.11 22:32:35 INFO  C:\Marci\rock-the-jvm-advanced\src\test\scala\MySetTest.scala:16:3: stale bloop warning: a pure expression does nothing in statement position; multiline expressions may require enclosing parentheses
+  "M"
+  ^^^
+2020.06.11 22:32:35 INFO  C:\Marci\rock-the-jvm-advanced\src\test\scala\MySetTest.scala:16:3: stale bloop warning: a pure expression does nothing in statement position; multiline expressions may require enclosing parentheses
+  "M"
+  ^^^
+2020.06.11 22:32:35 INFO  C:\Marci\rock-the-jvm-advanced\src\test\scala\MySetTest.scala:16:3: stale bloop warning: a pure expression does nothing in statement position; multiline expressions may require enclosing parentheses
+  "M"
+  ^^^
+2020.06.11 22:32:36 INFO  C:\Marci\rock-the-jvm-advanced\src\test\scala\MySetTest.scala:16:3: stale bloop warning: a pure expression does nothing in statement position; multiline expressions may require enclosing parentheses
+  "M"
+  ^^^
+2020.06.11 22:32:36 INFO  C:\Marci\rock-the-jvm-advanced\src\test\scala\MySetTest.scala:16:3: stale bloop warning: a pure expression does nothing in statement position; multiline expressions may require enclosing parentheses
+  "M"
+  ^^^
+2020.06.11 22:32:36 INFO  C:\Marci\rock-the-jvm-advanced\src\test\scala\MySetTest.scala:16:3: stale bloop warning: a pure expression does nothing in statement position; multiline expressions may require enclosing parentheses
+  "M"
+  ^^^
+2020.06.11 22:32:36 INFO  C:\Marci\rock-the-jvm-advanced\src\test\scala\MySetTest.scala:16:3: stale bloop warning: a pure expression does nothing in statement position; multiline expressions may require enclosing parentheses
+  "M"
+  ^^^
+2020.06.11 22:32:36 INFO  C:\Marci\rock-the-jvm-advanced\src\test\scala\MySetTest.scala:16:3: stale bloop warning: a pure expression does nothing in statement position; multiline expressions may require enclosing parentheses
+  "M"
+  ^^^
+2020.06.11 22:32:36 INFO  C:\Marci\rock-the-jvm-advanced\src\test\scala\MySetTest.scala:16:3: stale bloop warning: a pure expression does nothing in statement position; multiline expressions may require enclosing parentheses
+  "M"
+  ^^^
+2020.06.11 22:32:37 INFO  C:\Marci\rock-the-jvm-advanced\src\test\scala\MySetTest.scala:16:3: stale bloop warning: a pure expression does nothing in statement position; multiline expressions may require enclosing parentheses
+  "M"
+  ^^^
+2020.06.11 22:32:37 INFO  C:\Marci\rock-the-jvm-advanced\src\test\scala\MySetTest.scala:16:3: stale bloop warning: a pure expression does nothing in statement position; multiline expressions may require enclosing parentheses
+  "M"
+  ^^^
+2020.06.11 22:32:37 INFO  C:\Marci\rock-the-jvm-advanced\src\test\scala\MySetTest.scala:16:3: stale bloop warning: a pure expression does nothing in statement position; multiline expressions may require enclosing parentheses
+  "M"
+  ^^^
+2020.06.11 22:32:37 INFO  C:\Marci\rock-the-jvm-advanced\src\test\scala\MySetTest.scala:16:3: stale bloop warning: a pure expression does nothing in statement position; multiline expressions may require enclosing parentheses
+  "M"
+  ^^^
+2020.06.11 22:32:38 INFO  C:\Marci\rock-the-jvm-advanced\src\test\scala\MySetTest.scala:16:3: stale bloop warning: a pure expression does nothing in statement position; multiline expressions may require enclosing parentheses
+  "M"
+  ^^^
+2020.06.11 22:32:38 INFO  C:\Marci\rock-the-jvm-advanced\src\test\scala\MySetTest.scala:16:3: stale bloop warning: a pure expression does nothing in statement position; multiline expressions may require enclosing parentheses
+  "M"
+  ^^^
+2020.06.11 22:32:38 INFO  C:\Marci\rock-the-jvm-advanced\src\test\scala\MySetTest.scala:16:3: stale bloop warning: a pure expression does nothing in statement position; multiline expressions may require enclosing parentheses
+  "M"
+  ^^^
+2020.06.11 22:32:38 INFO  C:\Marci\rock-the-jvm-advanced\src\test\scala\MySetTest.scala:16:3: stale bloop warning: a pure expression does nothing in statement position; multiline expressions may require enclosing parentheses
+  "M"
+  ^^^
+2020.06.11 22:32:41 INFO  C:\Marci\rock-the-jvm-advanced\src\test\scala\MySetTest.scala:16:3: stale bloop warning: a pure expression does nothing in statement position; multiline expressions may require enclosing parentheses
+  "M"
+  ^^^
+2020.06.11 22:32:41 INFO  C:\Marci\rock-the-jvm-advanced\src\test\scala\MySetTest.scala:16:3: stale bloop warning: a pure expression does nothing in statement position; multiline expressions may require enclosing parentheses
+  "M"
+  ^^^
+2020.06.11 22:33:07 INFO  compiling rock-the-jvm-advanced-test (1 scala source)
+2020.06.11 22:33:08 INFO  time: compiled rock-the-jvm-advanced-test in 1.25s
+2020.06.11 22:33:32 INFO  compiling rock-the-jvm-advanced-test (1 scala source)
+2020.06.11 22:33:32 INFO  time: compiled rock-the-jvm-advanced-test in 0.3s
+2020.06.11 22:33:34 INFO  compiling rock-the-jvm-advanced-test (1 scala source)
+2020.06.11 22:33:34 INFO  time: compiled rock-the-jvm-advanced-test in 0.28s
+2020.06.11 22:33:40 INFO  compiling rock-the-jvm-advanced-test (1 scala source)
+2020.06.11 22:33:41 INFO  time: compiled rock-the-jvm-advanced-test in 1.04s
+2020.06.11 22:35:16 INFO  compiling rock-the-jvm-advanced (1 scala source)
+2020.06.11 22:35:16 INFO  time: compiled rock-the-jvm-advanced in 0.19s
+2020.06.11 22:35:18 INFO  compiling rock-the-jvm-advanced (1 scala source)
+2020.06.11 22:35:18 INFO  time: compiled rock-the-jvm-advanced in 0.11s
+2020.06.11 22:35:26 INFO  compiling rock-the-jvm-advanced (1 scala source)
+2020.06.11 22:35:26 INFO  time: compiled rock-the-jvm-advanced in 0.32s
+2020.06.11 22:35:29 INFO  compiling rock-the-jvm-advanced (1 scala source)
+2020.06.11 22:35:29 INFO  time: compiled rock-the-jvm-advanced in 0.21s
+2020.06.11 22:35:34 INFO  compiling rock-the-jvm-advanced (1 scala source)
+2020.06.11 22:35:34 INFO  time: compiled rock-the-jvm-advanced in 0.29s
+2020.06.11 22:35:36 INFO  compiling rock-the-jvm-advanced (1 scala source)
+2020.06.11 22:35:36 INFO  time: compiled rock-the-jvm-advanced in 0.2s
+2020.06.11 22:35:50 INFO  compiling rock-the-jvm-advanced (1 scala source)
+2020.06.11 22:35:51 INFO  time: compiled rock-the-jvm-advanced in 1.19s
+2020.06.11 22:35:51 INFO  compiling rock-the-jvm-advanced (2 scala sources)
+2020.06.11 22:35:51 INFO  time: compiled rock-the-jvm-advanced in 0.51s
+2020.06.11 22:36:05 INFO  compiling rock-the-jvm-advanced-test (1 scala source)
+2020.06.11 22:36:07 INFO  time: compiled rock-the-jvm-advanced-test in 1.22s
+2020.06.11 22:37:20 INFO  compiling rock-the-jvm-advanced (1 scala source)
+2020.06.11 22:37:20 INFO  time: compiled rock-the-jvm-advanced in 0.21s
+2020.06.11 22:37:22 INFO  compiling rock-the-jvm-advanced (1 scala source)
+2020.06.11 22:37:22 INFO  time: compiled rock-the-jvm-advanced in 0.17s
+2020.06.11 22:37:30 INFO  compiling rock-the-jvm-advanced (1 scala source)
+2020.06.11 22:37:32 INFO  time: compiled rock-the-jvm-advanced in 1.4s
+2020.06.11 22:39:25 INFO  compiling rock-the-jvm-advanced-test (1 scala source)
+2020.06.11 22:39:25 INFO  time: compiled rock-the-jvm-advanced-test in 0.16s
+2020.06.11 22:39:28 INFO  compiling rock-the-jvm-advanced-test (1 scala source)
+2020.06.11 22:39:28 INFO  time: compiled rock-the-jvm-advanced-test in 0.17s
+2020.06.11 22:39:34 INFO  compiling rock-the-jvm-advanced-test (1 scala source)
+2020.06.11 22:39:34 INFO  time: compiled rock-the-jvm-advanced-test in 0.15s
+2020.06.11 22:39:36 INFO  compiling rock-the-jvm-advanced-test (1 scala source)
+2020.06.11 22:39:36 INFO  time: compiled rock-the-jvm-advanced-test in 0.15s
+2020.06.11 22:40:02 INFO  compiling rock-the-jvm-advanced-test (1 scala source)
+2020.06.11 22:40:04 INFO  time: compiled rock-the-jvm-advanced-test in 1.37s
+2020.06.11 22:41:55 INFO  compiling rock-the-jvm-advanced-test (1 scala source)
+2020.06.11 22:41:56 INFO  time: compiled rock-the-jvm-advanced-test in 1.24s
+2020.06.11 22:44:00 INFO  compiling rock-the-jvm-advanced-test (1 scala source)
+2020.06.11 22:44:00 INFO  time: compiled rock-the-jvm-advanced-test in 0.42s
+2020.06.11 22:44:02 INFO  compiling rock-the-jvm-advanced-test (1 scala source)
+2020.06.11 22:44:02 INFO  time: compiled rock-the-jvm-advanced-test in 0.37s
+2020.06.11 22:44:14 INFO  compiling rock-the-jvm-advanced-test (1 scala source)
+2020.06.11 22:44:15 INFO  time: compiled rock-the-jvm-advanced-test in 1.51s
+2020.06.12 08:52:57 INFO  started: Metals version 0.9.0 in workspace 'C:\Marci\rock-the-jvm-advanced'
+2020.06.12 08:52:58 INFO  time: initialize in 0.39s
+2020.06.12 08:53:02 INFO  skipping build import with status 'Installed'
+2020.06.12 08:53:02 INFO  no build target: using presentation compiler with only scala-library
+Starting the bsp launcher for bloop...
+Opening a bsp server connection with 'bsp --protocol tcp --port 26852'...
+Waiting for the bsp connection to come up...
+[0m[32m[D][0m Loading workspace settings from bloop.settings.json
+[0m[32m[D][0m Waiting for a connection at 127.0.0.1:26852...
+The server is listening for incoming connections at tcp://127.0.0.1:26852...
+Starting thread that pumps stdin and redirects it to the bsp server...
+Starting thread that pumps server stdout and redirects it to the client stdout...
+2020.06.12 08:53:04 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\User\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2020.06.12 08:53:04 INFO  time: connected to build server in 1.5s
+2020.06.12 08:53:04 INFO  Connected to Build server v1.4.0-RC1-229-b7c15aa9
+2020.06.12 08:53:04 INFO  time: imported build in 0.12s
+2020.06.12 08:53:06 WARN  Could not find java sources in None. Java symbols will not be available.
+2020.06.12 08:53:08 INFO  time: indexed workspace in 4.09s
+2020.06.12 08:54:57 INFO  compiling rock-the-jvm-advanced-test (1 scala source)
+2020.06.12 08:54:59 INFO  time: compiled rock-the-jvm-advanced-test in 1.73s
+2020.06.12 09:10:22 INFO  compiling rock-the-jvm-advanced-test (1 scala source)
+2020.06.12 09:10:24 INFO  time: compiled rock-the-jvm-advanced-test in 2.24s

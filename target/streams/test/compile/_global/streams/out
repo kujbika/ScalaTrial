@@ -1,0 +1,4 @@
+[0m[[0m[31merror[0m] [0m[0mC:\Marci\rock-the-jvm-advanced\src\test\scala\MySetTest.scala:7:3: expected start of definition[0m
+[0m[[0m[31merror[0m] [0m[0m  firsSet shouldBe MySet(1,2,3,4,5)[0m
+[0m[[0m[31merror[0m] [0m[0m  ^[0m
+[0m[[0m[31merror[0m] [0m[0mone error found[0m
