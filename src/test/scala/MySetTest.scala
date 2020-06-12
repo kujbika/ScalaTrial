@@ -4,11 +4,6 @@ import org.scalatest.flatspec.AnyFlatSpec
 import exercises.EmptySet
 
 class MySetTest extends AnyFlatSpec with Matchers {
-  // val firsSet: MySet[Int] = MySet(1,2,3,4,5)
-
-  // @Test
-  // def firstTest(): Unit = firsSet shouldBe MySet(1,2,3,4,5)
-  //
   "MySet's remove function"  should "work properly" in {
     val firstSet: MySet[Int] = MySet(1,2,3)
     (firstSet remove 2) contains 2 shouldBe false 
