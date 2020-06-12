@@ -1,2 +1,2 @@
 **Scala project**
-made in idea
+made in vim
