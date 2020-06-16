@@ -69,3 +69,10 @@ reload
 test
 testOnly MySetTest
 test
+~rin
+~rn
+~un
+~run
+run
+test
+exit

@@ -7,5 +7,4 @@
 [0m[[0m[0minfo[0m] [0m[0m[32m- should result in the set itself[0m[0m
 [0m[[0m[0minfo[0m] [0m[0m[32mSet[0m[0m
 [0m[[0m[0minfo[0m] [0m[0m[32m- should filter properly[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[32m- should map properly[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[32m- should flatMap properly[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should handle negations correctly[0m[0m
