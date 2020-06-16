@@ -1,5 +1,5 @@
 **Scala project**
 made in vim
-tar branch
+target branch
 lol
 haha
