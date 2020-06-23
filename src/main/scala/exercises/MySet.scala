@@ -3,16 +3,21 @@ package exercises
 import scala.annotation.tailrec
 import com.typesafe.scalalogging.LazyLogging
 
+/** Own implementation of the functional Set collection
+  *  (This is to try the Scaladoc.)
+  *  (Hit K when at a MySet implementation, and see this doc!)
+  *  For other Scaladoc types, see https://docs.scala-lang.org/style/scaladoc.html
+  */
 trait MySet[A] extends (A => Boolean) with LazyLogging {
   /*
-    Exercise - implement a functional set 
-  */
-  def apply(v1: A): Boolean = contains(v1) 
-  def contains(elem: A):Boolean
+    Exercise - implement a functional set
+   */
+  def apply(v1: A): Boolean = contains(v1)
+  def contains(elem: A): Boolean
   def +(elem: A): MySet[A]
   def ++(anotherSet: MySet[A]): MySet[A] // Union
 
-  def map[B](f: A => B): MySet[B] 
+  def map[B](f: A => B): MySet[B]
   def flatMap[B](f: A => MySet[B]): MySet[B]
   def filter(predicate: A => Boolean): MySet[A]
   def foreach(f: A => Unit): Unit
@@ -22,12 +27,13 @@ trait MySet[A] extends (A => Boolean) with LazyLogging {
       intersection with another set
       difference with another set
    */
-  def -(elem: A ): MySet[A]
-  def &(anotherSet: MySet[A]): MySet[A] = filter(anotherSet) // filter(x => anotherSet.contains(x))
+  def -(elem: A): MySet[A]
+  def &(anotherSet: MySet[A]): MySet[A] =
+    filter(anotherSet) // filter(x => anotherSet.contains(x))
   def --(anotherSet: MySet[A]): MySet[A] = filter(!anotherSet)
-  def isEmpty: Boolean 
-  
-  // exercise: implement unary_! that is the complement of a set! 
+  def isEmpty: Boolean
+
+  // exercise: implement unary_! that is the complement of a set!
   // basically implement the sigma algebra properties
   def unary_! : MySet[A]
   // possibly infinite collections
@@ -38,8 +44,6 @@ trait MySet[A] extends (A => Boolean) with LazyLogging {
   }
 
 }
-
-
 
 class EmptySet[A] extends MySet[A] {
   override def apply(v1: A): Boolean = false
@@ -60,7 +64,6 @@ class EmptySet[A] extends MySet[A] {
   override def -(elem: A): MySet[A] = this
 
   override def unary_! : MySet[A] = new PropertyBasedSet[A](_ => true)
-    
 
 }
 
@@ -70,10 +73,10 @@ class PropertyBasedSet[A](property: A => Boolean) extends MySet[A] {
 
   override def contains(elem: A): Boolean = property(elem)
 
-  override def +(elem: A): MySet[A] = 
+  override def +(elem: A): MySet[A] =
     new PropertyBasedSet[A](x => property(x) || x == elem)
 
-  override def ++(anotherSet: MySet[A]): MySet[A] = 
+  override def ++(anotherSet: MySet[A]): MySet[A] =
     new PropertyBasedSet[A](x => property(x) || anotherSet(x))
 
   override def map[B](f: A => B): MySet[B] = politelyFail
@@ -82,7 +85,8 @@ class PropertyBasedSet[A](property: A => Boolean) extends MySet[A] {
 
   override def foreach(f: A => Unit): Unit = politelyFail
 
-  override def filter(predicate: A => Boolean): MySet[A] = new PropertyBasedSet[A](x => property(x) && predicate(x))
+  override def filter(predicate: A => Boolean): MySet[A] =
+    new PropertyBasedSet[A](x => property(x) && predicate(x))
 
   override def -(elem: A): MySet[A] = filter(x => x != elem)
 
@@ -90,29 +94,30 @@ class PropertyBasedSet[A](property: A => Boolean) extends MySet[A] {
 
   override def unary_! : MySet[A] = new PropertyBasedSet[A](x => !property(x))
 
-  def politelyFail = throw new IllegalArgumentException("Really deep rabbit hole")
-
+  def politelyFail =
+    throw new IllegalArgumentException("Really deep rabbit hole")
 
 }
 
 case class NonEmptySet[A](head: A, tail: MySet[A]) extends MySet[A] {
   override def isEmpty: Boolean = false
-  override def contains(elem: A): Boolean = 
+  override def contains(elem: A): Boolean =
     elem == head || (tail contains elem)
 
-  override def +(elem: A) : MySet[A] = 
-    if (this contains elem) this 
+  override def +(elem: A): MySet[A] =
+    if (this contains elem) this
     else NonEmptySet[A](elem, this)
 
-  override def ++(anotherSet: MySet[A]): MySet[A] = 
+  override def ++(anotherSet: MySet[A]): MySet[A] =
     tail ++ anotherSet + head
   /*
-    [1 2, 3] ++ [4 5] = [2 3] ++ [4 5] + 1 = 
-  */
+    [1 2, 3] ++ [4 5] = [2 3] ++ [4 5] + 1 =
+   */
 
   override def map[B](f: A => B): MySet[B] = (tail map f) + f(head)
 
-  override def flatMap[B](f: A => MySet[B]): MySet[B] = (tail flatMap f) ++ f(head)
+  override def flatMap[B](f: A => MySet[B]): MySet[B] =
+    (tail flatMap f) ++ f(head)
 
   override def filter(predicate: A => Boolean): MySet[A] = {
     val filteredTail = tail filter predicate
@@ -124,18 +129,19 @@ case class NonEmptySet[A](head: A, tail: MySet[A]) extends MySet[A] {
     f(head)
     tail foreach f
   }
-  override def -(elem: A): MySet[A] = 
-    if (this contains elem) { if(head == elem) tail else NonEmptySet(head, tail - elem) }
-    else this
+  override def -(elem: A): MySet[A] =
+    if (this contains elem) {
+      if (head == elem) tail else NonEmptySet(head, tail - elem)
+    } else this
 
-    override def unary_! : MySet[A] = new PropertyBasedSet(x => !this.contains(x))
+  override def unary_! : MySet[A] = new PropertyBasedSet(x => !this.contains(x))
 
 }
 
 object MySet {
   def apply[A](values: A*): MySet[A] = {
     @tailrec
-    def buildSet(valSeq: Seq[A], acc: MySet[A]): MySet[A] = 
+    def buildSet(valSeq: Seq[A], acc: MySet[A]): MySet[A] =
       if (valSeq.isEmpty) acc
       else buildSet(valSeq.tail, acc + valSeq.head)
 
@@ -153,7 +159,7 @@ object Play extends App {
   println("____")
   // println
   //(secondSet intersect firstSet) foreach(println)
-  (secondSet - 1) foreach(println)
+  (secondSet - 1) foreach (println)
   println("now comes the difference")
   (secondSet -- firstSet) foreach println
   println("asdasdasdasda")

@@ -1,7 +1,6 @@
 package lectures.part2fp
 
 object LazyEvaluation extends App {
-
   // lazy DELAYS the evaluation
   lazy val x: Int = throw new RuntimeException
   // println(x)
@@ -55,7 +54,6 @@ object LazyEvaluation extends App {
   println(gt20)
   println("hello")
 
-
   val numbers_1 = List(1, 25, 40, 5, 20)
   val lt30_1 = numbers_1.withFilter(lessThan30) // lazy filter
   val gt20_1 = lt30_1.withFilter(greaterThan20) //lazy filter
@@ -65,8 +63,8 @@ object LazyEvaluation extends App {
 // gt20_1 is a filter monadic!
 // for comprehensions are evaluated lazyly!
 
-for {
-a <- List(1,2,3) if a%2 == 0
-} yield a + 1
-List(1,2,3).withFilter(_ % 2 == 0).map(_ + 1)
+  for {
+    a <- List(1, 2, 3) if a % 2 == 0
+  } yield a + 1
+  List(1, 2, 3).withFilter(_ % 2 == 0).map(_ + 1)
 }
