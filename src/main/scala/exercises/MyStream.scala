@@ -25,7 +25,7 @@ abstract class MyStream[+A] {
 
   @tailrec
   final def toList[B >: A](acc: List[B] = Nil): List[B] =
-    if (isEmpty) acc
+    if (isEmpty) acc.reverse
     else tail.toList(head :: acc)
 }
 
@@ -106,33 +106,47 @@ object MyStream {
     */
   def from[A](start: A)(genearator: A => A): MyStream[A] =
     new MyStreamFactory(start, MyStream.from(genearator(start))(genearator))
+
+  def from[A](
+      start: MyStream[A]
+  )(generator: MyStream[A] => A): MyStream[A] =
+    MyStream.from(generator(start) #:: start)(generator)
 }
 
 object StreamsPlayground extends App {
   val naturals = MyStream.from(1)(_ + 1)
   println(naturals.head)
   println(naturals.tail.head)
-  // println(naturals.tail.tail.head)
+  println(naturals.tail.tail.head)
 
-  // // tests from now on
-  // val startFrom0 = 0 #:: naturals // naturals.#::(0)
-  // println(startFrom0.head)
+  // tests from now on
+  val startFrom0 = 0 #:: naturals // naturals.#::(0)
+  println(startFrom0.head)
 
-  // println(naturals.take(10000).foreach(println))
-  // println(naturals.map(_ * 2).take(100).toList())
-  // println(
-  //   naturals
-  //     .flatMap(x =>
-  //       new MyStreamFactory(x, new MyStreamFactory(x + 1, EmptyStream))
-  //     )
-  //     .take(10)
-  //     .toList()
-  // )
+  println(naturals.take(10000).foreach(println))
+  naturals.map(_ * 2).take(100).foreach(println)
+  println(naturals.map(_ * 2).takeAsList(100))
 
-  // println(naturals.filter(_ < 10).take(10).toList())
+  println(
+    naturals
+      .flatMap(x =>
+        new MyStreamFactory(x, new MyStreamFactory(x + 1, EmptyStream))
+      )
+      .take(10)
+      .toList()
+  )
+
+  println(
+    naturals.filter(_ < 10).take(9).toList()
+  ) // it cant be greater than the number in the filter func
 
   // exercises on stream
   // 1 - stream of Fibonacci numbers
   // 2 - stream of prime numbers with Eratosthenes' sieve
 
+  val starter =
+    new MyStreamFactory(1, new MyStreamFactory(1, EmptyStream))
+  val fibonacci =
+    MyStream.from(starter)(stream => stream.head + stream.tail.head)
+  println(fibonacci.take(10).toList())
 }
