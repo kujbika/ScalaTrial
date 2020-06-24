@@ -6,12 +6,13 @@ import scala.annotation.tailrec
   *  - the head is always accessible
   *  - the tail is lazily evaluated
   *  Thus it is highly efficient when working with infinite collections
+  *  In the latest version of Scala, Stream is deprecated.
+  *  Use LazyList instead. it has its head lazily evaluated as well.
   */
 abstract class MyStream[+A] {
   def isEmpty: Boolean
   def head: A
   def tail: MyStream[A]
-
   def #::[B >: A](element: B): MyStream[B] // prepend operator
   def ++[B >: A](anotherStream: => MyStream[B]): MyStream[B] // concatenate
 
@@ -149,4 +150,10 @@ object StreamsPlayground extends App {
   val fibonacci =
     MyStream.from(starter)(stream => stream.head + stream.tail.head)
   println(fibonacci.take(10).toList())
+
+  // better approach if we had zip: LazyList has
+  // val fibonacci: MyStream[BigInt] =
+  //   BigInt(0) #:: BigInt(1) #:: BigInt(1) #:: fibonacci
+  //     .zip(fibonacci.tail)
+  //     .map(n => n._1 + n._2)
 }
