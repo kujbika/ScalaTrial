@@ -13,5 +13,7 @@ object Plotter extends App {
     "Grapefruit" -> 5
   ).unzip
 
-  val a = Bar(x, y).plot()
+  Bar(x, y).plot(openInBrowser =
+    false
+  ) // this is neccesary for not breaking the sbt terminal
 }

@@ -12,7 +12,6 @@ class MyStreamTest extends AnyFlatSpec with Matchers {
   it should "map correctly" in {
     naturals.map(_ * 2).tail.head shouldBe 4
   }
-
   /*
    [first, [...]
    [first, fibo(second, first + second)

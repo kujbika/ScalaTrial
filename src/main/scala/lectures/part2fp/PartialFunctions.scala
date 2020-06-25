@@ -1,6 +1,6 @@
 package lectures.part2fp
 
-object PartialFunctions extends App{
+object PartialFunctions extends App {
   val aFunction = (x: Int) => x + 1
 
   val aFussyFunction = (x: Int) =>
@@ -10,10 +10,11 @@ object PartialFunctions extends App{
 
   class FunctionNotApplicableException extends RuntimeException
 
-  val aNicerFussyFunction = (x: Int) => x match {
-    case 1 => 42
-    case 2 => 56
-  }
+  val aNicerFussyFunction = (x: Int) =>
+    x match {
+      case 1 => 42
+      case 2 => 56
+    }
   // domain {1,2} => Int. This is called a Partial function from Int to Int
   val aPartialFunction: PartialFunction[Int, Int] = {
     case 1 => 42
@@ -24,7 +25,7 @@ object PartialFunctions extends App{
   println(aPartialFunction.isDefinedAt(67))
 
   // lift
-  val lifted = aPartialFunction.lift  // Int => Option[Int]
+  val lifted = aPartialFunction.lift // Int => Option[Int]
   println(lifted(2))
   println(lifted(20))
 
@@ -40,7 +41,7 @@ object PartialFunctions extends App{
   }
 
   // HOF'S accept PF as well
-  val aMappedList = List(1,2,4).map {
+  val aMappedList = List(1, 2, 4).map {
     case 1 => 42
     case 4 => 78
     case 2 => 100
@@ -51,11 +52,10 @@ object PartialFunctions extends App{
   Note: a partial function only has one parameter
    */
   /**
-   * Exercises
-   * 1: construct a PF instance
-   * 2: dumb chatbot as a PF
-   */
-
+    * Exercises
+    * 1: construct a PF instance
+    * 2: dumb chatbot as a PF
+    */
   val a = new PartialFunction[Int, Int] {
     override def isDefinedAt(x: Int): Boolean = x == 1 || x == 2
 
@@ -67,7 +67,7 @@ object PartialFunctions extends App{
   println(a(1))
   val chatbot: PartialFunction[String, String] = {
     case "I am" => "Dont tell me lies bitch"
-    case "Why" => "Didnt said you can ask"
+    case "Why"  => "Didnt said you can ask"
   }
   // scala.io.Source.stdin.getLines().foreach(line => println("chatbot says" + chatbot(line)))
   scala.io.Source.stdin.getLines().map(chatbot).foreach(println)
