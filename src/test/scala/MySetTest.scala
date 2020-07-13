@@ -3,6 +3,16 @@ import org.scalatest.matchers.should.Matchers
 import org.scalatest.flatspec.AnyFlatSpec
 import exercises.EmptySet
 
+class Person(age: String) {
+  println("age")
+}
+object Person {
+  def apply(age: String) = new Person(age)
+}
+// trait
+// object
+// class
+// case class
 class MySetTest extends AnyFlatSpec with Matchers {
   "MySet's remove function" should "work properly" in {
     val firstSet: MySet[Int] = MySet(1, 2, 3)

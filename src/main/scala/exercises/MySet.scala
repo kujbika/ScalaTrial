@@ -98,7 +98,6 @@ class PropertyBasedSet[A](property: A => Boolean) extends MySet[A] {
     throw new IllegalArgumentException("Really deep rabbit hole")
 
 }
-
 case class NonEmptySet[A](head: A, tail: MySet[A]) extends MySet[A] {
   override def isEmpty: Boolean = false
   override def contains(elem: A): Boolean =
