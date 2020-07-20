@@ -51,7 +51,7 @@ object FuturesPromises extends App {
 
     val random = new Random()
 
-    // API
+    // API, must call asynchronously, to enable us to fetch profiles at the same time
     def fetchProfile(id: String): Future[Profile] = Future {
       Thread.sleep(random.nextInt(300)) // computation
       Profile(id, names(id))
@@ -88,9 +88,7 @@ object FuturesPromises extends App {
 
   // for comprehension
   for {
-    mark <- SocialNetwork.fetchProfile(
-      "fb.id.1-zuck"
-    ) // given this profile after computing the future...
+    mark <- SocialNetwork.fetchProfile("fb.id.1-zuck") // given this profile after computing the future...
     bill <- SocialNetwork.fetchBestFriend(mark)
   } mark poke bill
   Thread.sleep(1000)
@@ -156,6 +154,7 @@ object FuturesPromises extends App {
   // thread 1 - "consumer"
   future.onComplete {
     case Success(r) => println("[consumer] Ive received" + r)
+    case Failure(e) => e.printStackTrace()
   }
 
   // thread 2 - producer
@@ -169,5 +168,13 @@ object FuturesPromises extends App {
   })
   producer.start()
   Thread.sleep(1000)
+
+  /**
+  * 1) fulfill a future immediately with a value
+  * 2) inSequence(fa, fb) does fb after fa has completed
+  * 3) first(fa, fb) => new future depending which finishes first
+  * 4) last(fa, fb) => new future with the last value
+  * 5) retryUntil[T](action: () => Future[T], condition: T => Boolean): Future[T]
+  */
 
 }

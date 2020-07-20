@@ -12,3 +12,6 @@ libraryDependencies += "org.junit.jupiter" % "junit-jupiter-api" % "5.7.0-M1" % 
 // https://mvnrepository.com/artifact/org.scalatest/scalatest
 libraryDependencies += "org.scalatest" %% "scalatest" % "3.3.0-SNAP2" % Test
 libraryDependencies += "org.plotly-scala" %% "plotly-render" % "0.7.2"
+
+// https://mvnrepository.com/artifact/org.scala-lang.modules/scala-parallel-collections
+libraryDependencies += "org.scala-lang.modules" %% "scala-parallel-collections" % "0.2.0"
