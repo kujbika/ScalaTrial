@@ -4,44 +4,38 @@ import lectures.part4implicits.TypeClasses.User
 
 object EqualityPlayground extends App {
 
-  /**
-    * Exercise: Equality type class
-    */
-  trait Equal[T] {
+  /* INGREDIENTS FOR TYPE CLASSES
+   * - type class itself HTMLSerializer[T]
+   * - type class instances (some of them are implicits) UserSerializer, IntSerializer
+   * - conversion with implicit classes HTMLEnrichment[T]
+   */
+  trait Equality[T] {
     def apply(a: T, b: T): Boolean
   }
 
-  implicit object NameEquality extends Equal[User] {
-    def apply(a: User, b: User): Boolean = a.name == b.name
-  }
-  implicit object SetEquality extends Equal[MySet[Int]] {
-    def apply(a: MySet[Int], b: MySet[Int]): Boolean = (a -- b).isEmpty && (b -- a).isEmpty
-  }
-  object FullEquality extends Equal[User] {
-    def apply(a: User, b: User): Boolean = a.name == b.name && a.email == b.email
+  object Equality {
+    def apply[T](a: T, b: T)(implicit instance: Equality[T]) = instance(a, b)
   }
 
-  /*
-   * Exercise: implement the TC pattern for the Equality TC
-   */
-  object Equal {
-    def apply[T](a: T, b: T)(implicit instance: Equal[T]) = instance.equals(a, b)
+  implicit object NameEquality extends Equality[User] {
+    def apply(a: User, b: User): Boolean = a.name == b.name
+  }
+  object FullEquality extends Equality[User] {
+    def apply(a: User, b: User): Boolean = a.name == b.name && a.email == b.email
+  }
+  implicit object SetEquality extends Equality[MySet[Int]] {
+    def apply(a: MySet[Int], b: MySet[Int]): Boolean = (a -- b).isEmpty && (b -- a).isEmpty
+  }
+
+  implicit class TypeSafeEqual[T](value: T) {
+    def ===(anotherValue: T)(implicit equalizer: Equality[T]) = equalizer(value, anotherValue)
+    def !==(anotherValue: T)(implicit equalizer: Equality[T]) = !equalizer(value, anotherValue)
   }
 
   val john        = User("john", 32, "asd@gmail.com")
   val anotherJohn = User("john", 32, "joghn2@gmail.com")
-  println(Equal(john, anotherJohn)) // AD-HOC polymorphism
+  println(Equality(john, anotherJohn)) // AD-HOC polymorphism
 
-  /*
-   * Exercise: improve the Equal TC with an implicit conversion class
-   * ===(another value: T)
-   * !==(another value: T)
-   */
-
-  implicit class TypeSafeEqual[T](value: T) {
-    def ===(anotherValue: T)(implicit equalizer: Equal[T]) = equalizer(value, anotherValue)
-    def !==(anotherValue: T)(implicit equalizer: Equal[T]) = !equalizer(value, anotherValue)
-  }
   println(john === anotherJohn)
   val set1 = MySet(1, 2, 3)
   val set2 = MySet(2, 3)
@@ -49,8 +43,8 @@ object EqualityPlayground extends App {
   println(set1 !== set2)
 
   /*
-   * TYPE SAGE
+   * TYPE SAFE
    */
-  println(john == 43) // no compile error
+  println(john == 43) // no compile error just a warning
   // println(john === 43) // compile error
 }
